@@ -1,0 +1,48 @@
+.showcase {
+    background-repeat:repeat-x;
+    display: block !important;
+    width: 100% !important;
+    height: 150px !important;
+}
+
+#showcase-container .row{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.showcase-disp {
+    background-image: url(../img/showcase/disp.png);
+}
+
+.showcase-disp2 {
+    background-image: url(../img/showcase/disp2.png);
+}
+
+.showcase-expAtlas {
+    background-image: url(../img/showcase/expAtlas.png);
+}
+
+.showcase-featViewer {
+     background-image: url(../img/showcase/featViewer.png);
+}
+
+.showcase-hpasummary {
+     background-image: url(../img/showcase/hpasummary.jpg);
+}
+
+.showcase-intbundle {
+    background-image: url(../img/showcase/intbundle.png);
+}
+
+.showcase-intd3 {
+    background-image: url(../img/showcase/intd3.png);
+}
+
+.showcase-kegg {
+    background-image: url(../img/showcase/kegg.png);
+}
+
+.showcase-protport {
+     background-image: url(../img/showcase/protport.png);
+}
+

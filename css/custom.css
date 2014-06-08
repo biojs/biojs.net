@@ -1,0 +1,80 @@
+body{
+    background-image: url(../img/bkg.jpg);
+}
+
+.navbar-static-top {
+    margin-bottom: 19px;
+}
+
+
+.thumbnail {
+    padding: 0px;
+    border: 0px;
+}
+
+
+.showbox div {
+    background-color: rgba(168, 168, 176, 0.75);
+}
+
+
+
+#qkeywords {
+    padding-bottom: 15px;
+}
+
+#github-ribbon {
+    position: absolute;
+    top: 0;
+    border: 0;
+    height: 149px;
+    width: 149px;
+    background-repeat: no-repeat;
+    background-position:center; 
+}
+
+/*  different viewports */
+@media(min-width:768px) {  
+    #main-heading{
+        margin-top: 5px;
+    }
+    #github-ribbon {
+        background-image: url(../img/ribbons/github_right_red.png);
+        right: 0;
+    }
+}
+
+@media(max-width:767px) {  
+    #main-heading{
+        margin-left: 39px;
+        margin-top: 5px;
+    }
+    #github-ribbon {
+        background-image: url(../img/ribbons/github_left_red.png);
+        left: 0;
+    }
+}
+
+#heading-get-involved {
+    padding-top:20px;
+}
+#row-get-involved {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    vertical-align:middle;
+    text-align:center;
+    display: block;
+}
+#row-get-involved img {
+    height: 90px;
+    clear: both;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#row-get-involved a{
+    color: black;
+}
+

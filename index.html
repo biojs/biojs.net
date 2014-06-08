@@ -1,13 +1,299 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: BioJS - An open source library of JavaScript components to represent biological data
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+
+
+<div class="container">
+	<h1 id="main-heading">BioJS aims to be able to represent all biological data on the web.</h1>
+	<h2>We are building the tools to make that happen.</h2>
+	<div class="row" id="qkeywords">
+		<div class="col-md-2">
+		</div>
+		<div class="col-md-3">
+			<h3> <span class="glyphicon glyphicon-heart"></span> beautiful</h3>
+			You have already done a great job - now we do our best to create the visibility your efforts deserve and give you an unique way to share your achievements.
+		</div>
+		<div class="col-md-3">
+			<h3> <span class="glyphicon glyphicon-fire"></span> interactive	</h3>
+			Using state-of-the-art web technologies BioJS enables a full-featured biological workbench directly in your browser. With our event-based approach it's easy for developers to integrate BioJS in their application.
+		</div>
+		<div class="col-md-3">
+			<h3> <span class="glyphicon glyphicon-repeat"></span> reusable</h3>
+			Unlike writing your own JS components, and unnecessarily reinventing the wheel, BioJS gives you access to fully-documented code, complete with examples and a common structure.
+		</div>
+		<div class="col-md-2">
+		</div>
+	</div>
+	<div class="row speedbuttons">
+		<div class="col-md-3">
+			<a href="http://biojs.net/jenkins/target/biojs/components.hmtl" class="btn btn-default btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-download-alt"></span> Download BioJS 0.1</a>
+		</div>
+		<div class="col-md-3">
+			<a href="#" class="btn btn-default btn-warning btn-lg btn-block"><span class="glyphicon glyphicon-plane"></span> Explore BioJS</a>
+		</div>
+		<div class="col-md-3">
+			<a href="#" class="btn btn-default btn-success btn-lg btn-block" id="btn-get-involved"><span class="glyphicon glyphicon-user"></span> Get involved</a>
+		</div>
+		<div class="col-md-3">
+			<a href="http://biojs.net/jenkins/target/registry" class="btn btn-info btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-tag"></span> Browse components</a>
+		</div>
+	</div>
+	<div id="biojs-news">
+		<h3>News</h3>
+		<ul class="posts">
+			{% for post in site.posts %}
+			<li><a href="{{ post.url }}">{{ post.title }}</a>, <span>{{ post.date | date_to_string }}</span> </li>
+			{% endfor %}
+		</ul>
+	</div>
 </div>
+
+
+<div class="container" id="showcase-container">
+	<div class="row">
+
+		<div class="showbox col-md-4">
+			<a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.DasProteinFeatureViewer.html" class="effect7 thumbnail">
+				<img class="showcase showcase-featViewer" alt="">
+				<div class="caption">
+					<h4 style="text-align:center">Das Protein Feature Viewer</h4>
+				</div>
+			</a>
+		</div>
+
+		<div class="showbox col-md-4">
+			<a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.HpaSummaryFeatures.html" class="thumbnail">
+				<img class="showcase showcase-hpasummary" alt="">
+				<div class="caption">
+					<h4 style="text-align:center">Hpa Summary Features</h4>
+				</div>
+			</a>
+		</div>
+
+		<div class="showbox col-md-4">
+			<a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.InteractionsBundleD3.html" class="thumbnail">
+				<img class="showcase showcase-intbundle" alt="">
+				<div class="caption">
+					<h4 style="text-align:center">Interactions Bundle D3</h4>
+				</div>
+			</a>
+		</div>
+
+	</div>
+
+	<div class="row">
+
+		<div class="showbox col-md-4">
+			<a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.InteractionsD3.html" class="thumbnail">
+				<img class="showcase showcase-intd3" alt="">
+				<div class="caption">
+					<h4 style="text-align:center">Interactions D3</h4>
+				</div>
+			</a>
+		</div>
+
+		<div class="showbox col-md-4">
+			<a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.KEGGViewer.html" class="thumbnail">
+				<img class="showcase showcase-kegg" alt="">
+				<div class="caption">
+					<h4 style="text-align:center">KeggViewer</h4>
+				</div>
+			</a>
+		</div>
+
+		<div class="showbox col-md-4">
+			<a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.ProteinPortafolio.html" class="thumbnail">
+				<img class="showcase showcase-protport" alt="">
+				<div class="caption">
+					<h4 style="text-align:center">Protein Portafolio</h4>
+				</div>
+			</a>
+		</div>
+
+	</div>
+
+	<div class="row">
+		<div class="showbox col-md-4">
+			<a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.ChEMBLCompound.html" class="thumbnail">
+				<img class="showcase showcase-disp" alt="">
+				<div class="caption">
+					<h4 style="text-align:center">ChEMBLCompound</h4>
+				</div>
+			</a>
+		</div>
+
+		<div class="showbox col-md-4">
+			<a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.Rheaction.html" class="thumbnail">
+				<img class="showcase showcase-disp2" alt="">
+				<div class="caption">
+					<h4 style="text-align:center">Rheaction</h4>
+				</div>
+			</a>
+		</div>
+
+		<div class="showbox col-md-4">
+			<a href="http://www.ebi.ac.uk/Tools/biojs/registry/Biojs.ExpressionAtlasBaselineSummary.html" class="thumbnail">
+				<img class="showcase showcase-expAtlas" alt="">
+				<div class="caption">
+					<h4 style="text-align:center">Expression Atlas Baseline Summary</h4>
+				</div>
+			</a>
+		</div>
+
+	</div>
+
+	<h3> Services using BioJS </h3>
+	<div class="row sites-using-biojs">
+		<div class="col-md-3" id="sites-using-biojs4">
+			<a href="http://www.predictprotein.org">PredictProtein</a>
+		</div>
+		<div class="col-md-3" id="sites-using-biojs2">
+			<a href="http://www.ebi.ac.uk/gxa/home">Expression Atlas</a>
+		</div>
+		<div class="col-md-3" id="sites-using-biojs1">
+			<a href="http://biomodels.net">BioModels</a>
+		</div>
+		<div class="col-md-3" id="sites-using-biojs3">
+			<a href="http://www.ebi.ac.uk/metabolights/">MetaboLights</a>
+		</div>
+	</div>
+	<div id="services-appear-here"><a href="http://groups.google.com/forum/#!forum/biojs">Using BioJS and want to appear here? </a></div>
+
+	<h3> Contributors </h3>
+	<!-- awesome bootstrap carousel -->
+	<div id="usedby-carousel">
+		<div id="usedbyCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+			<!-- Carousel indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#usedbyCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#usedbyCarousel" data-slide-to="1"></li>
+				<li data-target="#usedby" data-slide-to="2"></li>
+			</ol>
+			<!-- Carousel items -->
+			<div class="carousel-inner">
+				<div class="active item">
+					<div class="row used-by-row">
+
+						<div class="usedby-box col-xs-6 col-md-4">
+							<a href="https://www.ebi.ac.uk/" >
+								<div id="usedby-embl-ebi" class="usedby-img" > </div>
+							</a>
+						</div>
+						<div class="usedby-box col-xs-6 col-md-4">
+							<a href="http://www.tgac.ac.uk/" >
+								<div id="usedby-tgac" class="usedby-img" > </div>
+							</a>
+						</div>	<div class="usedby-box col-xs-6 col-md-4">
+							<a href="http://www.rostlab.org" >
+								<div id="usedby-rostlab" class="usedby-img" > </div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="row used-by-row">
+
+						<div class="usedby-box col-xs-6 col-md-4">
+							<a href="http://elifesciences.org/" >
+								<div id="usedby-elife" class="usedby-img" > </div>
+							</a>
+						</div>
+						<div class="usedby-box col-xs-6 col-md-4">
+							<a href="http://www.molgen.mpg.de/" >
+								<div id="usedby-mpimg" class="usedby-img" > </div>
+							</a>
+						</div>
+						<div class="usedby-box col-xs-6 col-md-4">
+							<a href="http://www.lbl.gov/lsd/People_&_Organization/Scientific_Staff_Directory/Lewis_Lab.html" >
+								<div id="usedby-berkeley-lab" class="usedby-img" > </div>
+							</a>
+						</div>
+					</div>
+
+				</div>
+				<div class="item">
+					<div class="row used-by-row">
+
+						<div class="usedby-box col-xs-6 col-md-4">
+							<a href="http://intermine.github.io/intermine.org/" >
+								<div id="usedby-intermine" class="usedby-img" > </div>
+							</a>
+						</div>
+						<div class="usedby-box col-xs-6 col-md-4">
+							<a href="http://www.biochem.mpg.de/en/" >
+								<div id="usedby-mpi-biochem" class="usedby-img" > </div>
+							</a>
+						</div>	<div class="usedby-box col-xs-6 col-md-4">
+							<a href="http://cath.biochem.ucl.ac.uk/" >
+								<div id="usedby-cath-ucl" class="usedby-img" > </div>
+							</a>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+			<!-- Carousel nav -->
+			<a class="carousel-control left" href="#usedbyCarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a class="carousel-control right" href="#usedbyCarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div>
+	</div>
+
+	<!-- end awesome bootstrap carousel -->
+	<h3 id="heading-get-involved">Get involved</h3>
+	<div class="row-fluid-5" id="row-get-involved">
+		<a href="mailto:biojs@googlegroups.com" />
+			<div class="equal-span2">
+				<img src="img/get-involved/mail.png" class="nice-image-box">
+				Feel free to write us.
+			</div>
+		</a>
+		<a href="http://webchat.freenode.net/?channels=biojs" />
+			<div class="equal-span2">
+				<img src="img/get-involved/irc.png" class="nice-image-box">
+				<span> Join #biojs @ freenode </span>
+			</div>
+		</a>
+
+		<a href="https://twitter.com/BiojsLibrary" />
+			<div class="equal-span2">
+				<img src="img/get-involved/twitter.png" class="nice-image-box">
+				Follow us on Twitter
+			</div>
+		</a>
+		<a href="https://www.google.com/calendar/embed?src=ru95u7jektac0tihpp6c3u4u1g%40group.calendar.google.com" />
+			<div class="equal-span2">
+				<img src="img/get-involved/plan.png" class="nice-image-box">
+				Upcoming events 
+			</div>
+		</a>			<a href="https://trello.com/b/SdfFvEIi/biojs-product-board" />
+			<div class="equal-span2">
+				<img src="img/get-involved/map.png" class="nice-image-box">
+				See our roadmap
+			</div>
+		</a>
+
+	</div>
+	<div class="row" >
+		<div class="col-md-1">
+			<a href="https://bio-js.ci.cloudbees.com/job/biojs%20github%20stable/" >
+				<img style="width: 178px; height: 61px;" src="http://www.cloudbees.com/sites/default/files/Button-Built-on-CB-1.png" alt=""></a>
+		</div>
+	</div>
+
+</div>
+<script>
+$(document).ready(function (){
+		$("#btn-get-involved").click(function (){
+			$('html, body').animate({
+scrollTop: $("#heading-get-involved").offset().top
+}, 2000);
+			});
+});
+</script>

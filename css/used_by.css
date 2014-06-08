@@ -1,0 +1,208 @@
+
+.sites-using-biojs a{ 
+    color: grey;
+}
+
+.sites-using-biojs div{ 
+    text-align:center;
+    vertical-align: bottom;
+    margin: 0 auto;
+}
+
+#sites-using-biojs1 {
+    font-size: 38px;
+    font-family: 'Indie Flower', cursive;
+}
+
+#sites-using-biojs2 {
+    font-size: 34px;
+    font-family: 'Poiret One', cursive;
+}
+
+#sites-using-biojs3 {
+    font-size: 34px;
+    font-family: 'Lora', serif;
+}
+
+#sites-using-biojs4 {
+    font-size: 34px;
+    font-family: 'Chelsea Market', cursive;
+}
+
+
+.sites-using-biojs a:hover{ 
+    text-decoration: none;
+}
+
+#services-appear-here a {
+    text-decoration: none;
+    color: black;
+}
+
+#services-appear-here {
+    float: right;
+    font-size: 10px;
+}
+
+.privacy-policy {
+    text-align:center;
+}
+#privacy-notice-less {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.speedbuttons .col-md-3{
+    padding-bottom: 10px;
+}
+
+/*==================================================
+ * Carousel effects
+ * ===============================================*/
+
+.usedby-img {
+    background-repeat: no-repeat;
+    background-size:   contain; 
+    background-position:center; 
+    height: 80px;
+}
+
+.usedby-box{
+}
+
+.usedby-row {
+
+}
+
+#usedby-rostlab{
+    background-image: url(../img/usedby/rostlab.png);
+}
+
+#usedby-embl-ebi{
+    background-image: url(../img/usedby/embl-ebi.png);
+}
+
+#usedby-elife{
+    background-image: url(../img/usedby/elife.png);
+}
+
+#usedby-tgac{
+    background-image: url(../img/usedby/tgac.png);
+}
+
+#usedby-intermine{
+    background-image: url(../img/usedby/intermine.png);
+}
+
+#usedby-berkeley-lab{
+    background-image: url(../img/usedby/berkeley_lab.png);
+}
+
+#usedby-mpimg{
+    background-image: url(../img/usedby/mpimg.png);
+}
+
+#usedby-mpi-biochem{
+    background-image: url(../img/usedby/mpi_biochem.png);
+}
+
+#usedby-cath-ucl {
+    background-image: url(../img/usedby/ucl_logo_standalone.png);
+}
+
+#usedby-carousel .item {
+    text-align: center;
+}
+
+#usedby-carousel .carousel-inner{
+    color: black;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#usedby-carousel  .carousel-control.right, #usedby-carousel  .carousel-control.left{
+    background: 0;
+}
+
+#usedby-carousel .carousel-indicators {
+    bottom: -35px;
+}
+
+#usedby-carousel .carousel-control {
+    width: 8%;
+}
+
+#usedby-carousel .carousel-indicators  li {
+    border: 1px solid grey;
+}
+
+#usedby-carousel .carousel-indicators  .active {
+    background-color: grey;
+}
+
+#usedby-carousel .glyphicon-chevron-left, #usedby-carousel .carousel-control .glyphicon-chevron-right {
+    color: grey;
+}
+
+#main-carousel .item{
+    text-align: center;
+    height: 220px !important;
+}
+#main-carousel .carousel-inner{
+    background: #333;    
+}
+#main-carousel .carousel{
+    margin-top: 20px;
+}
+#main-carousel .carousel h2{
+    margin: 0;     
+    color: #666;
+    padding-top: 20px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+#main-carousel{
+    margin-bottom: 20px;
+}
+
+#main-carousel .carousel-indicators {
+    bottom: 0px;
+}
+
+
+/*==================================================
+ * Effect 7
+ * ===============================================*/
+    .thumbnail
+    {
+        position:relative;       
+        -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    }
+    .thumbnail:before, .thumbnail:after
+    {
+        content:"";
+        position:absolute; 
+        z-index:-1;
+        -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+        -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+        box-shadow:0 0 20px rgba(0,0,0,0.8);
+        top:0;
+        bottom:0;
+        left:10px;
+        right:10px;
+        -moz-border-radius:100px / 10px;
+        border-radius:100px / 10px;
+    } 
+    .thumbnail:after
+    {
+        right:10px; 
+        left:auto;
+        -webkit-transform:skew(8deg) rotate(3deg); 
+        -moz-transform:skew(8deg) rotate(3deg);     
+        -ms-transform:skew(8deg) rotate(3deg);     
+        -o-transform:skew(8deg) rotate(3deg); 
+        transform:skew(8deg) rotate(3deg);
+    }
