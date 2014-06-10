@@ -11,5 +11,5 @@ Feel free to change the content at [github][repo].
 
 Check out the [Jekyll docs][jekyll] for more info. 
 
-[repo]: 	 https://github.com/biojs/biojs.github.io
-[jekyll]:    http://jekyllrb.com
+[repo]:		https://github.com/biojs/biojs.github.io
+[jekyll]:	http://jekyllrb.com
