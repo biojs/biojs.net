@@ -3,6 +3,7 @@ layout: container
 title: Publications
 ---
 How to cite us
+
 * [BioJS: an open source JavaScript framework for biological data visualization][BioJS-Bioinformatics]
 
 Publications on BioJS components
