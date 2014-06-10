@@ -1,5 +1,5 @@
 ---
-layout: container
+layout: blank_container
 title: Publications
 ---
 
