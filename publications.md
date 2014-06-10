@@ -3,8 +3,6 @@ layout: container
 title: Publications
 ---
 
-publications
+* [The BioJS article collection of open source components for biological data visualisation][f1000-collection]
 
-* one
-* two
-* three
+[f1000-collection]: http://f1000research.com/article-collections/BioJS
