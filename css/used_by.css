@@ -1,3 +1,6 @@
+.speedbuttons .col-md-3{
+    padding-bottom: 10px;
+}
 
 .sites-using-biojs a{ 
     color: grey;
@@ -44,17 +47,8 @@
     font-size: 10px;
 }
 
-.privacy-policy {
-    text-align:center;
-}
-#privacy-notice-less {
-    cursor: pointer;
-    text-decoration: underline;
-}
 
-.speedbuttons .col-md-3{
-    padding-bottom: 10px;
-}
+
 
 /*==================================================
  * Carousel effects

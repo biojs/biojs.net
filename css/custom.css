@@ -78,3 +78,10 @@ body{
     color: black;
 }
 
+.privacy-policy {
+    text-align:center;
+}
+#privacy-notice-less {
+    cursor: pointer;
+    text-decoration: underline;
+}
