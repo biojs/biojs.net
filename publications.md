@@ -1,7 +1,7 @@
-[//]: # ---
-[//]: # layout: container
-[//]: # title: Publications
-[//]: # ---
+---
+layout: container
+title: Publications
+---
 
 
 How to cite us
