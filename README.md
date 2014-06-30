@@ -19,3 +19,20 @@ Run jekyll on your machine
 
 You can start a local server with `jekyll serve -w`.
 
+
+Build tutorials
+---------------
+
+Unfortunately jekyll doesn't allow to run custom plugins, therefore you can't 
+build the tutorials online.
+Therefore use
+
+```
+jekyll serve -w --config _config.yml,_config_normal.yml
+```
+
+and
+
+```
+jekyll build --config _config.yml,_config_normal.yml
+```
