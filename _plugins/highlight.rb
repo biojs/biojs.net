@@ -12,8 +12,11 @@ module Jekyll
       end
 
       def render(context)
+        site = context.registers[:site]
+        converter = site.getConverterImpl(::Jekyll::Converters::Markdown)
+        output = converter.convert(super(context))
         return '<div class="tutorials-highlight"><div class="tutorials-highlight-child tutorials-highlight-' + @block_name + '"></div><div class="tutorials-highlight-text">'  \
-          + super \
+          + output \
           + '</div></div>' 
       end
     end
