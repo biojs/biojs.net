@@ -20,6 +20,9 @@
 {% for css_name in page.extra_css %}
 	<link rel="stylesheet" href="{{ css_name }}">
 {% endfor %}
+{% for js_name in page.extra_js %}
+	<script src="{{ js_name }}"></script>
+{% endfor %}
 
 <!-- Just for debugging purposes. Don't actually copy this line! -->
 <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->

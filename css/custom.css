@@ -125,3 +125,8 @@ body{
 .tutorials-highlight-raise{
     background-image: url(../img/tutorials/raiseHand.png);
 }
+
+.highlight pre {
+    background: none;
+    border: none;
+}
