@@ -15,4 +15,42 @@ extra_css: ["../css/solarized_dark.css"]
 	<br />	
 	</div>
 </div>
-<script>hljs.initHighlightingOnLoad();</script>
+<script>hljs.initHighlightingOnLoad();
+jQuery(document).ready(function() {
+		jQuery(".highlight").each(function(i,e){
+
+			var divHigh = $(e);
+			divHigh.children().hide();
+
+			var toggleBox = document.createElement("div");
+			toggleBox.className = "tutorials-togglebox"
+			divHigh.prepend(toggleBox);
+
+			var awesomeIcon = document.createElement("span");
+			var awesomeText= document.createElement("span");
+
+			awesomeIcon.className = "tutorials-togglebox-icon glyphicon glyphicon-chevron-down";
+			awesomeText.textContent = "Display the code";
+
+			toggleBox.appendChild(awesomeIcon);
+			toggleBox.appendChild(awesomeText);
+
+
+			$(toggleBox).click(function(){
+
+				var codeBox = divHigh.children().last();
+				var text = divHigh.children().first();
+				if( codeBox.css("display") == "none" ){
+					codeBox.show(700);
+					awesomeText.textContent = "Hide the code";
+					awesomeIcon.className = "tutorials-togglebox-icon glyphicon glyphicon-chevron-up";
+				}else{
+					codeBox.hide(500);
+					awesomeText.textContent = "Display the code";
+					awesomeIcon.className = "tutorials-togglebox-icon glyphicon glyphicon-chevron-down";
+				}
+
+			});
+		});
+});
+</script>

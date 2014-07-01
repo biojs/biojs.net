@@ -86,6 +86,15 @@ body{
     text-decoration: underline;
 }
 
+.tutorials-togglebox {
+    cursor: pointer;
+}
+
+.tutorials-togglebox-icon {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
 .tutorials-highlight {
     min-height:50px;
     display: table;
