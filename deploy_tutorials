@@ -7,4 +7,6 @@ cd $DIR
 
 jekyll build  --config _config.yml,_config_normal.yml
 rsync -v -a -e "ssh" _site/tutorials biojs:biojs
+rsync -v -a -e "ssh" _site/css biojs:biojs
+rsync -v -a -e "ssh" _site/img biojs:biojs
 )
