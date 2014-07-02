@@ -144,3 +144,12 @@ body{
     background: none;
     border: none;
 }
+
+.improve-this-page {
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.improve-this-page .glyphicon {
+    padding-right: 5px;
+}
