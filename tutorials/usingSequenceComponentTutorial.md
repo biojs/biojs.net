@@ -206,9 +206,9 @@ rendered, and the “id” to specify the sequence id.
 
 Create a variable named *theSequence* and store there this string
 
-```
+<pre>
 METLCQRLNVCQDKILTHYENDSTDLRDHIDYWKHMRLECAIYYKAREMGFKHINHQVVPTLAVSKNKALQAIELQLTLETIYNSQYSNEKWTLQDVSLEVYLTAPTGCIKKHGYTVEVQFDGDICNTMHYTNWTHIYICEEASVTVVEGQVDYYGLYYVHEGIRTYFVQFKDDAEKYSKNKVWEVHAGGQVILCPTSVFSSNEVSSPEIIRQHLANHPAATHTKAVALGTEETQTTIQRPRSEPDTGNPCHTTKLLHRDSVDSAPILTAFNSSHKGRINCNSNTTPIVHLKGDANTLKCLRYRFKKHCTLYTAVSSTWHWTGHNVKHKSAIVTLTYDSEWQRDQFLSQVKIPKTITVSTGFMSI
-```
+</pre>
 
 Now create a variable *mySequence* that will be a *new Biojs.Sequence*
 
@@ -641,6 +641,6 @@ some more error handling there.
 
 * * * * *
 
-##### Thanks for following this tutorial, we hope you have enjoyed it. If you want to know more about BioJS, you can go to our [registry](http://www.ebi.ac.uk/Tools/biojs/registry/), or visit our [GitHub repository](https://github.com/biojs/biojs), or participate in our [mailing list](https://groups.google.com/forum/#!forum/biojs).
+Thanks for following this tutorial, we hope you have enjoyed it. If you want to know more about BioJS, you can go to our [registry](http://www.ebi.ac.uk/Tools/biojs/registry/), or visit our [GitHub repository](https://github.com/biojs/biojs), or participate in our [mailing list](https://groups.google.com/forum/#!forum/biojs).
 
-##### This tutorial has been done by Leyla Garcia. Last update on 1th of July of 2014.
+This tutorial has been done by Leyla Garcia. 

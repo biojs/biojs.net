@@ -88,11 +88,16 @@ body{
 
 .tutorials-togglebox {
     cursor: pointer;
+    background-color: rgba(100,100,100,0.15);
 }
 
 .tutorials-togglebox-icon {
     padding-right: 10px;
     padding-left: 10px;
+}
+
+.tutorials-togglebox-text{
+    font-weight: bold;
 }
 
 .tutorials-highlight {
