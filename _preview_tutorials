@@ -1,0 +1,10 @@
+#/bin/bash
+
+# just a nice alias
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+jekyll serve -w --config "$DIR"/_config.yml,"$DIR"/_config_normal.yml
+
+
+# for cli use:
+# jekyll serve -w --config _config.yml,_config_normal.yml
