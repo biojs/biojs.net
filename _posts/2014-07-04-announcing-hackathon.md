@@ -38,7 +38,7 @@ require ["biojs/hackathon"], (Hackathon) ->
 [bionode]: https://github.com/bionode/bionode
 [contact]:  https://groups.google.com/forum/#!forum/biojs-technical
 
-Click here to add this event to your calendar
+Add this event to your calendar
 
 <a target="_blank" href="https://www.google.com/calendar/event?action=TEMPLATE&tmeid=NXFoYmxrb29jaWFmNWh2czF2NTY1N2thcDggcnU5NXU3amVrdGFjMHRpaHBwNmMzdTR1MWdAZw&tmsrc=ru95u7jektac0tihpp6c3u4u1g%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
 
