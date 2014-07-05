@@ -10,7 +10,7 @@ extra_css: ["/css/solarized_dark.css"]
 <img src="/img/posts/2014-07-04_20-09-03_scrot.jpg" class="center-block" />
 
 We are very happy to announce that BioJS will have a hackathon in Munich
-in the first week (08/04 - 08/09) of August.
+in the second week (08/04 - 08/09) of August.
 This is an unparalleled opportunity for hardcore javascript developers excited
 by the "bio" flavour of development to join this exciting initiative.
 
@@ -27,7 +27,7 @@ If you have input, ideas or want to hack with us - please [let us know][contact]
 require ["biojs/hackathon"], (Hackathon) ->
 	party = new Hackathon "Munich"
 	party.setTopic "BioJS codebase"
-	party.setStart 2014-08-4
+	party.setStart 2014-08-04
 	party.inviteAwesomePeople()
 	party.orderFood()
 ```
