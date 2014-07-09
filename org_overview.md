@@ -3,6 +3,9 @@ layout: container
 title: People
 ---
 
+
+
+
 * Manuel Corpas (The Genome Analysis Centre, TGAC)
 * Henning Hermjakob (EMBL-EBI)
 * Rafael Jiménez (ELIXIR)
