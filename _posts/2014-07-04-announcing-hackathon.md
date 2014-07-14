@@ -42,8 +42,55 @@ Add this event to your calendar
 
 <a target="_blank" href="https://www.google.com/calendar/event?action=TEMPLATE&tmeid=NXFoYmxrb29jaWFmNWh2czF2NTY1N2thcDggcnU5NXU3amVrdGFjMHRpaHBwNmMzdTR1MWdAZw&tmsrc=ru95u7jektac0tihpp6c3u4u1g%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
 
-Planned Changes
---------------
+1. Is the hackathon open to anyone?
+-------------------------------------
+
+Yeah we are an open source organisation with open hackathons. 
+However it is different from a normal "user" hackathon:
+
+* to offer anyone the chance to join it will be digital  
+We will be available 24/7 on IRC, Skype, Hangouts etc. and if you are living in Bavaria we have a lot of computers and space at TUM to have a cool party.
+
+* the goal is to improve re-usability, testability and the developing + build process for the BioJS codebase.  
+This means we are happy to get feedback from current or future BioJS developers and users (even if you don't have time to join the real hacking event).
+On the other side we won't cover a "How to develop a component".
+
+2. Why should I get involved?
+-------------------------------
+
+You are a JavaScript developer and you
+
+* are currently developing a BioJS component (or developed one in the past)  
+&rarr; (help us to) remove things that annoy you  
+&rarr; (help us to) improve your workflow  
+
+* consider using BioJS in the future  
+&rarr; let us know your requirements and have influence on decisions that are important to you
+
+* tried BioJS in the past and things were too complicated  
+&rarr; (help us to) remove the barrier
+
+* love to design (an architecture)  
+&rarr; (help us to) to create an awesome design
+
+* have experience with modular JavaScript (AMD)  
+&rarr; let BioJS benefit from your experience
+
+3. How can I get involved?
+----------------------------
+
+Even if you don't have time during our Hackathon, you can raise your voice and
+
+* join one of our pre-meetings about our changes and design decisions ([current list of planned changes][changes])
+* join the public [biojs-technical][biojs-technical] mailing list
+
+[changes]: https://docs.google.com/document/d/1RifA4_DfG3CPa2yVxNZHRtLztZ-lGieapzfGdrPtOIw
+[biojs-technical]: https://groups.google.com/forum/#!forum/biojs-technical
+
+4. What are you going to change?
+-------------------------------
+
+__Update__: visit [our shared Google doc][changes] for an up-to-date list
 
 * possibility to __reuse code__ -> **BioJS core**
   - standard objects (aka data schemes)
@@ -69,15 +116,20 @@ Planned Changes
 [msa-project]: http://dev.biojs-msa.org
 [add-more]: https://github.com/biojs/biojs.github.io/blob/master/_posts/2014-07-04-announcing-hackathon.md
 
-Our milestones
--------------
 
+5. Where is your roadmap / timeline? 
+----------------------------------
+
+A concrete timeline is [in-work][changes], however we hope our milestones 
+(chronically ordered) give you a good impression.
+
+0. Agree on the [list of changes][changes] (before the hackathon)
 1. Design common objects
 2. Define a BioJS core (data handling, manipulation = I/O, REST, parsers)
 3. Create a working build, testing and documentation setup
 4. Rewrite current components as modules and inject common object
 
-Participants
+6. Participants
 ------------
 
 * David Dao (Munich)
@@ -85,7 +137,6 @@ Participants
 * Saket Choudhary (India)
 
 [(add yourself to the list)][add-more]
-  
   
 
 <script>
