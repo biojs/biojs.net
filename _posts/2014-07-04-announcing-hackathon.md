@@ -15,13 +15,13 @@ __Location__: digital or [in Munich][location] (department for Bioinformatics an
 
 ### An unparalleled opportunity for hardcore JavaScript developers to have fun doing cool "Bio" hacking.
 
-The hackathon is under the umbrella to achieve the milestones for a [BioJS 2.0][biojs-lib] release.
+The hackathon is under the umbrella of achieving the milestones for a new [BioJS 2.0][biojs-lib].
 We have some loosely defined objectives for the week (you are welcome to [bring your own][contact]!):
 
 * draft a BioJS core package 
 * play with testing of biological computations in the web
 * discover the [TnT library][tnt]
-* hack with modular JavaScript, a [AMD-based library][biojs-amd] and in-browser compilation
+* hack with modular JavaScript, an [AMD-based library][biojs-amd] and in-browser compilation
 * create a way to give component developers independence
 * achieve a plug & play registry
 * get to grips with the [Bionode][bionode] project
@@ -166,6 +166,7 @@ Room [01.08.021][location-indoor]
 * Sebastian Wilzbach (Munich, full week)
 * Saket Choudhary (India, full week)
 * Ricardo Ramirez-Gonzalez (UK, pre-meetings)
+* Manuel Corpas (UK, organizer)
 
 [(add yourself to the list)][add-more]
   
