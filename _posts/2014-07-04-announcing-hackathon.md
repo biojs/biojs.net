@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Announcing BioJS codebase hackathon in Munich"
+title:  "BioJS codebase hackathon in Munich"
 date:   2014-07-04 18:32:40
 categories: code
 extra_js: ["//yandex.st/highlightjs/8.0/highlight.min.js"]
