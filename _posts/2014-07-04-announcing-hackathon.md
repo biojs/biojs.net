@@ -9,19 +9,23 @@ extra_css: ["/css/solarized_dark.css"]
 
 <img src="/img/posts/2014-07-04_20-09-03_scrot.jpg" class="center-block" />
 
-We are very happy to announce that BioJS will have a hackathon in Munich
-in the second week (08/04 - 08/09) of August.
-This is an unparalleled opportunity for hardcore javascript developers excited
-by the "bio" flavour of development to join this exciting initiative.
+Time: 4th-9th August  
+Location: digital or [in Munich][location] (department for Bioinformatics and Computational Biology at TUM)
 
-In this week we try to develop the BioJS codebase and combine the benfits of 
+### An unparalleled opportunity for hardcore JavaScript developers to have fun doing cool "Bio" hacking.
 
-* the current [BioJS 0.1 library][biojs-lib]
-* the [TnT library][tnt] create by Miguel
-* the [AMD-based library][biojs-amd] of Seb
-* (hopefully) the efforts of the [Bionode][bionode] project
+The hackathon is under the umbrella to achieve the milestones for a [BioJS 2.0][biojs-lib] release.
+We have defined some loosely defined objectives for the week (you are welcome to [bring your own][contact]!):
 
-If you have input, ideas or want to hack with us - please [let us know][contact] :)
+* draft a BioJS core package 
+* play with testing of biological computations in the web
+* discover the [TnT library][tnt]
+* hack with modular JavaScript, a [AMD-based library][biojs-amd] and in-browser compilation
+* create a way to give component developers independence
+* achieve a plug & play registry
+* get to grips with the [Bionode][bionode] project
+
+If you have open questions look at the FAQ below or just [contact us][contact].
 
 ```
 require ["biojs/hackathon"], (Hackathon) ->
@@ -37,6 +41,7 @@ require ["biojs/hackathon"], (Hackathon) ->
 [biojs-amd]: https://github.com/greenify/biojs-msa-amd
 [bionode]: https://github.com/bionode/bionode
 [contact]:  https://groups.google.com/forum/#!forum/biojs-technical
+[location]: #location
 
 Add this event to your calendar
 
@@ -45,35 +50,35 @@ Add this event to your calendar
 1. Is the hackathon open to anyone?
 -------------------------------------
 
-Yeah we are an open source organisation with open hackathons. 
+Yeah we are an open source organization with open hackathons. 
 However it is different from a normal "user" hackathon:
 
-* to offer anyone the chance to join it will be digital  
-We will be available 24/7 on IRC, Skype, Hangouts etc. and if you are living in Bavaria we have a lot of computers and space at TUM to have a cool party.
+* to offer __anyone__ the chance to join it will be digital  
+We will be available 24/7 on IRC, Skype, Hangouts etc. and if you are living in Bavaria we have a lot of computers and space [at TUM][location] to have a cool party.
 
-* the goal is to improve re-usability, testability and the developing + build process for the BioJS codebase.  
-This means we are happy to get feedback from current or future BioJS developers and users (even if you don't have time to join the real hacking event).
-On the other side we won't cover a "How to develop a component".
+* the goal is to improve __re-usability__, __testability__ and the __developing + build process__ for the BioJS codebase.  
+This means we are happy to get feedback from current or future BioJS developers and users (even if you don't have time to join the real hacking event).  
+On the other side we won't cover a "How to develop a component" at this event.
 
 2. Why should I get involved?
 -------------------------------
 
 You are a JavaScript developer and you
 
-* are currently developing a BioJS component (or developed one in the past)  
+* are __currently developing__ a BioJS component (or developed one in the past)  
 &rarr; (help us to) remove things that annoy you  
 &rarr; (help us to) improve your workflow  
 
-* consider using BioJS in the future  
+* __consider using__ BioJS in the future  
 &rarr; let us know your requirements and have influence on decisions that are important to you
 
-* tried BioJS in the past and things were too complicated  
+* __tried__ BioJS in the past and things were too complicated  
 &rarr; (help us to) remove the barrier
 
-* love to design (an architecture)  
+* __love__ to design (an architecture)  
 &rarr; (help us to) to create an awesome design
 
-* have experience with modular JavaScript (AMD)  
+* have __experience__ with modular JavaScript (AMD)  
 &rarr; let BioJS benefit from your experience
 
 3. How can I get involved?
@@ -83,6 +88,8 @@ Even if you don't have time during our Hackathon, you can raise your voice and
 
 * join one of our pre-meetings about our changes and design decisions ([current list of planned changes][changes])
 * join the public [biojs-technical][biojs-technical] mailing list
+
+... or just drop by [in Munich][location].
 
 [changes]: https://docs.google.com/document/d/1RifA4_DfG3CPa2yVxNZHRtLztZ-lGieapzfGdrPtOIw
 [biojs-technical]: https://groups.google.com/forum/#!forum/biojs-technical
@@ -109,7 +116,7 @@ __Update__: visit [our shared Google doc][changes] for an up-to-date list
   like on the [MSA project][msa-project] or in [AngularJS][angularjs]
   (the awesome "edit in Plunkr" button is a future milestone)
 
-[(add more / change this list)][add-more]
+[(add your idea)][add-more]
 
 [mocha]: https://visionmedia.github.io/mocha/
 [angularjs]: https://docs.angularjs.org/api/ng/directive/ngClick
@@ -129,12 +136,35 @@ A concrete timeline is [in-work][changes], however we hope our milestones
 3. Create a working build, testing and documentation setup
 4. Rewrite current components as modules and inject common object
 
-6. Participants
-------------
+6. Where exactly will the hackathon be? <a name="location"> </a>
+-----------------------------------------------------------------
 
-* David Dao (Munich)
-* Sebastian Wilzbach (Munich)
-* Saket Choudhary (India)
+We will have a room, computers, fast Internet and junk food (e.g. pizza) at the [department for Bioinformatics and Computational Biology][rostlab]
+of the Technische Universität München.
+
+If you are unlucky and don't have the privilege to live in the lovely Bavaria,
+we will have Skype, Hangouts or plain IRC meetings (depending on your demand).
+
+You can find us using this address:
+
+85748 [Garching b. München][garching]  
+[Boltzmannstraße 3][location-fmi]  
+Room [01.08.021][location-indoor]
+
+(Details might change, so be sure to subscribe to [our mailing list][biojs-technical]).
+
+[rostlab]: https://rostlab.org/group/contact
+[garching]: https://portal.mytum.de/campus/roomfinder/roomfinder_viewmap?mapid=54&roomid=01.08.021@5608
+[location-fmi]: https://portal.mytum.de/campus/roomfinder/roomfinder_viewmap?mapid=80&roomid=01.08.021@5608
+[location-indoor]: https://portal.mytum.de/campus/roomfinder/roomfinder_viewmap?mapid=104&roomid=01.08.021@5608
+
+7. Participants
+---------------
+
+* David Dao (Munich, full week)
+* Sebastian Wilzbach (Munich, full week)
+* Saket Choudhary (India, full week)
+* Ricardo Ramirez-Gonzalez (UK, pre-meetings)
 
 [(add yourself to the list)][add-more]
   
