@@ -16,7 +16,7 @@ __Location__: digital or [in Munich][location] (department for Bioinformatics an
 ### An unparalleled opportunity for hardcore JavaScript developers to have fun doing cool "Bio" hacking.
 
 The hackathon is under the umbrella to achieve the milestones for a [BioJS 2.0][biojs-lib] release.
-We have defined some loosely defined objectives for the week (you are welcome to [bring your own][contact]!):
+We have some loosely defined objectives for the week (you are welcome to [bring your own][contact]!):
 
 * draft a BioJS core package 
 * play with testing of biological computations in the web
