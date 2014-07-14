@@ -4,7 +4,9 @@ layout: default
 <div class="container">
 
 	<h2>{{ page.title }}</h2>
+	{% if page.no_date == nil %}
 	<p class="meta">{{ page.date | date_to_string }}</p>
+	{% endif %}
 
 	<div class="post">
 		{{ content }}

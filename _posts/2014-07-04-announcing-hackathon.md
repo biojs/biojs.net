@@ -5,12 +5,13 @@ date:   2014-07-04 18:32:40
 categories: code
 extra_js: ["//yandex.st/highlightjs/8.0/highlight.min.js"]
 extra_css: ["/css/solarized_dark.css"]
+no_date: true
 ---
 
 <img src="/img/posts/2014-07-04_20-09-03_scrot.jpg" class="center-block" />
 
-Time: 4th-9th August  
-Location: digital or [in Munich][location] (department for Bioinformatics and Computational Biology at TUM)
+__Time__: 4th-9th August  
+__Location__: digital or [in Munich][location] (department for Bioinformatics and Computational Biology at TUM)
 
 ### An unparalleled opportunity for hardcore JavaScript developers to have fun doing cool "Bio" hacking.
 
