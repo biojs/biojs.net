@@ -15,7 +15,7 @@ __Location__: digital or [in Munich][location] (department for Bioinformatics an
 
 ### An unparalleled opportunity for hardcore JavaScript developers to have fun doing cool "Bio" hacking.
 
-The hackathon is under the umbrella of achieving the milestones for a new [BioJS 2.0][biojs-lib].
+The hackathon is under the umbrella of achieving the milestones for a new [BioJS 2.0][biojs-lib]: have an __easy to use__ BioJS lib that is a __joy for devs__ to code with.  
 We have some loosely defined objectives for the week (you are welcome to [bring your own][contact]!):
 
 * draft a BioJS core package 
@@ -95,10 +95,17 @@ Even if you don't have time during our Hackathon, you can raise your voice and
 [changes]: https://docs.google.com/document/d/1RifA4_DfG3CPa2yVxNZHRtLztZ-lGieapzfGdrPtOIw
 [biojs-technical]: https://groups.google.com/forum/#!forum/biojs-technical
 
-4. What are you going to change?
+4. Does the BioJS project have a "master plan"?
+---------------------------------------
+
+Our "plan" can be described as steady open work-in-progress (aka draft). So if anyone has a __great idea__ or opinion against it we will add or update the draft.  
+That is why we - as an __open community__ - encourage everyone to participate in this progress and share his opinion with us.
+
+5. What are you going to change?
 -------------------------------
 
-__Update__: visit [our shared Google doc][changes] for an up-to-date list
+__Update__: visit [our shared Google doc][changes] for an up-to-date list  
+(contact Seb if you don't have edit access)
 
 * possibility to __reuse code__ -> **BioJS core**
   - standard objects (aka data schemes)
@@ -125,7 +132,7 @@ __Update__: visit [our shared Google doc][changes] for an up-to-date list
 [add-more]: https://github.com/biojs/biojs.github.io/blob/master/_posts/2014-07-04-announcing-hackathon.md
 
 
-5. Where is your roadmap / timeline? 
+6. Where is your roadmap / timeline? 
 ----------------------------------
 
 A concrete timeline is [in-work][changes], however we hope our milestones 
@@ -137,7 +144,38 @@ A concrete timeline is [in-work][changes], however we hope our milestones
 3. Create a working build, testing and documentation setup
 4. Rewrite current components as modules and inject common object
 
-6. Where exactly will the hackathon be? <a name="location"> </a>
+7. Is modernization of BioJS a part of your agenda?
+--------------------------------------------------
+
+Yeah you got it. Our agenda is "have an __easy to use__ BioJS lib that is __fun for devs__ to code". 
+
+8. Will you switch to use "de-facto standard JS tools" (like Grunt)?
+------------------------------------------------------
+
+Even though your definition of "de-facto standard JS tools" might be obvious, it can be misleading.
+
+One example from our goals is the transition to JavaScript modules for better __code re-usability__.
+The current plan is to achieve this with the Asynchronous Module Definition (AMD).
+However there is an alternative CommonJS specification which Node.js use for its "require".
+If the goal of [ECMAScript 6][ecma6] to achieve a "smooth interoperability with existing JS module systems like AMD, CommonJS, and Node.js" had been successful, then we would have considered this as "standard", but unfortunately they moved it to ES 7.
+
+So neither of the current specs is a standard and its about the community to decide which one is the best!
+
+To cut the long story from above short: Yep. It's about __"fun for devs to use"__!
+
+[ecma6]: http://wiki.ecmascript.org/doku.php?id=harmony:modules
+
+9.  I searched in your repository after an dev branch (and couldn't find one)!
+-----------------------------------------------------------------------------
+
+As mentioned in the agenda we first would like to __collect and agree__ on a list of planned changes.
+On the [separate repo of Seb][biojs-amd] most of the points like the AMD modules or the grunt automation have been tested. You can find it on [github][biojs-amd] (be aware - it's written in CoffeeScript).
+
+Furthermore you should have a look at the efforts of the [TnT][tnt], [bionode][bionode] and even [JBrowse][jbrowse] project.
+
+[JBrowse]: https://github.com/GMOD/jbrowse/tree/master
+
+10. Where exactly will the hackathon be? <a name="location"> </a>
 -----------------------------------------------------------------
 
 We will have a room, computers, fast Internet and junk food (e.g. pizza) at the [department for Bioinformatics and Computational Biology][rostlab]
@@ -159,16 +197,18 @@ Room [01.08.021][location-indoor]
 [location-fmi]: https://portal.mytum.de/campus/roomfinder/roomfinder_viewmap?mapid=80&roomid=01.08.021@5608
 [location-indoor]: https://portal.mytum.de/campus/roomfinder/roomfinder_viewmap?mapid=104&roomid=01.08.021@5608
 
-7. Participants
+11. Participants
 ---------------
 
 * David Dao (Munich, full week)
 * Sebastian Wilzbach (Munich, full week)
 * Saket Choudhary (India, full week)
+* Gustavo Adolfo Salazar Orejuela (Cape town, Wednesday - Friday): Testing
+* Keiichiro Ono (San Diego)
 * Ricardo Ramirez-Gonzalez (UK, pre-meetings)
 * Manuel Corpas (UK, organizer)
 
-[(add yourself to the list)][add-more]
+[(add yourself to the party people)][add-more]
   
 
 <script>
