@@ -197,20 +197,6 @@ Room [01.08.021][location-indoor]
 [location-fmi]: https://portal.mytum.de/campus/roomfinder/roomfinder_viewmap?mapid=80&roomid=01.08.021@5608
 [location-indoor]: https://portal.mytum.de/campus/roomfinder/roomfinder_viewmap?mapid=104&roomid=01.08.021@5608
 
-11. Participants
----------------
-
-* David Dao (Munich, full week)
-* Sebastian Wilzbach (Munich, full week)
-* Saket Choudhary (India, full week)
-* Gustavo Adolfo Salazar Orejuela (Cape town, Wednesday - Friday): Testing
-* Keiichiro Ono (San Diego)
-* Ricardo Ramirez-Gonzalez (UK, pre-meetings)
-* Manuel Corpas (UK, organizer)
-
-[(add yourself to the party people)][add-more]
-  
-
 <script>
 hljs.initHighlightingOnLoad();
 </script>
