@@ -1,11 +1,49 @@
-body{
-    background-image: url(../img/bkg.jpg);
+h1, h2, h3, h4, h5 {
+  font-weight: 200;
 }
 
 .navbar-static-top {
     margin-bottom: 19px;
 }
 
+.navbar {
+  border: 0;
+  padding: 1ex 0;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+}
+.navbar h2 {
+  display: inline-block;
+  font-size: 4em;
+  margin: 0;
+  line-height: 1em;
+  vertical-align: middle;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.navbar h2 a {
+  font-size: inherit;
+}
+.navbar-brand {
+  height: auto;
+  padding: 0;
+}
+
+@media (min-width: 900px) {
+  .navbar-nav, .navbar-brand {
+    height: auto;
+  }
+  .navbar-nav li a {
+    line-height: 40px;
+  }
+}
+
+
+.btn {
+  border-radius: 0;
+}
 
 .thumbnail {
     padding: 0px;
@@ -33,8 +71,34 @@ body{
     background-position:center; 
 }
 
+.thumbnail .caption {
+  background: #fff;
+  border-bottom: 2px solid #58ac46;
+  color: #000;
+}
+.thumbnail .caption h4 {
+  font-weight: 200;
+}
+.showbox a:hover {
+  text-decoration: none;
+}
+
+@media(max-width:980px) {
+    .navbar-brand h2 {
+      display: none;
+    }
+}
 /*  different viewports */
 @media(min-width:768px) {  
+    #qkeywords > div {
+      padding: 0;
+    }
+    #qkeywords {
+      margin: 6ex 0 3ex 0;
+    }
+    .speedbuttons {
+      margin-bottom: 4ex;
+    }
     #main-heading{
         margin-top: 5px;
     }
