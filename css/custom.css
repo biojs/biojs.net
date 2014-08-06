@@ -217,3 +217,21 @@ h1, h2, h3, h4, h5 {
 .improve-this-page .glyphicon {
     padding-right: 5px;
 }
+
+
+
+/* rotate the biojs logo
+   thanks @mhelvens
+*/
+
+.navbar-brand img {
+    transform: rotate(0deg);
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.navbar-brand:hover img {
+    transform: rotate(180deg);
+}
