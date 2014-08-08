@@ -34,18 +34,32 @@ extra_css:
 	</div>
 	<div class="row speedbuttons">
 		<div class="col-md-3">
-			<a href="http://biojs.net/jenkins/target/biojs/components.hmtl" class="btn btn-default btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-download-alt"></span> Download BioJS 0.1</a>
+			<a href="https://github.com/biojs/biojs/releases" class="btn btn-default btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-download-alt"></span> Download BioJS 0.1</a>
 		</div>
 		<div class="col-md-3">
-			<a href="https://github.com/biojs/biojs/wiki/Documentation" class="btn btn-default btn-warning btn-lg btn-block"><span class="glyphicon glyphicon-plane"></span> Explore BioJS</a>
+			<a href="http://edu.biojs.net" class="btn btn-default btn-warning btn-lg btn-block"><span class="glyphicon glyphicon-plane"></span> Explore BioJS</a>
 		</div>
 		<div class="col-md-3">
 			<a href="get_involved.html" class="btn btn-default btn-success btn-lg btn-block" id="btn-get-involved"><span class="glyphicon glyphicon-user"></span> Get involved</a>
 		</div>
 		<div class="col-md-3">
-			<a href="http://biojs.net/jenkins/target/registry" class="btn btn-info btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-tag"></span> Browse components</a>
+			<a href="https://www.ebi.ac.uk/Tools/biojs/registry/" class="btn btn-info btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-tag"></span> Browse components</a>
 		</div>
 	</div>
+
+
+
+    <div class="alert alert-info">
+
+        <a href="#" class="close" data-dismiss="alert">&times;</a>
+
+		<span class="glyphicon glyphicon-bullhorn" style="font-size:22px"></span> &nbsp;
+		<strong>BioJS 2.0</strong> Start experimenting with the <a href="http://github.com/biojs/biojs2">new</a>, cool stuff. <a hrf="https://groups.google.com/forum/#!topic/biojs/vQbQ_yycncY">More</a> information.
+
+    </div>
+
+
+
 	<div id="biojs-news">
 		<h3>News</h3>
 		<ul class="posts">
@@ -297,12 +311,3 @@ extra_css:
 	-->
 
 </div>
-<script>
-$(document).ready(function (){
-		$("#btn-get-involved").click(function (){
-			$('html, body').animate({
-scrollTop: $("#heading-get-involved").offset().top
-}, 2000);
-			});
-});
-</script>
