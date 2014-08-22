@@ -4,14 +4,14 @@ title: "BioJS ECCB Tutorial in Strasbourg (06.09)"
 date: 2014-08-22 12:33:02
 ---
 
-BioJS is a community project aiming to create a collection of JavaScript components to present biological information following a common guideline. This workshop aims to introduce the BioJS project and provide enough skills to use BioJS components. For people interested in contributing to BioJS we will also provide a hello world tutorial to quickly have a taste on how to create a BioJS component. 
+BioJS is an open source community project aiming to create a collection of JavaScript components that present biological information following a common guideline. This workshop introduces the BioJS project and provides the tools and knowledge to get started using and developing BioJS components. 
 
 [official ECCB T06 page](http://www.eccb14.org/program/tutorials/biojs)
 
 Audience
 ---------
 
-This tutorial is for bioinformaticians and developers interested in presenting biological information on the web. Basic programming knowledge is required to attend this tutorial. Though the workshop can be easily followed without no knowledge in JavaScript it would be desirable to have some scripting experience in JavaScript. 
+This tutorial is for bioinformaticians and developers interested in presenting biological information on the web. Basic programming knowledge is required to attend this tutorial. Though the workshop can be easily followed without no knowledge in JavaScript, it would be desirable to have some scripting experience in JavaScript. 
 
 Learning objectives
 --------------------
@@ -22,7 +22,7 @@ Requirements
 ------------
 
 * your own laptop
-* sun glasses (for the social after-hour party)
+* sun glasses (for the social after-hour party) :-)
 
 Timeline (06.09)
 --------
