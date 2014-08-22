@@ -29,10 +29,10 @@ Teachers
 
 <div class="container-fluid">
 <div class="row" style="text-align:center">
-<div class="col-md-3 col-xs-6"> <img height=200 src="/img/posts/eccb/manny.jpg" /> <br />Dr. Manuel Corpas</div>
-<div class="col-md-3 col-xs-6"> <img height=200 src="/img/posts/eccb/rafa.jpg" /> <br />Rafael Jimenez </div>
-<div class="col-md-3 col-xs-6"> <img height=200 src="/img/posts/eccb/david.jpg" /> <br />David Dao</div>
-<div class="col-md-3 col-xs-6"> <img height=200 src="/img/posts/eccb/seb.jpg" /> <br />Sebastian Wilzbach</div>
+<div class="col-md-3 col-xs-6"> <img height=200 src="/img/posts/eccb/manny_b.jpg" /> <br />Dr. Manuel Corpas</div>
+<div class="col-md-3 col-xs-6"> <img height=200 src="/img/posts/eccb/rafa_b.jpg" /> <br />Rafael Jimenez </div>
+<div class="col-md-3 col-xs-6"> <img height=200 src="/img/posts/eccb/david_b.jpg" /> <br />David Dao</div>
+<div class="col-md-3 col-xs-6"> <img height=200 src="/img/posts/eccb/seb_b.jpg" /> <br />Sebastian Wilzbach</div>
 </div>
 </div>
 
