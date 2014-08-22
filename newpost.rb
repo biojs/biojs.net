@@ -29,7 +29,7 @@ file   = "#{prefix}-#{slug}.markdown"
 path   = File.join(root, "_posts/#{file}")
 text   = <<-eos
 ---
-title: #{title}
+title: "#{title}"
 layout: post
 date: #{datetime}
 ---

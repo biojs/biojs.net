@@ -1,6 +1,6 @@
---
-title: BioJS ECCB Tutorial in Strasbourg (06.09)
+---
 layout: post
+title: "BioJS ECCB Tutorial in Strasbourg (06.09)"
 date: 2014-08-22 12:33:02
 ---
 
