@@ -35,7 +35,9 @@ Timeline (06.09)
 
 10:45 - 11:25 -- __BioJS components (DD+SW):__ Tree Viewer (DD) + MSA (SW) + Combination
 
-11:25 - 12:00 -- __Developer environment setup (SW+DD+RJ)__: Check that everybody has all they need for the coding part (git, npm); clone BioJS GitHub repository
+11:25 - 12:00 -- __Developer environment setup (SW+DD+RJ)__: Check that everybody has [all they need][setup] for the coding part (git, npm); clone BioJS GitHub repository
+
+[setup]: http://edu.biojs.net/tutorials/01_gettingStarted.html
 
 12:30 - 1:00 -- __Coding session I:__ A "Hello World" component (SW+DD+RJ). An introductory example for a component from scratch. (Following the examples from BioJS EDU)
 
