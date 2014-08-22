@@ -6,7 +6,7 @@ date: 2014-08-22 12:33:02
 
 BioJS is a community project aiming to create a collection of JavaScript components to present biological information following a common guideline. This workshop aims to introduce the BioJS project and provide enough skills to use BioJS components. For people interested in contributing to BioJS we will also provide a hello world tutorial to quickly have a taste on how to create a BioJS component. 
 
-[official ECCB T06 page](http://www.eccb14.org/program/tutorials/biojs)
+See the [official ECCB T06 page](http://www.eccb14.org/program/tutorials/biojs)
 
 Audience
 ---------
@@ -23,6 +23,19 @@ Requirements
 
 * your own laptop
 * sun glasses (for the social after-hour party)
+
+Teachers
+--------
+
+<div class="container-fluid">
+<div class="row" style="text-align:center">
+<div class="col-md-3 col-xs-6"> <img height=200 src="/img/posts/eccb/manny.jpg" /> <br />Dr. Manuel Corpas</div>
+<div class="col-md-3 col-xs-6"> <img height=200 src="/img/posts/eccb/rafa.jpg" /> <br />Rafael Jimenez </div>
+<div class="col-md-3 col-xs-6"> <img height=200 src="/img/posts/eccb/david.jpg" /> <br />David Dao</div>
+<div class="col-md-3 col-xs-6"> <img height=200 src="/img/posts/eccb/seb.jpg" /> <br />Sebastian Wilzbach</div>
+</div>
+</div>
+
 
 Timeline (06.09)
 --------
