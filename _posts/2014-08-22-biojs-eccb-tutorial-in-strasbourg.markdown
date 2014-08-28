@@ -42,15 +42,22 @@ Timeline (06.09)
 
 9:00 - 9:45 -- __Introduction to the BioJS project (MC+RJ)__: Here we show BioJS’s approach to visualising biological data and how this makes it easier for target users to reutilise, share and develop JavaScript software using the BioJS framework. We will introduce some representative use cases.
 
-9:45 - 10:15 -- __BioJS registry (SW+DD):__ will show how to use the BioJS registry (central package exchange point), how it is used and its benefits. 
+9:45 - 10:15 -- __BioJS 2.0 and its registry (SW):__ we will show how to use the BioJS2 and its registry (central package exchange point) 
 
-10:15 - 10:45 -- Coffee break 
+10:15 - 10:30 -- Coffee break 
 
 10:45 - 11:25 -- __BioJS components (DD+SW):__ Tree Viewer (DD) + MSA (SW) + Combination
 
-11:25 - 12:00 -- __Developer environment setup (SW+DD+RJ)__: Check that everybody has [all they need][setup] for the coding part (git, npm); clone BioJS GitHub repository
+10:30 - 11:30 -- BioJS components (DD+SW):
 
-[setup]: http://edu.biojs.net/tutorials/01_gettingStarted.html
+[D3](http://d3js.org/) - Tree Viewer (DD, 30 min)
+[Backbone](http://backbonejs.org/), [Underscore](http://underscorejs.org/) - MSA (SW, 25 min)
+Combination of components (DD + SW, 5 min)
+
+
+11:30 - 12:00 -- __Developer environment setup (SW+DD+RJ)__: Check that everybody has [all they need][setup] for the coding part (git, npm); clone BioJS GitHub repository
+
+[setup]: http://edu.biojs.net/series/101_graduate/01_gettingStarted.html
 
 12:30 - 1:00 -- __Coding session I:__ A "Hello World" component (SW+DD+RJ). An introductory example for a component from scratch. (Following the examples from BioJS EDU)
 
