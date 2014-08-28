@@ -4,7 +4,6 @@ title: BioJS - An open source library of JavaScript components to represent biol
 extra_css:
   - css/showcase.css
   - css/used_by.css
-  - css/custom_grid.css
   - //fonts.googleapis.com/css?family=Lora
   - //fonts.googleapis.com/css?family=Poiret+One
   - //fonts.googleapis.com/css?family=Indie+Flower 
@@ -33,16 +32,16 @@ extra_css:
 		</div>
 	</div>
 	<div class="row speedbuttons">
-		<div class="col-md-3">
+		<div class="col-md-3 col-xs-6">
 			<a href="https://github.com/biojs/biojs/releases" class="btn btn-default btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-download-alt"></span> Download BioJS 0.1</a>
 		</div>
-		<div class="col-md-3">
+		<div class="col-md-3 col-xs-6">
 			<a href="http://edu.biojs.net" class="btn btn-default btn-warning btn-lg btn-block"><span class="glyphicon glyphicon-plane"></span> Explore BioJS</a>
 		</div>
-		<div class="col-md-3">
+		<div class="col-md-3 col-xs-6">
 			<a href="get_involved.html" class="btn btn-default btn-success btn-lg btn-block" id="btn-get-involved"><span class="glyphicon glyphicon-user"></span> Get involved</a>
 		</div>
-		<div class="col-md-3">
+		<div class="col-md-3 col-xs-6">
 			<a href="https://www.ebi.ac.uk/Tools/biojs/registry/" class="btn btn-info btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-tag"></span> Browse components</a>
 		</div>
 	</div>
@@ -58,7 +57,22 @@ extra_css:
 
     </div>
 
-
+	<div class="row">
+		<div class="col-md-3 col-xs-6">
+			<iframe src="http://ghbtns.com/github-btn.html?user=biojs&repo=biojs&type=watch&count=true&size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:170px; height: 30px;" allowTransparency="true"></iframe>
+		</div>
+		<div class="col-md-3 col-xs-6">
+			<iframe src="http://ghbtns.com/github-btn.html?user=biojs&repo=biojs&type=fork&count=true&size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:170px; height: 30px;" allowTransparency="true"></iframe>
+		</div>
+		<div class="col-md-3 col-xs-6">
+			<a href="https://twitter.com/BioJSLibrary" class="twitter-follow-button"  data-show-screen-name="false"  data-show-count="true" data-lang="en" data-size="large">Follow @biojs</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+		<div class="col-md-3 col-xs-6">
+			<script src="https://apis.google.com/js/platform.js" async defer></script>
+			<div class="g-follow" data-annotation="bubble" data-height="24" data-href="//plus.google.com/u/0/117617419426441799241" data-rel="publisher"></div>
+		</div>
+	</div>
 
 	<div id="biojs-news">
 		<h3>News</h3>
@@ -167,16 +181,16 @@ extra_css:
 
 	<h3> Services using BioJS </h3>
 	<div class="row sites-using-biojs">
-		<div class="col-md-3" id="sites-using-biojs4">
+		<div class="col-md-3 col-xs-6" id="sites-using-biojs4">
 			<a href="http://www.predictprotein.org">PredictProtein</a>
 		</div>
-		<div class="col-md-3" id="sites-using-biojs2">
+		<div class="col-md-3 col-xs-6" id="sites-using-biojs2">
 			<a href="http://www.ebi.ac.uk/gxa/home">Expression Atlas</a>
 		</div>
-		<div class="col-md-3" id="sites-using-biojs1">
+		<div class="col-md-3 col-xs-6" id="sites-using-biojs1">
 			<a href="http://biomodels.net">BioModels</a>
 		</div>
-		<div class="col-md-3" id="sites-using-biojs3">
+		<div class="col-md-3 col-xs-6" id="sites-using-biojs3">
 			<a href="http://www.ebi.ac.uk/metabolights/">MetaboLights</a>
 		</div>
 	</div>
@@ -268,71 +282,75 @@ extra_css:
 
 	<!-- end awesome bootstrap carousel -->
 	<h3 id="heading-get-involved">Get involved</h3>
-	<div class="row-fluid-5" id="row-get-involved">
+	<div class="row" id="row-get-involved">
 		<a href="mailto:biojs@googlegroups.com" />
-			<div class="equal-span2">
+			<div class="col-md-2 col-xs-4">
 				<img src="img/get-involved/mail.png" class="nice-image-box">
 				Feel free to write us.
 			</div>
 		</a>
 		<a href="http://webchat.freenode.net/?channels=biojs" />
-			<div class="equal-span2">
+			<div class="col-md-2 col-xs-4">
 				<img src="img/get-involved/irc.png" class="nice-image-box">
 				<span> Join #biojs @ freenode </span>
 			</div>
 		</a>
 
 		<a href="https://twitter.com/BiojsLibrary" />
-			<div class="equal-span2">
+			<div class="col-md-2 col-xs-4">
 				<img src="img/get-involved/twitter.png" class="nice-image-box">
 				Follow us on Twitter
 			</div>
 		</a>
 		<a href="https://plus.google.com/117617419426441799241/posts" />
-			<div class="equal-span2">
+			<div class="col-md-2 col-xs-4">
 				<img src="img/get-involved/google.png" class="nice-image-box">
 				Follow us on Google+
 			</div>
 		</a>
 		<a href="https://github.com/biojs" />
-			<div class="equal-span2">
+			<div class="col-md-2 col-xs-4">
 				<img src="img/get-involved/github.png" class="nice-image-box">
 				Contribute on github
 			</div>
 		</a>
-
-	</div>
-	<div class="row-fluid-5" id="row-get-involved">
-		<a href="https://drive.google.com/a/elifesciences.org/folderview?id=0BwVhnCYdaHnGWm1idWxBdi1mTEE&usp=sharing" />
-			<div class="equal-span2">
-				<img src="img/get-involved/drive.png" class="nice-image-box">
-				Public folder 
-			</div>
-		</a>
 		<a href="https://gitter.im/biojs/biojs2" />
-			<div class="equal-span2">
+			<div class="col-md-2 col-xs-4">
 				<img src="img/get-involved/irc.png" class="nice-image-box">
 				Open Gitter chat 
 			</div>
 		</a>
+	</div>
+	<div class="row" id="row-get-involved">
+		<div class="col-md-2 col-xs-4">
+		</div>
+		<a href="https://drive.google.com/a/elifesciences.org/folderview?id=0BwVhnCYdaHnGWm1idWxBdi1mTEE&usp=sharing" />
+			<div class="col-md-2 col-xs-4">
+				<img src="img/get-involved/drive.png" class="nice-image-box">
+				Public folder 
+			</div>
+		</a>
+
 		<a href="http://edu.biojs.net" />
-			<div class="equal-span2">
+			<div class="col-md-2 col-xs-4">
 				<img src="img/get-involved/edu.png" class="nice-image-box">
 			Start learning	
 			</div>
 		</a>
 		<a href="https://www.google.com/calendar/embed?src=ru95u7jektac0tihpp6c3u4u1g%40group.calendar.google.com" />
-			<div class="equal-span2">
+			<div class="col-md-2 col-xs-4">
 				<img src="img/get-involved/plan.png" class="nice-image-box">
 				Upcoming events 
 			</div>
 		</a>
 		<a href="https://trello.com/b/SdfFvEIi/biojs-product-board" />
-			<div class="equal-span2">
+			<div class="col-md-2 col-xs-4">
 				<img src="img/get-involved/map.png" class="nice-image-box">
 				See our roadmap
 			</div>
 		</a>
+		<div class="col-md-2 col-xs-4">
+		</div>
 
 	</div>
 	<!-- not used at the moment
@@ -346,7 +364,8 @@ extra_css:
 
 <!-- github activity stream: https://github.com/caseyscarborough/github-activity -->
 
-<div id=feed style="height:300px; margin-bottom: 30px"></div>
+<h3 id="heading-github-activity">Github activity</h3>
+<div id=feed style="height:300px; margin-top:20px; margin-bottom: 40px"></div>
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
 <link rel="stylesheet" href="//caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.css">
 
