@@ -6,40 +6,7 @@ extra_css:
   - css/custom_grid.css
 ---
 
-<div class="row-fluid-5" id="row-get-involved">
-	<a href="mailto:biojs@googlegroups.com" />
-		<div class="equal-span2">
-			<img src="img/get-involved/mail.png" class="nice-image-box">
-			Feel free to write us.
-		</div>
-	</a>
-	<a href="http://webchat.freenode.net/?channels=biojs" />
-		<div class="equal-span2">
-			<img src="img/get-involved/irc.png" class="nice-image-box">
-			<span> Join #biojs @ freenode </span>
-		</div>
-	</a>
-
-	<a href="https://twitter.com/BiojsLibrary" />
-		<div class="equal-span2">
-			<img src="img/get-involved/twitter.png" class="nice-image-box">
-			Follow us on Twitter
-		</div>
-	</a>
-	<a href="https://www.google.com/calendar/embed?src=ru95u7jektac0tihpp6c3u4u1g%40group.calendar.google.com" />
-		<div class="equal-span2">
-			<img src="img/get-involved/plan.png" class="nice-image-box">
-			Upcoming events 
-		</div>
-	</a>			<a href="https://trello.com/b/SdfFvEIi/biojs-product-board" />
-		<div class="equal-span2">
-			<img src="img/get-involved/map.png" class="nice-image-box">
-			See our roadmap
-		</div>
-	</a>
-
-</div>
-
+{% include get_involved_icons.html %}
 
 ### General
 
