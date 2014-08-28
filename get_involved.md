@@ -8,7 +8,20 @@ extra_css:
 
 {% include get_involved_icons.html %}
 
-### General
+How to contribute
+---------------
+
+For now here is a simple formula:
+
+1. Fork any BioJS repository at [Github](https://github.com/biojs/)
+2. Do awesomeness!
+3. Send a pull request to [`biojs`](https://github.com/biojs/)
+4. If we merge your pull request, you get commit access. BAM. Go back to step 2 and stay there as long as you want.
+
+Otherwise you can simply [create your own component](http://edu.biojs.net/series/101_graduate/02_package_basics.html) and [add it to our registry](http://edu.biojs.net/series/101_graduate/05_publish_it.html).
+
+Our groups
+----------
 
 * every working group has a monthly call (ask the project leader if you want to join)
 * we have an general BioJS (ask Manny if you want to join) 
