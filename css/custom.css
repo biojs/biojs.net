@@ -125,14 +125,14 @@ h1, h2, h3, h4, h5 {
 #heading-get-involved {
     padding-top:20px;
 }
-#row-get-involved {
+.row-get-involved {
     padding-top: 10px;
     padding-bottom: 20px;
     vertical-align:middle;
     text-align:center;
     display: block;
 }
-#row-get-involved img {
+.row-get-involved img {
     height: 90px;
     clear: both;
     display: block;
@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5 {
     margin-right: auto;
 }
 
-#row-get-involved a{
+.row-get-involved a{
     color: black;
 }
 
