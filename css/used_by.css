@@ -77,7 +77,7 @@
 }
 
 #usedby-elife{
-    background-image: url(../img/usedby/elife.png);
+    background-image: url(../img/usedby/elife.gif);
 }
 
 #usedby-tgac{
@@ -98,6 +98,10 @@
 
 #usedby-mpi-biochem{
     background-image: url(../img/usedby/mpi_biochem.png);
+}
+
+#usedby-openphacts{
+    background-image: url(../img/usedby/openphacts.png);
 }
 
 #usedby-cath-ucl {
