@@ -48,124 +48,67 @@
 }
 
 
-
-
-/*==================================================
- * Carousel effects
- * ===============================================*/
-
-.usedby-img {
+.contributors-img {
     background-repeat: no-repeat;
     background-size:   contain; 
     background-position:center; 
     height: 80px;
 }
 
-.usedby-box{
+#contributors .row div  {
+    filter: url(../img/usedby/filters.svg#grayscale); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
+    padding-bottom: 15px;
 }
 
-.usedby-row {
-
+#contributors .row div:hover {
+    filter: none;
+    -webkit-filter: none;
 }
 
-#usedby-rostlab{
+
+#contributors-rostlab{
     background-image: url(../img/usedby/rostlab.png);
 }
 
-#usedby-embl-ebi{
+#contributors-embl-ebi{
     background-image: url(../img/usedby/embl-ebi.png);
 }
 
-#usedby-elife{
+#contributors-elife{
     background-image: url(../img/usedby/elife.gif);
 }
 
-#usedby-tgac{
+#contributors-tgac{
     background-image: url(../img/usedby/tgac.png);
 }
 
-#usedby-intermine{
+#contributors-intermine{
     background-image: url(../img/usedby/intermine.png);
 }
 
-#usedby-berkeley-lab{
+#contributors-berkeley-lab{
     background-image: url(../img/usedby/berkeley_lab.png);
 }
 
-#usedby-mpimg{
+#contributors-mpimg{
     background-image: url(../img/usedby/mpimg.png);
 }
 
-#usedby-mpi-biochem{
+#contributors-mpi-biochem{
     background-image: url(../img/usedby/mpi_biochem.png);
 }
 
-#usedby-openphacts{
+#contributors-openphacts{
     background-image: url(../img/usedby/openphacts.png);
 }
 
-#usedby-cath-ucl {
+#contributors-cath-ucl {
     background-image: url(../img/usedby/ucl_logo_standalone.png);
 }
 
-#usedby-carousel .item {
+#contributors-carousel .item {
     text-align: center;
 }
-
-#usedby-carousel .carousel-inner{
-    color: black;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#usedby-carousel  .carousel-control.right, #usedby-carousel  .carousel-control.left{
-    background: 0;
-}
-
-#usedby-carousel .carousel-indicators {
-    bottom: -35px;
-}
-
-#usedby-carousel .carousel-control {
-    width: 8%;
-}
-
-#usedby-carousel .carousel-indicators  li {
-    border: 1px solid grey;
-}
-
-#usedby-carousel .carousel-indicators  .active {
-    background-color: grey;
-}
-
-#usedby-carousel .glyphicon-chevron-left, #usedby-carousel .carousel-control .glyphicon-chevron-right {
-    color: grey;
-}
-
-#main-carousel .item{
-    text-align: center;
-    height: 220px !important;
-}
-#main-carousel .carousel-inner{
-    background: #333;    
-}
-#main-carousel .carousel{
-    margin-top: 20px;
-}
-#main-carousel .carousel h2{
-    margin: 0;     
-    color: #666;
-    padding-top: 20px;
-    font-size: 52px;
-    font-family: "trebuchet ms", sans-serif;    
-}
-#main-carousel{
-    margin-bottom: 20px;
-}
-
-#main-carousel .carousel-indicators {
-    bottom: 0px;
-}
-
 
