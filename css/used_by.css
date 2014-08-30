@@ -72,6 +72,10 @@
     background-image: url(../img/usedby/rostlab.png);
 }
 
+#contributors-ssi{
+    background-image: url(../img/usedby/ssi.png);
+}
+
 #contributors-embl-ebi{
     background-image: url(../img/usedby/embl-ebi.png);
 }
@@ -102,6 +106,10 @@
 
 #contributors-openphacts{
     background-image: url(../img/usedby/openphacts.png);
+}
+
+#contributors-openvis{
+    background-image: url(../img/usedby/openvis.png);
 }
 
 #contributors-cath-ucl {

@@ -1,9 +1,18 @@
 .showcase {
-    background-repeat:repeat-x;
-    display: block !important;
-    width: 100% !important;
     height: 150px !important;
+    background-size:cover;
 }
+
+@media(max-width:767px) {  
+  .showcase {
+      height: 100px !important;
+  }
+  #showcase-container .row h4 {
+      font-size: 14px;
+  }
+}
+
+
 
 #showcase-container .row{
     padding-top: 20px;
