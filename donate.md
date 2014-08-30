@@ -7,7 +7,7 @@ __this page is in work. __
 
 You are always cordially invited to fork, clone and improve our codebase.
 
-For the momemt
+For the moment
 ---------------
 
 If you are interested in helping BioJS, contact [Manuel Corpas](http://www.tgac.ac.uk/bioinformatics/datavisualisation/manuel-corpas/).
