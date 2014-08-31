@@ -1,0 +1,27 @@
+#people-container img {
+    height: 100px;
+    display:block;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.people-name {
+    font-weight: bold;
+}
+
+.people-institution {
+    font-style: italic;
+}
+
+#people-container .row {
+    text-align:center;
+}
+
+#people-container .row>div {
+    padding-bottom: 10px;
+}
+
+#people-container .row p {
+    display: none;
+}
