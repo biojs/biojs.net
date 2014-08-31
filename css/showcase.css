@@ -1,6 +1,7 @@
 .showcase {
     height: 150px !important;
     background-size:cover;
+    width: 100%;
 }
 
 @media(max-width:767px) {  
