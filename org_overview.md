@@ -1,6 +1,6 @@
 ---
 layout: container
-title: People
+title: The BioJS Team
 extra_css:
  - css/people.css
 ---
@@ -13,7 +13,7 @@ extra_css:
 <div class="col-md-2 col-xs-4">
 <img src="https://sigil.cupcake.io/manny">
 <div class="people-name"> Manuel Corpas </div>
-<div class="people-position"> Foo </div>
+<div class="people-position"> Project Coordinator, PI </div>
 </div>
 
 <div class="col-md-2 col-xs-4">
