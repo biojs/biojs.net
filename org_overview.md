@@ -1,6 +1,6 @@
 ---
 layout: container
-title: The BioJS Team
+title: BioJS Team
 extra_css:
  - css/people.css
 ---
@@ -36,6 +36,9 @@ extra_css:
 <div class="people-institution"> ELIXIR </div>
 <div class="people-position"> Chief Technical Coordinator </div>
 </div>
+
+
+<div class="clearfix"> </div>
 
 <div class="col-md-2 col-xs-4">
 <img src="https://sigil.cupcake.io/seth">
@@ -137,8 +140,6 @@ Cape Town Uni</div>
 Fabian Schreiber</div>
 <div class="people-institution">
 EMBL-EBI</div>
-<div class="people-position">
-Position</div>
 </div>
 
 <div class="col-md-2 col-xs-4">
