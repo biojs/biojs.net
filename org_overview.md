@@ -78,9 +78,9 @@ EMBL-EBI</div>
 <div class="col-md-2 col-xs-4">
 <img src="https://sigil.cupcake.io/tatyana">
 <div class="people-name">
-Tatyana Goldberg</div>
+<a href="http://www.rostlab.org/~goldberg" target="_blank">Tatyana Goldberg</a></div>
 <div class="people-institution">
-RostLab, TUM</div>
+<a href="http://www.rostlab.org/" target="_blank">RostLab</a>, <a href="http://www.tum.de/" target="_blank">TUM</a></div>
 </div>
 
 <div class="visible-md clearfix"> </div>
