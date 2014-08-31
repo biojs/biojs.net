@@ -13,6 +13,7 @@ extra_css:
 <div class="col-md-2 col-xs-4">
 <img src="https://sigil.cupcake.io/manny">
 <div class="people-name"> Manuel Corpas </div>
+<div class="people-institution"> TGAC </div>
 <div class="people-position"> Project Coordinator, PI </div>
 </div>
 
@@ -202,24 +203,30 @@ Former members
 <div class="col-md-2 col-xs-4">
 <img src="https://sigil.cupcake.io/">
 <div class="people-name">
+First_name Last_name
 </div>
 <div class="people-institution">
+Institution
 </div>
 </div>
 
 <div class="col-md-2 col-xs-4">
 <img src="https://sigil.cupcake.io/">
 <div class="people-name">
+First_name Last_name
 </div>
 <div class="people-institution">
+Institution
 </div>
 </div>
 
 <div class="col-md-2 col-xs-4">
 <img src="https://sigil.cupcake.io/">
 <div class="people-name">
+First_name Last_name
 </div>
 <div class="people-institution">
+Institution
 </div>
 </div>
 
