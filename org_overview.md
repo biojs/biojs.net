@@ -3,8 +3,75 @@ layout: container
 title: BioJS Team
 extra_css:
  - css/people.css
+team: 
+ - name: Seth Carbon
+   institute: Berkeley Lab
+   img: https://sigil.cupcake.io/seth
+ - name: Saket Choudhary
+   institute: Institute
+   img: https://sigil.cupcake.io/saket
+ - name: David Dao
+   institute: TUM
+   img: https://sigil.cupcake.io/daviddao
+ - name: Alex Garcia
+   institute: Uni Bonn
+   img: https://sigil.cupcake.io/alexgarcia
+ - name: Leyla Garcia
+   institute: EMBL-EBI
+   img: https://sigil.cupcake.io/leylagarcia
+ - name: Tatyana Goldberg
+   institute: RostLab, TUM
+   img: https://sigil.cupcake.io/tatyanagoldberg
+   personLink: http://www.rostlab.org/~goldberg
+   instituteLink: http://www.rostlab.org/
+ - name: John Gomez
+   institute: EMBL-EBI
+   img: https://sigil.cupcake.io/johngomez
+ - name: Alex Kalderimis
+   institute: Cambridge
+   img: https://sigil.cupcake.io/alexkalderimis
+ - name: Ian Mulvany
+   institute: eLife
+   img: https://sigil.cupcake.io/ianmulvany
+ - name: Ricardo Ramirez
+   institute: TGAC
+   img: https://sigil.cupcake.io/ricardoramirez
+ - name: Francis Rowland
+   institute: EMBL-EBI
+   img: https://sigil.cupcake.io/francisrowland
+ - name: Gustavo Salazar
+   institute: Cape Town Uni
+   img: https://sigil.cupcake.io/gustavosalazar
+ - name: Fabian Schreiber
+   institute: EMBL-EBI
+   img: https://sigil.cupcake.io/fabianschreiber
+ - name: Ian Silitoe
+   institute: UCL
+   img: https://sigil.cupcake.io/iansilitoe
+ - name: William Spooner
+   institute: Eagle Genomics
+   img: https://sigil.cupcake.io/williamspooner
+ - name: Anil Thanki
+   institute: TGAC
+   img: https://sigil.cupcake.io/anilthanki
+ - name: Jose Villaveces
+   institute: Max Planck Institute
+   img: https://sigil.cupcake.io/josevilleveces
+ - name: Sebastian Wilzbach
+   institute: RostLab, TUM
+   img: https://sigil.cupcake.io/sebaastianwilzbach
+ - name: Guy Yachdav
+   institute: RostLab, TUM
+   img: https://sigil.cupcake.io/guyyachdav
+ - name: Your name
+   institute: your institute
+   img: https://sigil.cupcake.io/yourimg
+
 ---
 
+<!-- 
+IMPORTANT: please upload your image in img/team and read the README their (1:1 dimension, max 200px)
+-->
 
 <div id="people-container">
 
@@ -41,159 +108,36 @@ extra_css:
 
 <div class="clearfix"> </div>
 
-<div class="col-md-2 col-xs-4">
-<img src="https://sigil.cupcake.io/seth">
-<div class="people-name">Seth Carbon</div>
-<div class="people-institution">Berkeley Lab</div>
 </div>
 
+<div class="row">
+
+{% for person in page.team %}
+
 <div class="col-md-2 col-xs-4">
-<img src="https://sigil.cupcake.io/">
+<img src="{{ person.img }}">
 <div class="people-name">
-Saket Choudhary</div>
+{% if person.personLink != nil %}
+<a href="{{ person.personLink }}">{{ person.name }}</a>
+{% else %}
+{{ person.name }}
+{% endif %}
+</div>
 <div class="people-institution">
-Institute</div>
+{% if person.instituteLink != nil %}
+<a href="{{ person.instituteLink }}">{{ person.institute }}</a>
+{% else %}
+{{ person.institute }}
+{% endif %}
+</div>
 </div>
 
-<div class="col-md-2 col-xs-4">
-<img src="https://sigil.cupcake.io/">
-<div class="people-name">
-David Dao</div>
-<div class="people-institution">
-TUM</div>
-</div>
+{% cycle nil, nil, '<div class="visible-xs clearfix"> </div>', nil, nil, '<div class="clearfix"> </div>' %}
 
-<div class="visible-xs clearfix"> </div>
-
-<div class="col-md-2 col-xs-4">
-<img src="https://sigil.cupcake.io/alexgarcia">
-<div class="people-name"> Alex Garcia </div>
-<div class="people-institution">Uni Bonn</div>
-</div>
-
-<div class="col-md-2 col-xs-4">
-<img src="https://sigil.cupcake.io/leyla">
-<div class="people-name">
-Leyla Garcia</div>
-<div class="people-institution">
-EMBL-EBI</div>
-</div>
-
-<div class="col-md-2 col-xs-4">
-<img src="https://sigil.cupcake.io/tatyana">
-<div class="people-name">
-<a href="http://www.rostlab.org/~goldberg" target="_blank">Tatyana Goldberg</a></div>
-<div class="people-institution">
-<a href="http://www.rostlab.org/" target="_blank">RostLab</a>, <a href="http://www.tum.de/" target="_blank">TUM</a></div>
-</div>
-
-<div class="visible-md clearfix"> </div>
-
-<div class="col-md-2 col-xs-4">
-<img src="https://sigil.cupcake.io/johng">
-<div class="people-name">
-John Gómez</div>
-<div class="people-institution">
-EMBL-EBI</div>
-</div>
-
-<div class="col-md-2 col-xs-4">
-<img src="https://sigil.cupcake.io/alexk">
-<div class="people-name">Alex Kalderimis</div>
-<div class="people-institution">Cambridge</div>
-</div>
-
-<div class="col-md-2 col-xs-4">
-<img src="https://sigil.cupcake.io/ianm">
-<div class="people-name">Ian Mulvany</div>
-<div class="people-institution">eLife</div>
-</div>
-
-<div class="visible-xs clearfix"> </div>
-
-<div class="col-md-2 col-xs-4">
-<img src="https://sigil.cupcake.io/">
-<div class="people-name">Ricardo Ramirez</div>
-<div class="people-institution">TGAC</div>
-</div>
-
-<div class="col-md-2 col-xs-4">
-<img src="https://sigil.cupcake.io/francis">
-<div class="people-name">
-Francis Rowland</div>
-<div class="people-institution">
-EMBL-EBI</div>
-</div>
-
-<div class="col-md-2 col-xs-4">
-<img src="https://sigil.cupcake.io/gustavo">
-<div class="people-name">
-Gustavo Salazar</div>
-<div class="people-institution">
-Cape Town Uni</div>
-</div>
-
-<div class="hidden-sm clearfix"> </div>
-
-<div class="col-md-2 col-xs-4">
-<img src="https://sigil.cupcake.io/fabian">
-<div class="people-name">
-Fabian Schreiber</div>
-<div class="people-institution">
-EMBL-EBI</div>
-</div>
-
-<div class="col-md-2 col-xs-4">
-<img src="https://sigil.cupcake.io/ians">
-<div class="people-name">
-Ian Silitoe</div>
-<div class="people-institution">
-UCL</div>
-</div>
-
-<div class="col-md-2 col-xs-4">
-<img src="https://sigil.cupcake.io/william">
-<div class="people-name">
-William Spooner</div>
-<div class="people-institution">
-Eagle Genomics</div>
-</div>
-
-<div class="visible-xs clearfix"> </div>
-
-<div class="col-md-2 col-xs-4">
-<img src="https://sigil.cupcake.io/anil">
-<div class="people-name">
-Anil Thanki</div>
-<div class="people-institution">
-TGAC</div>
-</div>
-
-<div class="col-md-2 col-xs-4">
-<img src="https://sigil.cupcake.io/jose">
-<div class="people-name">
-Jose Villaveces</div>
-<div class="people-institution">
-Max Planck Institute</div>
-</div>
-
-<div class="col-md-2 col-xs-4">
-<img src="https://sigil.cupcake.io/seb">
-<div class="people-name">
-Sebastian Wilzbach</div>
-<div class="people-institution">
-RostLab, TUM</div>
-</div>
-
-<div class="hidden-sm clearfix"> </div>
-
-<div class="col-md-2 col-xs-4">
-<img src="https://sigil.cupcake.io/guy">
-<div class="people-name">Guy Yachdav</div>
-<div class="people-institution">RostLab, TUM</div>
-</div>
+{% endfor %}
 
 </div>
+
 
 Former members
 -------
