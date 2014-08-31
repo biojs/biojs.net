@@ -92,6 +92,10 @@
     background-image: url(../img/usedby/intermine.png);
 }
 
+#contributors-apinatomy{
+    background-image: url(../img/usedby/apinatomy.jpg);
+}
+
 #contributors-berkeley-lab{
     background-image: url(../img/usedby/berkeley_lab.png);
 }
