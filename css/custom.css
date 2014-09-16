@@ -180,3 +180,14 @@ h1, h2, h3, h4, h5 {
 .navbar-brand:hover img {
     transform: rotate(180deg);
 }
+
+.awesome-new {
+    color: red;
+    position: relative;
+    top: -41px;
+    left: 29px;
+    font-size: 10px;
+     -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-20deg);
+}

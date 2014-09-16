@@ -5,15 +5,13 @@ title: Attributions
 
 This page is devoted to attribute and say a big thank to all the great guys without this page would not be in this shape.
 
-Creators
---------
+### Contributors
 
-<to be done>
+__to be done__
 
-Icons
-------
+[see here](/org_overview.html)
 
-### Front page
+### Icons
 
 * [Book](http://kyo-tux.deviantart.com/art/Aeon-79923737)
 * [Donate](http://ivancoyier.deviantart.com/)
