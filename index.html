@@ -4,6 +4,7 @@ title: BioJS - An open source library of JavaScript components to represent biol
 extra_css:
 - css/showcase.css
 - css/used_by.css
+- css/frontpage.css
 - //fonts.googleapis.com/css?family=Lora
 - //fonts.googleapis.com/css?family=Poiret+One
 - //fonts.googleapis.com/css?family=Indie+Flower 
@@ -32,25 +33,25 @@ extra_css:
 		</div>
 	</div>
 	<div class="row speedbuttons">
-<!--
-		<div class="col-md-3 col-xs-6">
-			<a href="https://github.com/biojs/biojs/releases" class="btn btn-default btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-download-alt"></span> Download BioJS 0.1</a>
-		</div>
--->
-        
+		<!--
+	  <div class="col-md-3 col-xs-6">
+	  <a href="https://github.com/biojs/biojs/releases" class="btn btn-default btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-download-alt"></span> Download BioJS 0.1</a>
+	  </div>
+		-->
+
 		<div class="col-md-3 col-xs-6">
 			<a href="get_involved.html" class="btn btn-default btn-success btn-lg btn-block" id="btn-get-involved"><span class="glyphicon glyphicon-user"></span> Get involved</a>
 		</div>
 		<div class="col-md-3 col-xs-6">
 			<a href="http://edu.biojs.net" class="btn btn-default btn-warning btn-lg btn-block"><span class="glyphicon glyphicon-plane"></span> Tutorials</a>
 		</div>
-        <div class="col-md-3 col-xs-6">
+		<div class="col-md-3 col-xs-6">
 			<a href="http://registry.biojs.net" class="btn btn-default btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-download-alt"></span> Registry (v2.0)</a>
 		</div>
 		<div class="col-md-3 col-xs-6">
 			<a href="https://www.ebi.ac.uk/Tools/biojs/registry/" class="btn btn-info btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-tag"></span> Registry (v0.1)</a>
 		</div>
-        
+
 	</div>
 
 
@@ -89,6 +90,61 @@ extra_css:
 			{% endfor %}
 		</ul>
 		See the news <a href="/news.html">archive</a>
+	</div>
+	<div id="biojs-news">
+		<h3>What is BioJS?</h3>
+
+		BioJS builds a infrastructure, guidelines and tools to avoid the reinvention of the wheel in life sciences (= "Docker for Bio web components"). Our community builds modules than can be reused by anyone.
+
+		<div id="what-is-biojs-block" class="row">
+			<div class="what-is-biojs-el col-xs-6 col-md-4 glyphicon-link" id="easy-to-combine">
+				Easy to <a href="http://edu.biojs.net/series/101/00_headstart.html"><b>combine</b></a>
+				<div class="what-is-biojs-desc">
+					<pre>require('biojs-io-clustal')</pre>
+				</div>
+			</div><div class="what-is-biojs-el col-xs-6 col-md-4 glyphicon-play" id="easy-to-use">
+				Easy to <a href="http://edu.biojs.net/categories/playground/index.html"><b>use</b></a>
+				<div class="what-is-biojs-desc">
+					<pre>npm install biojs-io-clustal</pre>
+				</div>
+			</div><div class="what-is-biojs-el col-xs-6 col-md-4 glyphicon-screenshot" id="easy-to-test">
+				Easy to <b>test</b>
+				<div class="what-is-biojs-desc">
+					<pre>npm test</pre>
+				</div>
+			</div><div class="what-is-biojs-el col-xs-6 col-md-4 glyphicon-fire" id="easy-to-develop">
+				Easy to <a href="http://edu.biojs.net/series/101/70_gold_standard.html"><b>develop</b></a>
+				<div class="what-is-biojs-desc">
+					Only conventions - use your favorite tools.
+				</div>
+			</div><div class="what-is-biojs-el col-xs-6 col-md-4 glyphicon-search" id="easy-to-discover">
+				Easy to <a href="http://registry.biojs.net"><b>discover</b></a>
+				<div class="what-is-biojs-desc">
+					<a href="http://registry.biojs.net">registry.biojs.net</a>
+				</div>
+			</div><div class="what-is-biojs-el col-xs-6 col-md-4 glyphicon-home" id="easy-to-understand">
+				Easy to <a href="http://edu.biojs.net"><b>understand</b></a>
+				<div class="what-is-biojs-desc">
+					<a href="http://edu.biojs.net">education.biojs.net</a>
+				</div>
+			</div><div class="what-is-biojs-el col-xs-6 col-md-4 glyphicon-wrench" id="easy-to-maintain">
+				Easy to <b>maintain</b>
+				<div class="what-is-biojs-desc">
+					distributed github repositories
+				</div>
+			</div><div class="what-is-biojs-el col-xs-6 col-md-4 glyphicon-user" id="easy-to-community">
+				Easy to <a href="/get_involved.html"><b>get involved</b></a>
+				<div class="what-is-biojs-desc">
+					Social open source community on github
+				</div>
+			</div><div class="what-is-biojs-el col-xs-6 col-md-4 glyphicon-asterisk" id="easy-to-start">
+				Easy to <a href="http://edu.biojs.net/series/101/30_package_basics.html"><b>start</b></a>
+				<div class="what-is-biojs-desc">
+					<pre>npm install -g slush-biojs</pre>
+				</div>
+			</div>
+		</div>
+
 	</div>
 </div>
 
@@ -276,13 +332,13 @@ extra_css:
 					<div id="contributors-apinatomy" class="contributors-img" > </div>
 				</a>
 			</div>
-	
-	<!--	   <div class="col-xs-6 col-md-3">
+
+			<!--	   <div class="col-xs-6 col-md-3">
 	   <a href="http://www.molgen.mpg.de/" target="_blank">
 	   <div id="contributors-mpimg" class="contributors-img" > </div>
 	   </a>
 	   </div>
-	-->
+			-->
 
 		</div>
 

@@ -1,0 +1,26 @@
+.what-is-biojs-el:before {
+	/*font-family: FontAwesome; */
+    font-family: Glyphicons Halflings;
+    width: 20px;
+    display: inline-block;
+}
+
+.what-is-biojs-el {
+    padding-bottom: 10px;
+}
+
+.what-is-biojs-el pre {
+    width: 250px;
+}
+
+.what-is-biojs-desc {
+    font-size: "10px";
+    padding-top: 5px;
+    padding-left: 40px;
+    font-style: italic;
+}
+#what-is-biojs-block {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
