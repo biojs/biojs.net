@@ -15,44 +15,44 @@
 
 
 
-#showcase-container .row{
+#showcase_thumb-container .row{
     padding-top: 20px;
     padding-bottom: 10px;
 }
 
 .showcase-disp {
-    background-image: url(../img/showcase/disp.png);
+    background-image: url(../img/showcase_thumb/disp.jpg);
 }
 
 .showcase-disp2 {
-    background-image: url(../img/showcase/disp2.png);
+    background-image: url(../img/showcase_thumb/disp2.jpg);
 }
 
 .showcase-expAtlas {
-    background-image: url(../img/showcase/expAtlas.png);
+    background-image: url(../img/showcase_thumb/expAtlas.jpg);
 }
 
 .showcase-featViewer {
-     background-image: url(../img/showcase/featViewer.png);
+     background-image: url(../img/showcase_thumb/featViewer.jpg);
 }
 
 .showcase-hpasummary {
-     background-image: url(../img/showcase/hpasummary.jpg);
+     background-image: url(../img/showcase_thumb/hpasummary.jpg);
 }
 
 .showcase-intbundle {
-    background-image: url(../img/showcase/intbundle.png);
+    background-image: url(../img/showcase_thumb/intbundle.jpg);
 }
 
 .showcase-intd3 {
-    background-image: url(../img/showcase/intd3.png);
+    background-image: url(../img/showcase_thumb/intd3.jpg);
 }
 
 .showcase-kegg {
-    background-image: url(../img/showcase/kegg.png);
+    background-image: url(../img/showcase_thumb/kegg.jpg);
 }
 
 .showcase-protport {
-     background-image: url(../img/showcase/protport.png);
+     background-image: url(../img/showcase_thumb/protport.jpg);
 }
 

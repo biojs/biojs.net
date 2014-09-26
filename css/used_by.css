@@ -58,7 +58,7 @@
 }
 
 #contributors .row div  {
-    filter: url(../img/usedby/filters.svg#grayscale); /* Firefox 3.5+ */
+    filter: url(../img/usedby_thumb/filters.svg#grayscale); /* Firefox 3.5+ */
     filter: gray; /* IE6-9 */
     -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
     padding-bottom: 15px;
@@ -71,59 +71,59 @@
 
 
 #contributors-rostlab{
-    background-image: url(../img/usedby/rostlab.png);
+    background-image: url(../img/usedby_thumb/rostlab.png);
 }
 
 #contributors-ssi{
-    background-image: url(../img/usedby/ssi.png);
+    background-image: url(../img/usedby_thumb/ssi.png);
 }
 
 #contributors-embl-ebi{
-    background-image: url(../img/usedby/embl-ebi.png);
+    background-image: url(../img/usedby_thumb/embl-ebi.png);
 }
 
 #contributors-elife{
-    background-image: url(../img/usedby/elife.gif);
+    background-image: url(../img/usedby_thumb/elife.gif);
 }
 
 #contributors-tgac{
-    background-image: url(../img/usedby/tgac.png);
+    background-image: url(../img/usedby_thumb/tgac.png);
 }
 
 #contributors-intermine{
-    background-image: url(../img/usedby/intermine.png);
+    background-image: url(../img/usedby_thumb/intermine.png);
 }
 
 #contributors-apinatomy{
-    background-image: url(../img/usedby/apinatomy.jpg);
+    background-image: url(../img/usedby_thumb/apinatomy.jpg);
 }
 
 #contributors-bionode{
-    background-image: url(../img/usedby/bionode.jpg);
+    background-image: url(../img/usedby_thumb/bionode.jpg);
 }
 
 #contributors-berkeley-lab{
-    background-image: url(../img/usedby/berkeley_lab.png);
+    background-image: url(../img/usedby_thumb/berkeley_lab.png);
 }
 
 #contributors-mpimg{
-    background-image: url(../img/usedby/mpimg.jpg);
+    background-image: url(../img/usedby_thumb/mpimg.jpg);
 }
 
 #contributors-mpi-biochem{
-    background-image: url(../img/usedby/mpi_biochem.png);
+    background-image: url(../img/usedby_thumb/mpi_biochem.png);
 }
 
 #contributors-openphacts{
-    background-image: url(../img/usedby/openphacts.png);
+    background-image: url(../img/usedby_thumb/openphacts.png);
 }
 
 #contributors-openvis{
-    background-image: url(../img/usedby/openvis.png);
+    background-image: url(../img/usedby_thumb/openvis.png);
 }
 
 #contributors-cath-ucl {
-    background-image: url(../img/usedby/ucl_logo_standalone.png);
+    background-image: url(../img/usedby_thumb/ucl_logo_standalone.png);
 }
 
 #contributors-carousel .item {
