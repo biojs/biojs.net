@@ -1,5 +1,5 @@
 .what-is-biojs-el:before {
-	/*font-family: FontAwesome; */
+    /*font-family: FontAwesome; */
     font-family: Glyphicons Halflings;
     width: 20px;
     display: inline-block;
@@ -7,6 +7,11 @@
 
 .what-is-biojs-el {
     padding-bottom: 10px;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .what-is-biojs-el pre {
@@ -24,3 +29,23 @@
     padding-left: 20px;
 }
 
+.what-is-mobile{
+    display:none;
+}
+
+@media (max-width: 650px) {
+    .what-is-biojs-el {
+        width: 100%;
+    }
+}
+@media (min-width: 651px) {
+    .what-is-biojs-el {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .what-is-biojs-el {
+        width: 33.333%;
+    }
+}
