@@ -15,10 +15,14 @@ For now here is a simple formula:
 
 1. Fork any BioJS repository at [Github](https://github.com/biojs/)
 2. Do awesomeness!
-3. Send a pull request to [`biojs`](https://github.com/biojs/)
+3. Send a pull request to the repository on github
 4. If we merge your pull request, you get commit access. BAM. Go back to step 2 and stay there as long as you want.
 
-Otherwise you can simply [create your own component](http://edu.biojs.net/series/101_graduate/02_package_basics.html) and [add it to our registry](http://edu.biojs.net/series/101_graduate/05_publish_it.html).
+[Here][openissues] you can find a list of open issues.
+
+[openissues]: https://github.com/search?l=&o=desc&q=user%3Abiojs+state%3Aopen&ref=advsearch&s=created&type=Issues&utf8=%E2%9C%93
+
+Otherwise you can simply [create your own component](http://edu.biojs.net/series/101/10_intro.html) and [add it to our registry](http://edu.biojs.net/series/101/60_publish_it.html).
 
 Our groups
 ----------
