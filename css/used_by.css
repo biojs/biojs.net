@@ -53,6 +53,8 @@
     background-size:   contain; 
     background-position:center; 
     height: 65px;
+    max-width: 250px;
+    text-align: center;
 }
 
 #contributors .row div  {
@@ -96,12 +98,16 @@
     background-image: url(../img/usedby/apinatomy.jpg);
 }
 
+#contributors-bionode{
+    background-image: url(../img/usedby/bionode.jpg);
+}
+
 #contributors-berkeley-lab{
     background-image: url(../img/usedby/berkeley_lab.png);
 }
 
 #contributors-mpimg{
-    background-image: url(../img/usedby/mpimg.png);
+    background-image: url(../img/usedby/mpimg.jpg);
 }
 
 #contributors-mpi-biochem{
