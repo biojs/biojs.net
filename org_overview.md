@@ -21,7 +21,7 @@ team:
    img: https://sigil.cupcake.io/leylagarcia
  - name: Tatyana Goldberg
    institute: RostLab, TUM
-   img: https://sigil.cupcake.io/tatyanagoldberg
+   img: img/team/tatyana.jpg
    personLink: http://www.rostlab.org/~goldberg
    instituteLink: http://www.rostlab.org/
  - name: John Gomez
@@ -59,10 +59,10 @@ team:
    img: https://sigil.cupcake.io/josevilleveces
  - name: Sebastian Wilzbach
    institute: RostLab, TUM
-   img: https://sigil.cupcake.io/sebaastianwilzbach
+   img: img/team/seb.jpg
  - name: Guy Yachdav
    institute: RostLab, TUM
-   img: https://sigil.cupcake.io/guyyachdav
+   img: img/team/guy.jpg
  - name: Your name
    institute: your institute
    img: https://sigil.cupcake.io/yourimg
