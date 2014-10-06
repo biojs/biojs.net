@@ -8,8 +8,8 @@ team:
    institute: Berkeley Lab
    img: https://sigil.cupcake.io/seth
  - name: Saket Choudhary
-   institute: Institute
-   img: https://sigil.cupcake.io/saket
+   institute: University Of Southern California
+   img: https://avatars2.githubusercontent.com/u/682153?v=2&s=460
  - name: David Dao
    institute: TUM
    img: https://sigil.cupcake.io/daviddao
