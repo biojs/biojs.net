@@ -11,8 +11,8 @@ team:
    institute: University Of Southern California
    img: https://avatars2.githubusercontent.com/u/682153?v=2&s=460
  - name: David Dao
-   institute: TUM
-   img: https://sigil.cupcake.io/daviddao
+   institute: Technical University of Munich, HITS
+   img: https://avatars0.githubusercontent.com/u/1241240?v=2&s=460
  - name: Alex Garcia
    institute: Uni Bonn
    img: https://sigil.cupcake.io/alexgarcia
