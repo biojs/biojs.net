@@ -11,8 +11,9 @@ team:
    institute: University Of Southern California
    img: https://avatars2.githubusercontent.com/u/682153?v=2&s=460
  - name: David Dao
-   institute: Technical University of Munich, HITS
-   img: https://avatars0.githubusercontent.com/u/1241240?v=2&s=460
+   institute: HITS, Technical University of Munich
+   img: http://daviddao.github.io/david.png
+   instituteLink: http://www.exelixis-lab.org/
  - name: Alex Garcia
    institute: Uni Bonn
    img: https://sigil.cupcake.io/alexgarcia
