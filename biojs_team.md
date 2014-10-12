@@ -49,6 +49,9 @@ team:
  - name: Ian Silitoe
    institute: UCL
    img: https://sigil.cupcake.io/iansilitoe
+ - name: Iris Shih
+   institute: Technical University of Munich
+   img: https://avatars2.githubusercontent.com/u/4600451?v=2&s=400
  - name: William Spooner
    institute: Eagle Genomics
    img: https://sigil.cupcake.io/williamspooner
