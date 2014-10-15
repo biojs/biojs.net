@@ -12,7 +12,7 @@ team:
    img: https://avatars2.githubusercontent.com/u/682153?v=2&s=460
    github: saketkc
  - name: David Dao
-   institute: HITS, Technical University of Munich
+   institute: HITS, TUM
    img: http://daviddao.github.io/david.png
    instituteLink: http://www.exelixis-lab.org/
    github: daviddao
@@ -33,6 +33,10 @@ team:
    institute: EMBL-EBI
    github: johncar
    img: https://avatars1.githubusercontent.com/u/5148730?v=2&s=460
+ - name: Michiel Helvensteijn
+   institute: Leiden University
+   github: mhelvens
+   img: https://avatars2.githubusercontent.com/u/4012816?v=2&s=460
  - name: Alex Kalderimis
    institute: Cambridge
    github: alexkalderimis
@@ -52,6 +56,10 @@ team:
  - name: Francis Rowland
    institute: EMBL-EBI
    img: https://sigil.cupcake.io/francisrowland
+ - name: Tim Ruffles
+   institute: SidekickJS
+   github: timruffles
+   img: https://avatars1.githubusercontent.com/u/249800?v=2&s=460
  - name: Gustavo Salazar
    institute: Cape Town Uni
    img: https://avatars3.githubusercontent.com/u/2870295?v=2&s=460
@@ -64,7 +72,7 @@ team:
    institute: UCL
    img: https://avatars1.githubusercontent.com/u/152954?v=2&s=460
  - name: Iris Shih
-   institute: Technical University of Munich
+   institute: TUM
    img: https://avatars2.githubusercontent.com/u/4600451?v=2&s=400
    github: IriscShih
  - name: William Spooner
@@ -74,6 +82,10 @@ team:
    institute: TGAC
    img: https://avatars1.githubusercontent.com/u/3940626?v=2&s=460
    github: anilthanki
+ - name: Bruno Vieira
+   institute: Queen Mary Uni.
+   img: https://avatars1.githubusercontent.com/u/263386?v=2&s=460
+   github: bmpvieira
  - name: Jose Villaveces
    institute: Max Planck Institute
    img: https://avatars0.githubusercontent.com/u/5575999?v=2&s=460
@@ -120,6 +132,7 @@ IMPORTANT: please upload your image in img/team and read the README their (1:1 d
 <div class="people-name"> Suzi Lewis </div>
 <div class="people-institution"> Berkeley Lab </div>
 <div class="people-position"> Senior PI </div>
+<div class="github-link"><a href="https://github.com/selewis">@selewis</a></div>
 </div>
 
 <div class="col-md-2 col-xs-4">
