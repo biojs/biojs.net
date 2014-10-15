@@ -10,6 +10,7 @@ team:
  - name: Saket Choudhary
    institute: University Of Southern California
    img: https://avatars2.githubusercontent.com/u/682153?v=2&s=460
+   github: saketkc
  - name: David Dao
    institute: TUM
    img: https://sigil.cupcake.io/daviddao
@@ -18,12 +19,14 @@ team:
    img: https://sigil.cupcake.io/alexgarcia
  - name: Leyla Garcia
    institute: EMBL-EBI
-   img: https://sigil.cupcake.io/leylagarcia
+   img: https://avatars1.githubusercontent.com/u/5427252?v=2&s=460
+   github: ljgarcia
  - name: Tatyana Goldberg
    institute: RostLab, TUM
    img: img/team/tatyana.jpg
    personLink: http://www.rostlab.org/~goldberg
    instituteLink: http://www.rostlab.org/
+   github: TatyanaGoldberg
  - name: John Gomez
    institute: EMBL-EBI
    img: https://sigil.cupcake.io/johngomez
@@ -33,21 +36,27 @@ team:
  - name: Ian Mulvany
    institute: eLife
    img: https://sigil.cupcake.io/ianmulvany
+ - name: Miguel Pignatelli
+   institute: EBI
+   github: emepyc
+   img: https://avatars3.githubusercontent.com/u/473962?v=2&s=460
  - name: Ricardo Ramirez
    institute: TGAC
-   img: https://sigil.cupcake.io/ricardoramirez
+   github: homonecloco
+   img: https://avatars3.githubusercontent.com/u/254050?v=2&s=460
  - name: Francis Rowland
    institute: EMBL-EBI
    img: https://sigil.cupcake.io/francisrowland
  - name: Gustavo Salazar
    institute: Cape Town Uni
-   img: https://sigil.cupcake.io/gustavosalazar
+   img: https://avatars3.githubusercontent.com/u/2870295?v=2&s=460
+   github: 4ndr01d3
  - name: Fabian Schreiber
    institute: EMBL-EBI
    img: https://sigil.cupcake.io/fabianschreiber
  - name: Ian Silitoe
    institute: UCL
-   img: https://sigil.cupcake.io/iansilitoe
+   img: https://avatars1.githubusercontent.com/u/152954?v=2&s=460
  - name: William Spooner
    institute: Eagle Genomics
    img: https://sigil.cupcake.io/williamspooner
@@ -59,9 +68,11 @@ team:
    img: https://sigil.cupcake.io/josevilleveces
  - name: Sebastian Wilzbach
    institute: RostLab, TUM
+   github: greenify
    img: img/team/seb.jpg
  - name: Guy Yachdav
    institute: RostLab, TUM
+   github: 
    img: img/team/guy.jpg
  - name: Your name
    institute: your institute
@@ -99,7 +110,7 @@ IMPORTANT: please upload your image in img/team and read the README their (1:1 d
 </div>
 
 <div class="col-md-2 col-xs-4">
-<img src="https://sigil.cupcake.io/rafa">
+<img src="https://avatars1.githubusercontent.com/u/2062396?v=2&s=460">
 <div class="people-name"> Rafael Jiménez  </div>
 <div class="people-institution"> ELIXIR </div>
 <div class="people-position"> Chief Technical Coordinator </div>
