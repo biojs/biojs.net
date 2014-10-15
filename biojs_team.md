@@ -12,8 +12,10 @@ team:
    img: https://avatars2.githubusercontent.com/u/682153?v=2&s=460
    github: saketkc
  - name: David Dao
-   institute: TUM
-   img: https://sigil.cupcake.io/daviddao
+   institute: HITS, Technical University of Munich
+   img: http://daviddao.github.io/david.png
+   instituteLink: http://www.exelixis-lab.org/
+   github: daviddao
  - name: Alex Garcia
    institute: Uni Bonn
    img: https://sigil.cupcake.io/alexgarcia
@@ -29,15 +31,18 @@ team:
    github: TatyanaGoldberg
  - name: John Gomez
    institute: EMBL-EBI
-   img: https://sigil.cupcake.io/johngomez
+   github: johncar
+   img: https://avatars1.githubusercontent.com/u/5148730?v=2&s=460
  - name: Alex Kalderimis
    institute: Cambridge
-   img: https://sigil.cupcake.io/alexkalderimis
+   github: alexkalderimis
+   img: https://avatars1.githubusercontent.com/u/436846?v=2&s=460
  - name: Ian Mulvany
    institute: eLife
-   img: https://sigil.cupcake.io/ianmulvany
+   img: https://avatars2.githubusercontent.com/u/46833?v=2&s=460
+   github: IanMulvany
  - name: Miguel Pignatelli
-   institute: EBI
+   institute: EMBL-EBI
    github: emepyc
    img: https://avatars3.githubusercontent.com/u/473962?v=2&s=460
  - name: Ricardo Ramirez
@@ -53,26 +58,33 @@ team:
    github: 4ndr01d3
  - name: Fabian Schreiber
    institute: EMBL-EBI
-   img: https://sigil.cupcake.io/fabianschreiber
+   img: https://avatars3.githubusercontent.com/u/1134157?v=2&s=460
+   github: fabsta
  - name: Ian Silitoe
    institute: UCL
    img: https://avatars1.githubusercontent.com/u/152954?v=2&s=460
+ - name: Iris Shih
+   institute: Technical University of Munich
+   img: https://avatars2.githubusercontent.com/u/4600451?v=2&s=400
+   github: IriscShih
  - name: William Spooner
    institute: Eagle Genomics
    img: https://sigil.cupcake.io/williamspooner
  - name: Anil Thanki
    institute: TGAC
-   img: https://sigil.cupcake.io/anilthanki
+   img: https://avatars1.githubusercontent.com/u/3940626?v=2&s=460
+   github: anilthanki
  - name: Jose Villaveces
    institute: Max Planck Institute
-   img: https://sigil.cupcake.io/josevilleveces
+   img: https://avatars0.githubusercontent.com/u/5575999?v=2&s=460
+   github: jmVillaveces
  - name: Sebastian Wilzbach
    institute: RostLab, TUM
    github: greenify
    img: img/team/seb.jpg
  - name: Guy Yachdav
    institute: RostLab, TUM
-   github: 
+   github: gyachdav
    img: img/team/guy.jpg
  - name: Your name
    institute: your institute
@@ -89,14 +101,15 @@ IMPORTANT: please upload your image in img/team and read the README their (1:1 d
 <div class="row">
 
 <div class="col-md-2 col-xs-4">
-<img src="https://sigil.cupcake.io/manny">
+<img src="https://pbs.twimg.com/profile_images/435707345906065408/YLzjREEp_400x400.jpeg">
 <div class="people-name"> Manuel Corpas </div>
 <div class="people-institution"> TGAC </div>
 <div class="people-position"> Project Coordinator, PI </div>
+<div class="github-link"><a href="https://github.com/manuelcorpas">@manuelcorpas</a></div>
 </div>
 
 <div class="col-md-2 col-xs-4">
-<img src="https://sigil.cupcake.io/hennig">
+<img src="https://www.ebi.ac.uk/sites/ebi.ac.uk/files/styles/medium/public/person/image/Hermjakob_Henning_72.jpg">
 <div class="people-name"> Henning Hermjakob </div>
 <div class="people-institution"> EMBL-EBI </div>
 <div class="people-position"> Senior PI </div>
@@ -114,6 +127,7 @@ IMPORTANT: please upload your image in img/team and read the README their (1:1 d
 <div class="people-name"> Rafael Jiménez  </div>
 <div class="people-institution"> ELIXIR </div>
 <div class="people-position"> Chief Technical Coordinator </div>
+<div class="github-link"><a href="https://github.com/rajido">@rajido</a></div>
 </div>
 
 
@@ -141,6 +155,13 @@ IMPORTANT: please upload your image in img/team and read the README their (1:1 d
 {{ person.institute }}
 {% endif %}
 </div>
+
+{% if person.github != nil %}
+<div class="github-link">
+<a href="https://github.com/{{ person.github }}">@{{ person.github }}</a>
+</div>
+{% endif %}
+
 </div>
 
 {% cycle nil, nil, '<div class="visible-xs clearfix"> </div>', nil, nil, '<div class="clearfix"> </div>' %}
@@ -149,41 +170,6 @@ IMPORTANT: please upload your image in img/team and read the README their (1:1 d
 
 </div>
 
-
-Former members
--------
-
-<div class="row">
-
-<div class="col-md-2 col-xs-4">
-<img src="https://sigil.cupcake.io/">
-<div class="people-name">
-First_name Last_name
-</div>
-<div class="people-institution">
-Institution
-</div>
-</div>
-
-<div class="col-md-2 col-xs-4">
-<img src="https://sigil.cupcake.io/">
-<div class="people-name">
-First_name Last_name
-</div>
-<div class="people-institution">
-Institution
-</div>
-</div>
-
-<div class="col-md-2 col-xs-4">
-<img src="https://sigil.cupcake.io/">
-<div class="people-name">
-First_name Last_name
-</div>
-<div class="people-institution">
-Institution
-</div>
-</div>
 
 
 
