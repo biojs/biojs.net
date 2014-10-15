@@ -8,6 +8,10 @@ extra_css:
 
 {% include get_involved_icons.html %}
 
+<div class="text-center">
+<img src="/img/get-involved/biojs_dark_s.png"  />
+</div>
+
 How to contribute
 ---------------
 
@@ -27,58 +31,55 @@ Otherwise you can simply [create your own component](http://edu.biojs.net/series
 Our groups
 ----------
 
-* every working group has a monthly call (ask the project leader if you want to join)
-* we have an general BioJS (ask Manny if you want to join) 
-
 ### <span class="glyphicon glyphicon-flash"></span> Technical development
 
-Group leader: José. M. Villaveces  
-Target audience: devs
+Get involved: [github][github], [gitter][gitter]
 
-* report issues and [features][features] (and vote for them)
-* fix issues
-* work on a [feature][features]
+* report issues
+* fix [issues][openissues]
+* work on a new [feature][openissues]
 * create your own component
 * maintain a component
+* ...
 
+We also organize tech hangouts (organizer: José. M. Villaveces).  
+Subscribe to our [technical mailing list][tech-mailing-list] for annoucements.
 
-Join our [tech mailing list](https://groups.google.com/forum/#!forum/biojs-technical)
-
-[features]: https://trello.com/b/SdfFvEIi/biojs-product-board
-
-### <span class="glyphicon glyphicon-eye-open"></span> Product development
-
-Group leader: Ian Mulvany  
-Target audience: group managers
-
-* User experience design
-* Decide about features.
-* Roadmapping
+[tech-mailing-list]: https://groups.google.com/forum/#!forum/biojs-technical
+[github]: https://github.com/biojs/biojs
+[gitter]: https://gitter.im/biojs/biojs
 
 ### <span class="glyphicon glyphicon-globe"></span> Outreach and public relations
 
-Group leader: Leyla Garcia  
-Target audience: Enthusiasts of BioJS
-
 Spread the word about BioJS
 
-* Workshops
-* Tutorials
-* Hackathons
+* [Events][events]
+ - Workshops
+ - Tutorials
+ - Hackathons
 * [GSoC](GSoc)
+* [Stickers][stickers] ([raw][stickers-raw])
+* [T-Shirts][tshirts]
 
+[events]: https://drive.google.com/#folders/0BwdiZp7qSaBhZVFoU3dPNFdkLXc
 [gsoc]: https://rostlab.org/services/biojs/gsoc.html
-
-### <span class="glyphicon glyphicon-usd"></span> Funding
-
-Group leader: Manuel Corpas  
-Target audience: Enthusiasts of BioJS
-
-Provide resources for BioJS
+[stickers]: http://www.zazzle.com/biojs_sticker-217909192517973975
+[stickers-raw]: https://drive.google.com/#folders/0BwdiZp7qSaBhU05oOW1tVmg3cE0
+[tshirts]: https://drive.google.com/#folders/0BwdiZp7qSaBhUEwxaV9nOTZJVWM
 
 ### <span class="glyphicon glyphicon-hand-right"></span> Steering group
 
-Group leader: Manuel Corpas  
-Target audience: group leaders
+Get involved: join our conference call on every first thursday  (organizer: [Manuel Corpas][manuelcorpas])  
+Minutes: [here][agendas]
 
 Decide about BioJS's future.
+
+
+[agendas]: https://drive.google.com/#folders/0B8yXU9SkT3ftXzhuR1lDTEppNXM
+[manuelcorpas]: http://manuelcorpas.com/about/
+
+<!--
+### <span class="glyphicon glyphicon-usd"></span> Funding
+
+Provide resources for BioJS
+-->
