@@ -7,9 +7,7 @@ This page is devoted to attribute and say a big thank to all the great guys with
 
 ### Contributors
 
-__to be done__
-
-[see here](/org_overview.html)
+[see here](/biojs_team.html)
 
 ### Icons
 
