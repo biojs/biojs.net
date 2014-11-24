@@ -13,7 +13,7 @@ team:
    github: saketkc
  - name: David Dao
    institute: HITS, TUM
-   img: http://daviddao.github.io/david.png
+   img: http://daviddao.de/img/me.png
    instituteLink: http://www.exelixis-lab.org/
    github: daviddao
  - name: Alex Garcia
