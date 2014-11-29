@@ -1,5 +1,5 @@
 ---
-title: "First BioJS course at TUM"
+title: "First BioJS course at Technical University of Munich (TUM)"
 layout: post
 date: 2014-11-29 21:04:21
 ---
