@@ -7,10 +7,10 @@ extra_css:
 ---
 
 {% include get_involved_icons.html %}
-
+<!-- 
 <div class="text-center">
 <img src="/img/get-involved/biojs_dark_s.png"  />
-</div>
+</div> -->
 
 How to contribute
 ---------------
