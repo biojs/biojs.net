@@ -4,7 +4,7 @@ layout: post
 date: 2014-11-29 21:04:21
 ---
 
-We are very pleased to announce that at TUM we offer our [first BioJS course][pp2].
+We are very pleased to announce that at the Technical University of Munich (TUM) we offer our [first BioJS course][pp2].
 In the beginning of the course students are taught the basics of JavaScript and web 
 visualization. In the practical part of the BioJS course students work on real-world
 problems and - guided by motivated scientist from around the world - they create
