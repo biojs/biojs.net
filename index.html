@@ -5,12 +5,16 @@ extra_css:
 - css/showcase.css
 - css/used_by.css
 - css/frontpage.css
+- css/latest-packages.css
 - //fonts.googleapis.com/css?family=Lora
 - //fonts.googleapis.com/css?family=Poiret+One
 - //fonts.googleapis.com/css?family=Indie+Flower 
 - //fonts.googleapis.com/css?family=Chelsea+Market 
 - //cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css
 - //caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.css
+extra_js:
+- js/latest-packages.js
+- //cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js
 ---
 
 
@@ -57,7 +61,7 @@ extra_css:
 	</div>
 
 
-
+	<!--
 	<div class="alert alert-info">
 
 		<a href="#" class="close" data-dismiss="alert">&times;</a>
@@ -66,6 +70,7 @@ extra_css:
 		<strong>BioJS 2.0</strong> is coming soon. Start experimenting with the <a href="http://github.com/biojs/biojs">new</a>, cool stuff. <a href="https://groups.google.com/forum/#!topic/biojs/vQbQ_yycncY">More</a> information.
 
 	</div>
+	-->
 
 	<div class="row">
 		<div class="col-md-3 col-xs-6">
@@ -84,16 +89,38 @@ extra_css:
 		</div>
 	</div>
 
-	<div id="biojs-news">
-		<h3>News</h3>
-		<ul class="posts">
-			{% for post in site.posts %}
-			<li><a href="{{ post.url }}">{{ post.title }}</a>, <span>{{ post.date | date_to_string }}</span> </li>
-			{% endfor %}
-		</ul>
-		See the news <a href="/news.html">archive</a>
+	<div class="container">
+		<div class="row">
+			<div id="biojs-news" class="col-md-6 col-xs-12">
+				<h3>News</h3>
+				<ul class="posts">
+					{% for post in site.posts %}
+					<li><a href="{{ post.url }}">{{ post.title }}</a>, <span>{{ post.date | date_to_string }}</span> </li>
+					{% endfor %}
+				</ul>
+				See the news <a href="/news.html">archive</a>
+			</div>
+			<div id="biojs-new-packages" class="col-md-6 col-xs-12">
+				<h3>Recently updated packages</h3>
+				<div id="biojs-new-packages-recent"></div>
+			</div>
+		</div>
 	</div>
-	<div id="biojs-news">
+
+	<div class="container">
+		<div class="row">
+			<div id="biojs-new-packages" class="col-md-6 col-xs-12">
+				<h3>Popular packages </h3>
+				<div id="biojs-new-packages-popular"></div>
+			</div>
+			<div id="biojs-new-packages" class="col-md-6 col-xs-12">
+				<h3>Most reused (after npm installations)</h3>
+				<div id="biojs-new-packages-reused"></div>
+			</div>
+		</div>
+	</div>
+
+	<div id="biojs-what-is">
 		<h3>What is BioJS?</h3>
 
 		BioJS builds a infrastructure, guidelines and tools to avoid the reinvention of the wheel in life sciences (= "Docker for Bio web components"). Our community builds modules than can be reused by anyone.
