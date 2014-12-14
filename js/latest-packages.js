@@ -29,9 +29,20 @@ function buildBioJSWidget(div, key, optsUser) {
 
     pkgs.forEach(function(pkg) {
       // see the registry for more options
-      pkg.avatar = "https://sigil.cupcake.io/" + pkg.name;
+      pkg.avatar = "https://sigil.cupcake.io/" + pkg.name; // default
       if (pkg.github !== undefined) {
         pkg.avatar = pkg.github.owner.avatar_url + "&s=42";
+      }
+      pkg.github = pkg.github || {};
+      // check for specific logo 
+      if (pkg.latest.biojs !== undefined && pkg.latest.biojs.logo !== undefined) {
+        var logo = pkg.latest.biojs.logo;
+        var hasFileExtension = /^.*\.[^\\]+$/;
+        // fallback to a default logo
+        if (!hasFileExtension.test(logo)) {
+          logo += "logo.png";
+        }
+        pkg.avatar = pkg.github.raw_url + logo;
       }
 
       var row = new SimpleRow();
