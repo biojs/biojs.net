@@ -20,7 +20,7 @@ function buildBioJSWidget(div, key, optsUser) {
     }
     if (opts.commits) {
       row.push("Commits", 3);
-    } else if (opts.npm) {
+    } else if (opts.npm || opts.npmWeek) {
       row.push("<span class='glyphicon glyphicon-save'></span>", 3);
     } else if (opts.version) {
       row.push("Version", 2);
@@ -65,6 +65,8 @@ function buildBioJSWidget(div, key, optsUser) {
         row.push(pkg.npmDownloads);
       } else if (opts.version) {
         row.push(pkg.version, 2);
+      } else if (opts.npmWeek) {
+        row.push(pkg.npmDownloadsLastWeek, 3);
       } else if (opts.commits) {
         row.push(pkg.github.commits || 0, 2);
       }
@@ -86,9 +88,9 @@ buildBioJSWidget("biojs-new-packages-popular", "github.stargazers_count", {
   stars: true,
   commits: true
 });
-buildBioJSWidget("biojs-new-packages-reused", "npmDownloads", {
+buildBioJSWidget("biojs-new-packages-reused", "npmDownloadsLastWeek", {
   created: true,
-  npm: true
+  npmWeek: true
 });
 
 var SimpleRow = function() {
