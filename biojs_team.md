@@ -113,7 +113,7 @@ IMPORTANT: please upload your image in img/team and read the README their (1:1 d
 <div class="row">
 
 <div class="col-md-2 col-xs-4">
-<img src="https://pbs.twimg.com/profile_images/435707345906065408/YLzjREEp_400x400.jpeg">
+<img src="img/team/manuelcorpas.jpg">
 <div class="people-name"> Manuel Corpas </div>
 <div class="people-institution"> TGAC </div>
 <div class="people-position"> Project Coordinator, PI </div>
