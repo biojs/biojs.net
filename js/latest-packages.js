@@ -47,7 +47,7 @@ function buildBioJSWidget(div, key, optsUser) {
 
       var row = new SimpleRow();
       row.push('<img width="25" height="25" src="' + pkg.avatar + '">', 1);
-      row.push("<a href='http://registry.biojs.net/#/detail/" + pkg.name + "'>" + pkg.name + "</a>", 3);
+      row.push("<a href='http://biojs.io/d/" + pkg.name + "'>" + pkg.name + "</a>", 3);
 
       // second column
       if (opts.modified) {
