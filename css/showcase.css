@@ -1,7 +1,7 @@
 .showcase {
     height: 150px !important;
     background-size:cover;
-    width: 100%;
+    width: auto;
 }
 
 @media(max-width:767px) {  
@@ -19,40 +19,3 @@
     padding-top: 20px;
     padding-bottom: 10px;
 }
-
-.showcase-disp {
-    background-image: url(../img/showcase_thumb/disp.jpg);
-}
-
-.showcase-disp2 {
-    background-image: url(../img/showcase_thumb/disp2.jpg);
-}
-
-.showcase-expAtlas {
-    background-image: url(../img/showcase_thumb/expAtlas.jpg);
-}
-
-.showcase-featViewer {
-     background-image: url(../img/showcase_thumb/featViewer.jpg);
-}
-
-.showcase-hpasummary {
-     background-image: url(../img/showcase_thumb/hpasummary.jpg);
-}
-
-.showcase-intbundle {
-    background-image: url(../img/showcase_thumb/intbundle.jpg);
-}
-
-.showcase-intd3 {
-    background-image: url(../img/showcase_thumb/intd3.jpg);
-}
-
-.showcase-kegg {
-    background-image: url(../img/showcase_thumb/kegg.jpg);
-}
-
-.showcase-protport {
-     background-image: url(../img/showcase_thumb/protport.jpg);
-}
-
