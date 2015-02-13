@@ -20,6 +20,10 @@
 {% for css_name in page.extra_css %}
 	<link rel="stylesheet" href="{{ css_name }}">
 {% endfor %}
+{% for css_name in page.rel_css %}
+	{% assign gpath = site.baseurl | append: page.rel_path | append: "/" %}
+	<link rel="stylesheet" href="{{ css_name | prepend: gpath}}">
+{% endfor %}
 
 <!-- Just for debugging purposes. Don't actually copy this line! -->
 <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -181,6 +185,10 @@
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 {% for js_name in page.extra_js %}
 	<script src="{{ js_name }}"></script>
+{% endfor %}
+{% for js_name in page.rel_js%}
+	{% assign gpath = site.baseurl | append: page.rel_path | append: "/" %}
+	<script src="{{ js_name | prepend: gpath}}"></script>
 {% endfor %}
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

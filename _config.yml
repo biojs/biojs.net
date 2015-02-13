@@ -5,3 +5,4 @@ markdown: kramdown
 highlighter: pygments 
 timezone: UTC
 encoding: utf-8
+baseurl: /
