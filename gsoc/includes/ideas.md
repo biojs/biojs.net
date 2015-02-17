@@ -1,6 +1,3 @@
-### Project ideas
-
-
 {% for p in include.pages %}
  {% if p.gsoc == include.gsocYear %}
 

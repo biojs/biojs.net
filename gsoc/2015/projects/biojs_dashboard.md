@@ -56,4 +56,4 @@ Resources
 Mentors
 -------
 
-Tatyana Goldberg, Juanmi
+Tatyana Goldberg, Juan Miquel Cejuela

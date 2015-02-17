@@ -15,3 +15,7 @@ Approach
 Challenges
 ---------
 
+Mentors
+---------
+
+Manuel Corpas, Rafael Jimenez
