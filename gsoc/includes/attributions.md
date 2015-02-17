@@ -31,7 +31,7 @@
 
       </li>
       <li>
-<a href="http://kyo-tux.deviantart.com/art/Aeon-79923737">liht bulb</a>
+<a href="http://kyo-tux.deviantart.com/art/Aeon-79923737">light bulb</a>
 
       </li>
       <li>
@@ -50,6 +50,11 @@
 <a href="https://www.iconfinder.com/icons/104583/target_value_icon">target</a>
 
       </li>
+
+      <li>
+<a href="https://github.com/paomedia/small-n-flat/tree/master/svg">groups</a>
+      </li>
+
     </ul>
   </p>
 </div>

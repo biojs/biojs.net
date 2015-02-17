@@ -13,6 +13,12 @@
 /* END image */
 /* START mentors */
 
+/* START header */
+#gsoc-header .row {
+    margin-left: 20px;
+}
+/* END header */
+
 #meet-the-mentors {
     margin-top: 20px;
 }

@@ -6,7 +6,7 @@
 
 #### Start early
 
-Experience from other organisations has shown that the students often make a mistake converting the official 19:00 UTC deadline to their own timezone or have technical problems submitting in Melange during the final few seconds. We very much want to receive your application and don't want you to be disappointed or miss your chance of a great summer! So please remember to submit early and then edit as often as you want before the deadline (21.03, 19:00 UTC).
+Experience from other organisations has shown that the students often make a mistake converting the official 19:00 UTC deadline to their own timezone or have technical problems submitting in Melange during the final few seconds. We very much want to receive your application and don't want you to be disappointed or miss your chance of a great summer! So please remember to submit early and then edit as often as you want before the deadline (27.03, 19:00 UTC).
 
 ![Presentation]({{ gpath }}images/icons/presentation.png)
 
@@ -50,17 +50,24 @@ Experience from other organisations has shown that the students often make a mis
 
 #### Why BioJS?
 
-* Tell us why you want to work with us.
-* How do you envision your involvment with BioJS after the GSoC?
+* Tell us why you want to work with us
+* How do you envision your involvement with BioJS after the GSoC?
 
 ![Hints]({{ gpath }}images/icons/hints.png)
 
 #### Some tips
 
 * Is there any special reason why we should pick you? Name it.
-* Get in touch with us as soon as possible and post your ideas on our mailing list or IRC channel.
-* Look at open issues on github
+* Get in touch with us as soon as possible and post your ideas on our mailing list, gitter or IRC channel.
 * Keep it simple: we don't need a 10-page essay on the project, so it's absolutely ok to be concise. However you shouldn't miss the main points.
+
+![Get involved]({{ gpath }}images/icons/groups.svg)
+
+#### Get involved
+
+* Have a look at our new [education portal](http://edu.biojs.net)
+* We have prepared a [How to contribute](https://github.com/biojs/biojs/blob/master/CONTRIBUTING.md) guide
+* Look at open issues on github
 
 ![More resources]({{ gpath }}images/icons/book.png)
 
