@@ -19,7 +19,7 @@ function scrollToElementWrapper(event) {
   scrollToElement(event.data.name);
 }
 
-$(function() {
+document.addEventListener("DOMContentLoaded", function() {
   for (index = 0; index < links.length; ++index) {
     $("#link-" + links[index]).on('click', {
       name: "#" + links[index]
