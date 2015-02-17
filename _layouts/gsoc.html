@@ -2,12 +2,35 @@
 layout: default
 ---
 
+<style>
+.adj-header h1{
+    font-size: 24px;
+}
+.adj-header h2{
+    font-size: 18px;
+}
+.adj-header h3{
+    font-size: 16px;
+}
+.adj-header h4{
+    font-size: 14px;
+}
+</style>
+
 <div class="container">
 
 	<h2>{{ page.title }}</h2>
 
 
-	<div class="static-content">
+	<div class="pull-right">
+		<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		
+		<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+		<g:plusone size="medium"></g:plusone>
+	</div>
+
+	<div class="static-content adj-header">
 		{{ content }}
 	</div>
 
