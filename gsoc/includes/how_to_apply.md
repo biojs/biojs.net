@@ -66,8 +66,9 @@ Experience from other organisations has shown that the students often make a mis
 #### Get involved
 
 * Have a look at our new [education portal](http://edu.biojs.net)
-* We have prepared a [How to contribute](https://github.com/biojs/biojs/blob/master/CONTRIBUTING.md) guide
-* Look at open issues on github
+* We have prepared a [how to contribute](https://github.com/biojs/biojs/blob/master/CONTRIBUTING.md) guide
+* Browse through open issues on github
+* Write your own BioJS component
 
 ![More resources]({{ gpath }}images/icons/book.png)
 
