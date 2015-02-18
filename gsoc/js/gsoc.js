@@ -102,34 +102,34 @@ document.addEventListener("DOMContentLoaded", function() {
   ieversion = getInternetExplorerVersion();
   if (ieversion > 0 && ieversion < 9) {
 
-    var gsocImages = ["gsoc-google-logo", "gsoc-orange-flag", "gsoc-red-flag", "gsoc-blue-flag"];
+    var gsocImages = ["gsoc-google-logo", "gsoc-summer-flag", "gsoc-of-flag", "gsoc-code-flag"];
     for (index = 0; index < gsocImages.length; ++index) {
       $("#" + gsocImages[index]).css("paddingTop", "7px");
     }
 
   }
-
+  var offset = 100;
   // auto animate
   setTimeout(function() {
     gsocFadeIn("#gsoc-google-logo", 10, 1.4, 300);
-  }, 800);
+  }, offset + 800);
 
   setTimeout(function() {
-    gsocFadeIn("#gsoc-blue-flag", 10, 1.3, 300);
-  }, 1300);
+    gsocFadeIn("#gsoc-summer-flag", 10, 1.3, 300);
+  }, offset + 1300);
 
 
   setTimeout(function() {
-    gsocFadeIn("#gsoc-red-flag", 10, 1.5, 300);
-  }, 1800);
+    gsocFadeIn("#gsoc-of-flag", 10, 1.5, 300);
+  }, offset + 1800);
 
   setTimeout(function() {
-    gsocFadeIn("#gsoc-orange-flag", 10, 1.3, 300);
-  }, 2300);
+    gsocFadeIn("#gsoc-code-flag", 10, 1.3, 300);
+  }, offset + 2300);
 
   setTimeout(function() {
     gsocFadeIn("#gsoc-flipbox", 10, 1.3, 300);
-  }, 2800);
+  }, offset + 2800);
 
   var blocking = 0;
 });
