@@ -28,7 +28,7 @@ Initially, we need to extract the high level entities used in an RDF dataset. Fo
 
 For instance, a Gene Expression Atlas schema looks like:
 
-![Gene expression Atlas RDF scheme]({{ site.baseurl }}gsoc/2015/img/rdf.png){: width="90%"}
+![Gene expression Atlas RDF scheme]({{ site.baseurl }}gsoc/2015/img/rdf.jpg){: width="90%"}
 
 ### Path finder
 

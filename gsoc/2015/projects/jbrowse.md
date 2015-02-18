@@ -19,6 +19,8 @@ This will allow our packages to be used by more people in the open-source commun
 
 If you are experienced with JavaScript and frameworks such as npm and have experience with scripting languages, this is the Google Summer of Code experience for you! Familiarity with Perl and bioinformatics will be also helpful.
 
+![JBrowse]({{ site.baseurl }}gsoc/2015/img/jbrowse.jpg){: width="90%"}
+
 Mentors
 -------
 

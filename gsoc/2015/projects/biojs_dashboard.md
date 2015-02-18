@@ -8,7 +8,6 @@ Rationale
 ---------
 
 One of the biggest goals of the BioJS community is to make it as easy as possible for an user to utilize the variety of BioJS components. It should be possible to use and combine BioJS components without knowledge of JS. Building such an interactive platform would have three major effects:
-
 (1) the direct benefit for biologist who can now easily work with their data on the web,
 (2) the Galaxy data analysis platform which lacks sufficient means to visualize its entire output  and
 (3) as the audience for BioJS components grows this would motivate BioJS developer to improve their components or newcomers to start building new ones.
@@ -18,11 +17,11 @@ As a backend the Galaxy data persistence platform may be used, but this project 
 
 <div class="row">
 	<div class="col-md-6" align="center">
-		<a href="http://vcf.iobio.io/"><img alt="Screenshot of IoBio" src="{{ site.baseurl }}gsoc/2015/img/iobio.png" width="100%" /></a>
+		<a href="http://vcf.iobio.io/"><img alt="Screenshot of IoBio" src="{{ site.baseurl }}gsoc/2015/img/iobio.jpg" width="100%" /></a>
 <a href="http://iobio.io"> IoBio </a>
 	</div>
 	<div class="col-md-6" align="center">
-		<img alt="Screenshot of ZoomData" src="{{ site.baseurl }}gsoc/2015/img/zoomdata.png" width="90%" />
+		<img alt="Screenshot of ZoomData" src="{{ site.baseurl }}gsoc/2015/img/zoomdata.jpg" width="90%" />
 	ZoomData
 	</div>
 </div>
