@@ -191,3 +191,15 @@ h1, h2, h3, h4, h5 {
     -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
     transform: rotate(-20deg);
 }
+
+figcaption {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+figure img{
+    margin: 0 auto;
+    display: block;
+}
