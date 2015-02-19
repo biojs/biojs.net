@@ -19,7 +19,7 @@ Approach
 We are modularizing JBrowse and integrating it into the [BioJS](http;//biojs.net) framework of bioinformatics JavaScript / HTML5 components that is built upon the [node package manager](https://www.npmjs.com/).   
 This will allow our packages to be used by more people in the open-source community and provide a build-system more in-line with modern web applications.
 
-If you are experienced with JavaScript and frameworks such as npm and have experience with scripting languages, this is the Google Summer of Code experience for you! Familiarity with Perl and bioinformatics will be also helpful.
+If you are experienced with JavaScript and frameworks such as npm and have experience with scripting languages, this is the Google Summer of Code experience for you! Familiarity with Perl and Bioinformatics will be also helpful.
 
 Mentors
 -------
