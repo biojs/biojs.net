@@ -21,8 +21,11 @@
 #meet-the-mentors {
     margin-top: 20px;
 }
-#accordion {
+.gsoc-accordion {
     padding-left: 20px;
+}
+#div-project-ideas .ui-accordion-content  h2:first-of-type {
+    margin-top: 0px;
 }
 #div-project-ideas {
     padding-top: 0px;

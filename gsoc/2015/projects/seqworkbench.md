@@ -55,8 +55,9 @@ One of the wider known Tree toolkits is the [ETE toolkit][ETEToolkit](Python).
 Here is a small and incomplete list of already existing _Desktop_ based sequencing 
 workbenches which could give you inspiration for more ideas:
 
-* [Geneious](http://www.geneious.com/)
 * [CLC workbench](http://www.clcbio.com/products/clc-main-workbench/)
+* [Geneious](http://www.geneious.com/)
+* [NCBI workbench](http://www.ncbi.nlm.nih.gov/tools/gbench/)
 
 Challenges
 ---------

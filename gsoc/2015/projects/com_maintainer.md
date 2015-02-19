@@ -21,4 +21,4 @@ Needed skills
 Mentors
 ---------
 
-Gustavo A. Orejuela, Miguel Pignatelli
+Gustavo Salazar, Miguel Pignatelli

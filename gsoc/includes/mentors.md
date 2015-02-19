@@ -1,6 +1,6 @@
 <div id="meet-the-mentors">
 <h3>Meet the mentors</h3>
-<div id="accordion">
+<div id="accordion" class="gsoc-accordion">
 
 {% for person in include.mentors %}
 
