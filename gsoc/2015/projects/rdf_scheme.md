@@ -7,7 +7,7 @@ gsoc: 2015
 Rationale
 ---------
 
-Biological interactions such as those between genes and proteins are complex and thus impose challenges in modelling. Different linked models can be proposed for the same data, e.g., gene, gene expression, protein expression, pathways, drugs, and so on. Therefore, traversing a linked model is not straightforward. Any user willing to extract information from such models need to understand how entities are linked. However more than dataset might be required in order to solve a query; thus, users need to know not only the schemas but the links from one schema to another. 
+Biological entities, such as genes and proteins, are inherently connected and can form complex networks when aggregating data from multiple sources. Data providers are increasingly moving towards the Resource Description Framework (RDF) and a Linked Data approach for publishing data. RDF provides a mechanism to describe schemas that can capture the nature of the realtions that hold between entities. Effectivly documenting an RDF schema is crucial for users wanting to explore or query a linked dataset, however, adequate tooling to support both the visulaisation and explorating of datasets is currently lacking. 
 
 This projects has two phases. During the Google Summer of Code part, we aim to finish phase 1 “Schema Visualization” and advance as much as possible to phase 2 “”Path finder”
 
@@ -64,4 +64,4 @@ Needed skills
 Mentors
 ------
 
-Mentors: Leyla García (UniProt, EMBL-EBI) and Simon Jupp (Functional Genomics, EMBL-EBI)
+Mentors: Leyla García (UniProt, EMBL-EBI) and Simon Jupp (Samples, Phenotypes and Ontologies, EMBL-EBI)
