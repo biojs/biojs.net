@@ -21,4 +21,4 @@ Needed skills
 Mentors
 ---------
 
-Gustavo Salazar, Guy Yachdav
+Gustavo Salazar, Rafael Jimenez
