@@ -71,4 +71,4 @@ Resources
 Mentors
 -------
 
-Tatyana Goldberg, Juan Miquel Cejuela
+Tatyana Goldberg, Guy Yachdav
