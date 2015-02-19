@@ -68,4 +68,4 @@ Challenges
 Mentors
 ---------
 
-Manuel Corpas, Rafael Jimenez
+Manuel Corpas, Juan Miguel Cejuela
