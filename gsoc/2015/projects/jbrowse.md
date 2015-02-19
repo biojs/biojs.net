@@ -24,5 +24,4 @@ If you are experienced with JavaScript and frameworks such as npm and have exper
 Mentors
 -------
 
-Mentor 1:  [Nathan Dunn](http://www.berkeleybop.org/person/nathan-dunn)  
-Mentor 2:  (Someone from BioJS) 
+[Nathan Dunn](http://www.berkeleybop.org/person/nathan-dunn) and Miguel Pignatelli
