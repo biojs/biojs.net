@@ -140,3 +140,7 @@ hr.fancy-line:after {
     background: #f4f4f4;
 }
 /* END hr */
+
+.ui-widget-content .btn {
+    color: #fff;
+}

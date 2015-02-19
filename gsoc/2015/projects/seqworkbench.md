@@ -13,12 +13,10 @@ We want to push the limits and see what is currently possible with pure browser 
 
 <figure>
 	<a href="http://biojs.io/#/d/msa-tnt">
-		<img src="{{ site.baseurl }}gsoc/2015/img/msa_tnt.jpg" alt="MSA-TnT" style="width:90%; max-height: 50%">
+		<img src="{{ site.baseurl }}gsoc/2015/img/msa_tnt.jpg" alt="MSA-TnT" style="max-width:80%; max-height: 50%">
 	</a>
 	<figcaption>An interactive combination of two BioJS components</figcaption>
 </figure>
-
-* [MSA-TNT](http://biojs.io/#/d/msa-tnt)
 
 [exelexis]: http://biojs.io/d/exelixis
 [msa]: http://biojs.io/d/msa
@@ -37,7 +35,7 @@ will greatly increase the visual appeal to the end user.
 ### Phylogenetic trees
 
 One should be able to construct a tree from an MSA.
-Therefore the user should be able to perform simple calculation directly in his browser
+Therefore the user should be able to perform simple calculation directly in his browser like:
 
 * [UPGMA][upgma]
 * [Neighbor-Joining][neighborjoining]
@@ -70,4 +68,4 @@ Challenges
 Mentors
 ---------
 
-Manuel Corpas, Rafael Jimenez
+Manuel Corpas, Juan Miguel Cejuela

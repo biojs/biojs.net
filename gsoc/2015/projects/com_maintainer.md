@@ -41,4 +41,4 @@ Resources
 Mentors
 ---------
 
-Gustavo Salazar, Guy Yachdav
+Gustavo Salazar, Rafael Jimenez
