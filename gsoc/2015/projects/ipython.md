@@ -20,7 +20,7 @@ Approach
 In [IPEP 23][ipep23] IPython describes an API that enables the user to generate and manipulate the GUI of the IPython notebook via _widgets_. As a start to familiarize yourself with IPEP23 you should port one or two components to IPython widgets.
 The most interesting question of this projects is how we infer knowledge about data types into BioJS components - a related project ([biojs2galaxy](https://github.com/biojs/biojs2galaxy)) uses special template files for this. Moreover as every IPython Widget has to inherit from a special [Backbone.View](http://backbonejs.org/#View)), we could also put some work into a [BioJS core](https://github.com/biojs/biojs/issues/125).
 
-This project should also improve the widget management in IPython/Jupyter and therefore you will be working with the amazing dudes from IPython to build an [extension manager for Jupyter widgets](https://github.com/ipython/ipython/issues/6327), so that is super easy for IPython users to install and depend on custom widgets.  This is a unique opportunity because a good design of this extension manager could enhance the user experience drastically. Another amazing outcome of the work on the extension manager for Jupyter is that widget dependencies could also be resolved for static notebooks.
+This project should also improve the widget management in IPython/Jupyter and therefore you will be working with the amazing people from the IPython community to build an [extension manager for Jupyter widgets](https://github.com/ipython/ipython/issues/6327), so that is super easy for IPython users to install and depend on custom widgets.  This is a unique opportunity because a good design of this extension manager could enhance the user experience drastically. Another amazing outcome of the work on the extension manager for Jupyter is that widget dependencies could also be resolved for static notebooks.
 
 [ipep23]: https://github.com/ipython/ipython/wiki/IPEP-23%3A-Backbone.js-Widgets
 
@@ -41,4 +41,4 @@ Resources
 Mentors
 --------
 
-Tim Ruffles (for BioJS), Dough Blank (for IPython)
+Tim Ruffles (for BioJS), [Doug Blank](http://cs.brynmawr.edu/~dblank/) (for IPython/Jupyter)
