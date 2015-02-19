@@ -48,17 +48,20 @@ Challenges
 * Handling large dataset in RDF schema
 * Creating direct links or short paths across multiple datasets
 
-##### Involved toolkits or projects
+Involved toolkits or projects
+-----------------------------
 
 * Projects: BioJS, EBI-RDF, UniProt-RDF
 * Toolkits: Gulp, browserify, jQuey, D3, mustache and any other JS library that the student might find convenient to address the problem.
 
-##### Needed skills
+Needed skills
+------------
 
 * Good understanding of JavaScrip development
 * Basic understanding of RDF and Linked Data
 * Some understanding of bioinformatics data might be an advantage but is not required
 
-##### Mentors
+Mentors
+------
 
 Mentors: Leyla García (UniProt, EMBL-EBI) and Simon Jupp (Functional Genomics, EMBL-EBI)

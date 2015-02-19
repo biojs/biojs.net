@@ -38,4 +38,4 @@ Resources
 Mentors
 --------
 
-Tim Ruffles (for BioJS), Dough (for IPython)
+Tim Ruffles (for BioJS), Dough Blank (for IPython)

@@ -12,8 +12,8 @@ One of the biggest goals of the BioJS community is to make it as easy as possibl
 (2) the Galaxy data analysis platform which lacks sufficient means to visualize its entire output  and
 (3) as the audience for BioJS components grows this would motivate BioJS developer to improve their components or newcomers to start building new ones.
 
-The basic idea is that a user can upload his data file from experiments (or may already have them in the Cloud) and then BioJS components that are adequate for his specific data formats are displayed (see the Galaxy screenshot).
-As a backend the Galaxy data persistence platform may be used, but this project main focus is not on a backend. 
+In the end a user should be able to upload his data file from experiments (or may already have them in the Cloud) and then BioJS components that are adequate for his specific data formats are displayed.
+(As a backend the Galaxy data persistence platform may be used, but this project main focus is not on a backend)
 
 <div class="row">
 	<div class="col-md-6" align="center">
@@ -32,19 +32,35 @@ Another very popular platform is [EpiViz](http://epiviz.cbcb.umd.edu/).
 Approach
 --------
 
-tba
+This project could be structured in five phases.
+
+1. Build a BioJS widget manager (maybe on the basis of [gridster.js][gridster]) 
+2. Require BioJS components as widgets
+3. Define the logic to create new widgets from specific data types
+4. Allow the user to customize a Widget (color, labels, ...)
+5. Save & load user changes to widgets and assembled dashboards
+6. Sharable dashboards: saved dashboards should be shareable with other researchers and be able to used as a template for new data
+
+You can find a prototype [here](dashify).
+
+[gridster]: http://gridster.net/
+[dashify]: https://dashify.github.io/widgetmanager/
 
 Challenges
 ---------
 
-tba
+* Adapting widgets to the container size
+* Constructing BioJS widgets asynchronously
+* Let multiple components interact
+* Configuration API for BioJS components
+* Have a super-easy workflow for an user from his data files to an actual beautiful visualization 
 
 Needed skills
 -------------
 
-* Advanced JS
-* Experience with NodeJS
-* Python
+* Excellent knowledge of JavaScript
+* Intimate relationship with Backbone, jQuery and/or Angular 
+* Experience with NodeJS and npm
 
 Resources
 --------
