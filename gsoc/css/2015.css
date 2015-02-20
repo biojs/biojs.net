@@ -65,7 +65,9 @@
     transform: rotate(-10deg);
     width: 100px;
 }
-
+#gsoc-banner-column{
+    overflow: hidden;
+}
 /*@media (min-width: 1200px) {*/
     /*#gsoc-banner-column{*/
         /*display: block;*/
