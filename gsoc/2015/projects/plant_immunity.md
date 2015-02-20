@@ -50,4 +50,4 @@ Needed Skills
 Mentors
 -------
 
-Benjamen White
+Benjamen White, Max Franz
