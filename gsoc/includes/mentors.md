@@ -13,7 +13,7 @@
 <h3> {{ person.name }}</h3>
 <div>
      <a href="{{ person.url}}" target="_blank">
-         <img class="mentor-img" src="{{ img }}"  />
+         <img class="lazy mentor-img" data-original="{{ img }}"  />
      </a>
      {{ person.desc | markdownify}}
      <p>

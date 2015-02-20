@@ -22,7 +22,7 @@
 
 <div>
 
-{{ newContent | markdownify }}
+{{ newContent | replace:'img src','img class="lazy" data-original' |  markdownify }}
 
 
 <div class="gsoc-new-page">
