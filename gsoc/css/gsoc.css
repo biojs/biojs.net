@@ -47,6 +47,10 @@
     margin: 0px 15px 15px 0px;
     width: 100px;
 }
+.gsoc-mentor-right {
+    width: auto;
+    overflow: hidden;
+}
 .gsoc-new-page a {
     float: right;
 }
@@ -105,54 +109,20 @@ h5 {
 .gsoc-help-item img {
 }
 .gsoc-help-item ul {
-    float: left;
+    width: auto;
+    overflow: hidden;
 }
 #apply-div h4 {
     padding-top: 0px;
     padding-left: 15px;
 }
 /* END apply */
-/* START hr */
 
-hr.fancy-line {
-    border: 0;
-    height: 1px;
-    position: relative;
-    margin: 0.5em 0;
-    /* Keep other elements away from pseudo elements*/
-}
-hr.fancy-line:before {
-    top: -0.5em;
-    height: 1em;
-}
-hr.fancy-line:after {
-    content: '';
-    height: 0.5em;
-    /* half the height of :before */
-    
-    top: 1px;
-    /* height of hr*/
-}
-hr.fancy-line:before,
-hr.fancy-line:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-}
-hr.fancy-line,
-hr.fancy-line:before {
-    background: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 75%);
-    background: -webkit-gradient(radial, center center, 0px, center center, 75%, color-stop(0%, rgba(0, 0, 0, 0.1)), color-stop(75%, rgba(0, 0, 0, 0)));
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 75%);
-    background: -o-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 75%);
-    background: -ms-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 75%);
-    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 75%);
-}
-hr.fancy-line:after {
-    background: #f4f4f4;
-}
-/* END hr */
 
+/* fixes for jQuery's obtrusive CSS */
+.ui-widget-content a {
+    color: #428bca;
+}
 .ui-widget-content .btn {
     color: #fff;
 }

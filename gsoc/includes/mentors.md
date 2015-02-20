@@ -15,13 +15,15 @@
      <a href="{{ person.url}}" target="_blank">
          <img class="lazy mentor-img" data-original="{{ img }}"  />
      </a>
-     {{ person.desc | markdownify}}
-     <p>
-     Projects to mentor: {{ person.projects }}
-     </p>
-     <p>
-     Contact: {{ person.contact }}
-     </p>
+     <div class="gsoc-mentor-right">
+     	{{ person.desc | markdownify}}
+     	<p>
+     	Projects to mentor: {{ person.projects }}
+     	</p>
+     	<p>
+     	Contact: {{ person.contact }}
+     	</p>
+     </div>
 </p>
 </div>
 
