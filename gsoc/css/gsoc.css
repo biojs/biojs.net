@@ -30,16 +30,16 @@
 #div-project-ideas {
     padding-top: 0px;
 }
-#div-project-ideas, .adj-header h1{
+#div-project-ideas h1, .adj-header h1{
     font-size: 24px;
 }
-#div-project-ideas, .adj-header h2{
+#div-project-ideas h2, .adj-header h2{
     font-size: 18px;
 }
-#div-project-ideas, .adj-header h3{
+#div-project-ideas h3, .adj-header h3{
     font-size: 16px;
 }
-#div-project-ideas, .adj-header h4{
+#div-project-ideas h4, .adj-header h4{
     font-size: 14px;
 }
 .mentor-img {
