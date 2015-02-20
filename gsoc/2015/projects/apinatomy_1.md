@@ -10,10 +10,10 @@ Rationale
 While the existing layouts have been successfully used to represent flat body maps, we would like to extend the toolkit with the possibility to display generated 3D models and dynamic processes. Our goal is to be able to construct organs and systems in the form of network of multi-layered “pipes”, where layers in the pipes represent body tissues and materials. Such models than can be used for dynamic process analysis, e.g., such as simulating air-flow in lungs or drug distribution via the vascular system.
 
 <figure class="figure-no-block">
-	<img src="{{ site.baseurl }}gsoc/2015/img/apinatomy/lungs_human.png" alt="Lungs" width="24%">
-	<img src="{{ site.baseurl }}gsoc/2015/img/apinatomy/lungs.png" alt="Lungs" width="24%">
-	<img src="{{ site.baseurl }}gsoc/2015/img/apinatomy/lungs_illustration.png" alt="Lungs" width="24%">
-	<img src="{{ site.baseurl }}gsoc/2015/img/apinatomy/lungs_blood.png" alt="Lungs" width="24%">
+	<img src="{{ site.baseurl }}gsoc/2015/img/apinatomy/lungs_human.jpg" alt="Lungs" width="24%">
+	<img src="{{ site.baseurl }}gsoc/2015/img/apinatomy/lungs.jpg" alt="Lungs" width="24%">
+	<img src="{{ site.baseurl }}gsoc/2015/img/apinatomy/lungs_illustration.jpg" alt="Lungs" width="24%">
+	<img src="{{ site.baseurl }}gsoc/2015/img/apinatomy/lungs_blood.jpg" alt="Lungs" width="24%">
 	<figcaption>Fig. 1: Different visualiation of the human lung</figcaption>
 </figure>
   
@@ -27,8 +27,8 @@ The basic structure of organs or systems is represented by trees or graphs. Each
 The initial prototype we developed allows us to describe asymmetric units and create graphs with associated asymmetric units. There is also a prototype that constructs a 3d model of lungs from layered tubes.
 
 <figure class="figure-no-block">
-	<img src="{{ site.baseurl }}gsoc/2015/img/apinatomy/lungs_tubes_graph.png" alt="Lungs" style="max-height: 200px">
-	<img src="{{ site.baseurl }}gsoc/2015/img/apinatomy/lungs_tubes.png" alt="Lungs" style="max-height: 200px">
+	<img src="{{ site.baseurl }}gsoc/2015/img/apinatomy/lungs_tubes_graph.jpg" alt="Lungs" style="max-height: 200px">
+	<img src="{{ site.baseurl }}gsoc/2015/img/apinatomy/lungs_tubes.jpg" alt="Lungs" style="max-height: 200px">
 	<figcaption>Fig. 2: Asymmetric units in the lymph system</figcaption>
 </figure>
 

@@ -17,7 +17,7 @@ ApiNATOMY has been praised for the intuitive visualization it offers. With your 
 * Drawing graphical connections inside and between tiles (and internal junctions) with the mouse, e.g., to represent blood-vessels and neuronal connections.
 
 <figure>
-	<img src="{{ site.baseurl }}gsoc/2015/img/apinatomy/apinatomy_drop.png" alt="Lungs" style="max-height: 200px">
+	<img src="{{ site.baseurl }}gsoc/2015/img/apinatomy/apinatomy_drop.jpg" alt="Lungs" style="max-height: 200px">
 	<figcaption>Fig. 1: Dragging tiles in ApiNATOMY</figcaption>
 </figure>
 

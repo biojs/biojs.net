@@ -12,7 +12,7 @@ One of the possible overlays in the ApiNATOMY circuit board widget is the inter-
 But with the 2D representation of these channels it is too easy to lose overview, and edges seem to cross certain areas where they do not really belong (semantically they're just "in transit"). This project idea is to use the third dimension for routing these cables. ApiNATOMY already exists in a 3D space (using the Three.js library), so this move makes perfect sense.
 
 <figure>
-	<img src="{{ site.baseurl }}gsoc/2015/img/apinatomy/apinatomy_3d.png" alt="Lungs" style="max-height: 200px">
+	<img src="{{ site.baseurl }}gsoc/2015/img/apinatomy/apinatomy_3d.jpg" alt="Lungs" style="max-height: 200px">
 	<figcaption>Fig. 1: 3D connections between tiles in ApiNATOMY</figcaption>
 </figure>
 
