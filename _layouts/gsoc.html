@@ -2,20 +2,7 @@
 layout: default
 ---
 
-<style>
-.adj-header h1{
-    font-size: 24px;
-}
-.adj-header h2{
-    font-size: 18px;
-}
-.adj-header h3{
-    font-size: 16px;
-}
-.adj-header h4{
-    font-size: 14px;
-}
-</style>
+<link rel="stylesheet" href="{{site.baseurl}}gsoc/css/gsoc.css" />
 
 <div class="container">
 
@@ -30,7 +17,8 @@ layout: default
 		<g:plusone size="medium"></g:plusone>
 	</div>
 
-	<div class="static-content adj-header">
+	{{ page.no_adjust }}
+	<div class="static-content {% if page.adjust == false %}{%else%}adj-header{%endif%}">
 		{{ content }}
 	</div>
 

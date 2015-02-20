@@ -1,7 +1,5 @@
 <div markdown="1" id="apply-div">
 
-### Students: how to apply?
-
 ![Time]({{ gpath }}images/icons/time.png)
 
 #### Start early
@@ -60,23 +58,5 @@ Experience from other organisations has shown that the students often make a mis
 * Is there any special reason why we should pick you? Name it.
 * Get in touch with us as soon as possible and post your ideas on our mailing list, gitter or IRC channel.
 * Keep it simple: we don't need a 10-page essay on the project, so it's absolutely ok to be concise. However you shouldn't miss the main points.
-
-![Get involved]({{ gpath }}images/icons/groups.svg)
-
-#### Get involved
-
-* Have a look at our new [education portal](http://edu.biojs.net)
-* We have prepared a [how to contribute](https://github.com/biojs/biojs/blob/master/CONTRIBUTING.md) guide
-* Browse through open issues on github
-* Write your own BioJS component
-
-![More resources]({{ gpath }}images/icons/book.png)
-
-#### Further resources
-
-* [Offical GSoC page](http://www.google-melange.com/gsoc/homepage/google/gsoc2014)
-* [GSoC student's handbook](http://en.flossmanuals.net/GSoCStudentGuide/)
-* [Drupal's How-To](https://drupal.org/node/59037)
-* [Old advice page for GSoC students](https://web.archive.org/web/20130815054711/http://code.google.com/p/google-summer-of-code/wiki/AdviceforStudents)
 
 </div>
