@@ -1,6 +1,6 @@
 ---
 layout: gsoc 
-title: Standard visualization of scientific events
+title: Scientific events visualization
 gsoc: 2015
 ---
 
