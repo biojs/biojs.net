@@ -14,7 +14,14 @@ One of the main challenges of a fast growing community like BioJS is to maintain
 Currently, every component is located in a repository in GitHub and is maintained by its owner. 
 Your task is to help them out - Get in contact with our contributors and help them to take our existing components to the next level.
 
-![Registry]({{ site.baseurl }}gsoc/2015/img/registry.png){: width="90%"}
+<figure>
+	<a href="http://biojs.io">
+	<img src="{{ site.baseurl }}gsoc/2015/img/registry.jpg" alt="Screenshot of the BioJS registry" style="max-height: 400px; max-width: 90%">
+	</a>
+	<figcaption>Fig. 1: Exploring components in the BioJS registry</figcaption>
+</figure>
+
+
 
 Approach
 --------

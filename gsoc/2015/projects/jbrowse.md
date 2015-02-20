@@ -11,7 +11,12 @@ Do you want to contribute to the next generation of open-source genomics tools?
 JBrowse is a fast, embeddable, open-source, genome browser built completely with JavaScript and HTML5 with a well-established user-base. 
 It is highly extensible with a rich plugin architecture that is used by the Apollo collaborative curation tool, and many other open-source projects and organizations.
 
-![JBrowse]({{ site.baseurl }}gsoc/2015/img/jbrowse.jpg){: width="90%"}
+<figure>
+	<a href="http://jbrowse.org/code/latest-release/?data=%2Fgenomes%2Fflybase-dmel-5.52-genes&loc=2L%3A10283901..10390066&tracks=DNA%2CGenes">
+	<img src="{{ site.baseurl }}gsoc/2015/img/jbrowse.jpg" alt="Screenshot of JBrowse" style="max-height: 400px; max-width: 90%">
+	</a>
+	<figcaption>Fig. 1: Exploring Drosophila melanogaster genes in JBrowse</figcaption>
+</figure>
 
 Approach
 --------
