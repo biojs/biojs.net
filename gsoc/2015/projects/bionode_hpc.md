@@ -33,5 +33,5 @@ Needed Skills
 Mentors
 -------
 
-From the Bionode team: Steve Moss and Max Ogden
+From the Bionode team: Steve Moss and Max Ogden  
 Contact: Bruno Vieira
