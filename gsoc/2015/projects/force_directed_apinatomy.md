@@ -40,5 +40,5 @@ Needed Skills
 * Familiarity with D3 and/or Three.js (WebGL) will be very useful.
 * Familiarity with the other tools / libraries mentioned above would be helpful, but can be learned during the process. (The developer of delta.js will actually be your mentor for this project.)
 
-<a class="btn btn-primary pull-right" href="{{ site.baseurl }}gsoc/2015/apinatomy.html">Learn more about ApiNATOMY</a>  
+<a target="_blank" class="btn btn-primary pull-right" href="{{ site.baseurl }}gsoc/2015/projects/apinatomy.html">Learn more about ApiNATOMY</a>  
 <br> 

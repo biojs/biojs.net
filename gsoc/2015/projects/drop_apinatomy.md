@@ -53,5 +53,5 @@ Mentors
 
 Michiel Helvensteijn, Natallia Kokash
 
-<a class="btn btn-primary pull-right" href="{{ site.baseurl }}gsoc/2015/apinatomy.html">Learn more about ApiNATOMY</a>  
+<a target="_blank" class="btn btn-primary pull-right" href="{{ site.baseurl }}gsoc/2015/projects/apinatomy.html">Learn more about ApiNATOMY</a>  
 <br> 
