@@ -10,7 +10,12 @@ Rationale
 Python and [IPython](http://ipython.org/) (a notebook software for "interactive computing") are very popular among Bioinformaticians (e.g. [BioPython][biopython]) and we would like to make our visualizations components easily accessible for IPython users.
 One example is that instead of showing raw sequences in JSON or a `pre`-block, we could use an interactive multiple sequence alignment viewer. Our long term goal is to have a BioJS specification that allows to wrap all BioJS components into IPython.
 
-![MSA in iPython]({{ site.baseurl }}gsoc/2015/img/msa_ipython.jpg){: width="90%"}
+<figure>
+	<img src="{{ site.baseurl }}gsoc/2015/img/msa_ipython.jpg" alt="MSA in IPython" style="max-height: 500px; max-width: 90%">
+	<figcaption>Fig. 1: Example of how one could create an MSA visulization in IPython</figcaption>
+</figure>
+
+
 
 [biopython]: https://github.com/biopython/biopython
 

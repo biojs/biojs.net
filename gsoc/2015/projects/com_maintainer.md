@@ -22,7 +22,6 @@ Your task is to help them out - Get in contact with our contributors and help th
 </figure>
 
 
-
 Approach
 --------
 

@@ -17,11 +17,11 @@ In the end a user should be able to upload his data file from experiments (or ma
 
 <div class="row">
 	<div class="col-md-6" align="center">
-		<a href="http://vcf.iobio.io/"><img alt="Screenshot of IoBio" src="{{ site.baseurl }}gsoc/2015/img/iobio.jpg" width="100%" /></a>
+		<a href="http://vcf.iobio.io/"><img src="{{ site.baseurl }}gsoc/2015/img/iobio.jpg" alt="Screenshot of IoBio"  width="100%" /></a>
 <a href="http://iobio.io"> IoBio </a>
 	</div>
 	<div class="col-md-6" align="center">
-		<img alt="Screenshot of ZoomData" src="{{ site.baseurl }}gsoc/2015/img/zoomdata.jpg" width="90%" />
+		<img src="{{ site.baseurl }}gsoc/2015/img/zoomdata.jpg"  alt="Screenshot of ZoomData" width="90%" />
 	ZoomData
 	</div>
 </div>
