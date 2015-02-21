@@ -1,13 +1,13 @@
 ---
 layout: gsoc 
-title: ApiNATOMY
+title: 3D rendering of multi-layered pathways in ApiNATOMY
 gsoc: 2015
 ---
     
 Rationale
 ---------
 
-While the existing layouts have been successfully used to represent flat body maps, we would like to extend the toolkit with the possibility to display generated 3D models and dynamic processes. Our goal is to be able to construct organs and systems in the form of network of multi-layered “pipes”, where layers in the pipes represent body tissues and materials. Such models than can be used for dynamic process analysis, e.g., such as simulating air-flow in lungs or drug distribution via the vascular system.
+This project is about extending the [ApiNATOMY toolkit](http://www.apinatomy.net). While the existing layouts have been successfully used to represent flat body maps, we would like to extend the toolkit with the possibility to display generated 3D models and dynamic processes. Our goal is to be able to construct organs and systems in the form of network of multi-layered “pipes”, where layers in the pipes represent body tissues and materials. Such models than can be used for dynamic process analysis, e.g., such as simulating air-flow in lungs or drug distribution via the vascular system.
 
 <figure class="figure-no-block">
 	<img src="{{ site.baseurl }}gsoc/2015/img/apinatomy/lungs_human.jpg" alt="Lungs" width="24%">
