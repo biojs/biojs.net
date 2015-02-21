@@ -1,6 +1,6 @@
 ---
 layout: gsoc 
-title: ApiNATOMY
+title: 3D rendering of multi-layered pathways in ApiNATOMY
 gsoc: 2015
 ---
     
