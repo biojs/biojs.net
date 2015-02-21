@@ -7,7 +7,7 @@ gsoc: 2015
 Rationale & Approach
 --------------------
 
-ApiNATOMY offers a 'circuit board' visualization widget. That is, a dynamic treemap with relevant data overlayed on top of it, in 2D and 3D space. At the moment, ApiNATOMY offers merely a visualization of ontologies and overlayed data. This project idea will turn it into an editor. The curation of ontologies is an important but often time-consuming and frustrating task.
+[ApiNATOMY](http://www.apinatomy.org) offers a 'circuit board' visualization widget. That is, a dynamic treemap with relevant data overlayed on top of it, in 2D and 3D space. At the moment, ApiNATOMY offers merely a visualization of ontologies and overlayed data. This project idea will turn it into an editor. The curation of ontologies is an important but often time-consuming and frustrating task.
 
 ApiNATOMY has been praised for the intuitive visualization it offers. With your help, it can offer the same intuitive experience to the editing process, with GUI operations like:
 
@@ -33,13 +33,13 @@ Challenges
 Involved Tools / Libraries
 -------------------------
 
-* JavaScript (EcmaScript 6)
-* WebPack + Gulp (build process)
-* jQuery (DOM manipulation)
-* D3 (2D graphs / data visualization)
-* Three.js (WebGL / 3D frontend)
-* Kefir.js (Functional Reactive Programming)
-* delta.js (Feature Oriented Programming)
+* JavaScript ([EcmaScript 6](https://github.com/lukehoban/es6features))
+* [WebPack](http://webpack.github.io/) + [Gulp](http://gulpjs.com/) (build process)
+* [jQuery](http://jquery.com/) (DOM manipulation)
+* [D3](http://d3js.org/) (2D graphs / data visualization)
+* [Three.js](http://threejs.org/) (WebGL / 3D frontend)
+* [Kefir.js](https://pozadi.github.io/kefir/) (Functional Reactive Programming)
+* [delta.js](https://github.com/mhelvens/delta.js) (Feature Oriented Programming)
 
 Needed Skills
 -------------
