@@ -27,12 +27,12 @@ Requirements
 Teachers
 --------
 
-<div class="container-fluid">
+<div class="container-fluid" markdown="0">
 <div class="row" style="text-align:center">
-<div class="col-md-3 col-xs-6"> <img height=200 src="/img/posts/2014/eccb/manny_b.jpg" /> <br />Dr. Manuel Corpas</div>
-<div class="col-md-3 col-xs-6"> <img height=200 src="/img/posts/2014/eccb/rafa_b.jpg" /> <br />Rafael Jimenez </div>
-<div class="col-md-3 col-xs-6"> <img height=200 src="/img/posts/2014/eccb/david_b.jpg" /> <br />David Dao</div>
-<div class="col-md-3 col-xs-6"> <img height=200 src="/img/posts/2014/eccb/seb_b.jpg" /> <br />Sebastian Wilzbach</div>
+<div class="col-md-3 col-xs-6"><img height="200" src="{{site.baseurl}}img/posts/2014/eccb/manny_b.jpg" /> <br />Dr. Manuel Corpas</div>
+<div class="col-md-3 col-xs-6"><img height="200" src="{{site.baseurl}}img/posts/2014/eccb/rafa_b.jpg" /> <br />Rafael Jimenez </div>
+<div class="col-md-3 col-xs-6"><img height="200" src="{{site.baseurl}}img/posts/2014/eccb/david_b.jpg" /> <br />David Dao</div>
+<div class="col-md-3 col-xs-6"><img height="200" src="{{site.baseurl}}img/posts/2014/eccb/seb_b.jpg" /> <br />Sebastian Wilzbach</div>
 </div>
 </div>
 
