@@ -26,6 +26,16 @@ This will allow our packages to be used by more people in the open-source commun
 
 If you are experienced with JavaScript and frameworks such as npm and have experience with scripting languages, this is the Google Summer of Code experience for you! Familiarity with Perl and Bioinformatics will be also helpful.
 
+Resources
+---------
+
+* [JBrowse wiki](http://gmod.org/wiki/JBrowse)
+* [JBrowse source](https://github.com/GMOD/jbrowse/tree/master)
+* [JBrowse website](http://jbrowse.org/)
+* Learn about [BioJS packages][biojs-package]
+
+[biojs-package]: http://edu.biojs.net/#
+
 Mentors
 -------
 
