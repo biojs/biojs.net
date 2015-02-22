@@ -8,7 +8,7 @@ extra_css: ["/css/solarized_dark.css"]
 no_date: true
 ---
 
-<img src="/img/posts/2014-07-04_20-09-03_scrot.jpg" class="center-block" />
+<img src="/img/posts/2014/2014-07-04_20-09-03_scrot.jpg" class="center-block" />
 
 __Time__: 4th-9th August  
 __Location__: digital or [in Munich][location] (department for Bioinformatics and Computational Biology at TUM)

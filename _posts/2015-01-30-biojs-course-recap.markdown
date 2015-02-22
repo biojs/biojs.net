@@ -21,7 +21,7 @@ In just 12 weeks, our students started from being JavaScript Newbies into becomi
 
 We were very happy to see the rapid progress and the joy of many of our students. 
 
-<img src="/img/posts/teaser.png" class="center-block" />
+<img src="/img/posts/2015/biojs_course_teaser.png" class="center-block" />
 
 This year's projects were: 
 
