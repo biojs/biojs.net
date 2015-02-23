@@ -41,7 +41,7 @@ This project could be structured in five phases.
 5. Save & load user changes to widgets and assembled dashboards
 6. Sharable dashboards: saved dashboards should be shareable with other researchers and be able to used as a template for new data
 
-You can find a prototype [here](dashify).
+You can find a prototype [here][dashify].
 
 [gridster]: http://gridster.net/
 [dashify]: https://dashify.github.io/widgetmanager/
