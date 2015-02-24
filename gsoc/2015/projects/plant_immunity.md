@@ -12,7 +12,7 @@ Plant immunity is made up of a multi-layered defense network. One layer of defen
 
 <figure>
 	<img src="{{ site.baseurl }}gsoc/2015/img/eti.jpg" alt="RTI" style="max-height: 500px">
-	<figcaption>Fig. 1: The principles of plant immunity: Bacterial plant pathogens propagate exclusively in the extracellular spaces of plant issues. Adapted from Figure 1, Peter N. Dodds & John P. Rathjen, Nature Reviews Genetics 11, 539-548 (August 2010) doi:10.1038/nrg2812.</figcaption>
+	<figcaption>Fig. 1: Effector Triggerd Immunity: NB-LRR recognition of pathogen effectors. Adapted from Figure 1, Peter N. Dodds & John P. Rathjen, Nature Reviews Genetics 11, 539-548 (August 2010) doi:10.1038/nrg2812.</figcaption>
 </figure>
 
 Given the databases of known R gene available and specific known motifs of NB-LRR, it is possible to search the genome and/or transctipome of different crops species for these. Creating a simple tool that can take sequence data and produce a visualisation of the known R genes present (and predicted), would provide a quick and straightforward way for inexperienced users to have insight into what immunity maybe present in their plant of interest.
