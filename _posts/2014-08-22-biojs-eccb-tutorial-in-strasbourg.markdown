@@ -57,7 +57,7 @@ Combination of components (DD + SW, 5 min)
 
 11:30 - 12:00 -- __Developer environment setup (SW+DD+RJ)__: Check that everybody has [all they need][setup] for the coding part (git, npm); clone BioJS GitHub repository
 
-[setup]: http://edu.biojs.net/series/101_graduate/01_gettingStarted.html
+[setup]: http://edu.biojs.net/101/intro
 
 12:30 - 1:00 -- __Coding session I:__ A "Hello World" component (SW+DD+RJ). An introductory example for a component from scratch. (Following the examples from BioJS EDU)
 

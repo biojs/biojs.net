@@ -26,7 +26,7 @@ For now here is a simple formula:
 
 [openissues]: https://github.com/search?l=&o=desc&q=user%3Abiojs+state%3Aopen&ref=advsearch&s=created&type=Issues&utf8=%E2%9C%93
 
-Otherwise you can simply [create your own component](http://edu.biojs.net/series/101/10_intro.html) and [add it to our registry](http://edu.biojs.net/series/101/60_publish_it.html).
+Otherwise you can simply [create your own component](http://edu.biojs.net/101/intro) and [add it to our registry](http://edu.biojs.net/101/publish_it).
 
 Our groups
 ----------
