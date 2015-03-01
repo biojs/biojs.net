@@ -16,6 +16,15 @@ One example is that instead of showing raw sequences in JSON or a `pre`-block, w
 </figure>
 
 
+<figure style="float: right; max-height: 500px; max-width: 30%; padding-top: 50px;padding-left:10px">
+	<a href="http://jupyter.cs.brynmawr.edu/hub/dblank/public/CS110%20Intro%20to%20Computing/2015/Lectures/Bouncing%20Ball%20to%20Angry%20Birds.ipynb#Angry-Birds">
+	<img src="{{ site.baseurl }}gsoc/2015/img/ipython_angry_birds.jpg" alt="MSA in IPython">
+	</a>
+	<figcaption>Fig. 2: Interactive IPython widgets - Angry Birds notebook from the <a href="http://jupyter.cs.brynmawr.edu/hub/dblank/public/CS110%20Intro%20to%20Computing/2015/Lectures/Bouncing%20Ball%20to%20Angry%20Birds.ipynb">CS110 course</a> by Doug Blank</figcaption>
+</figure>
+
+
+
 
 [biopython]: https://github.com/biopython/biopython
 
