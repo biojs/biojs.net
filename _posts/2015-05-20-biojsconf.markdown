@@ -1,10 +1,12 @@
 ---
-title: "BioJS Conferenfe 3-4 July, Norwich, UK - preceding Galaxy Community Confere"
+title: "BioJS Conference 3-4 July, Norwich"
 layout: post
 date: 2015-05-20 20:54:16
 ---
 
 BioJS CONFERENCE 3-4 JULY, NORWICH, UK
+
+Preceding Galaxy Community Conference
 
 [http://conf.biojs.net/](http://conf.biojs.net/)
 
