@@ -92,6 +92,7 @@ team:
    github: jmVillaveces
  - name: Sebastian Wilzbach
    institute: RostLab, TUM
+   personLink: http://seb.wilzba.ch
    github: greenify
    img: img/team/seb.jpg
  - name: Guy Yachdav
