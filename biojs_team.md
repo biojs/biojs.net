@@ -99,6 +99,10 @@ team:
    institute: RostLab, TUM
    github: gyachdav
    img: img/team/guy.jpg
+ - name: Benedikt Rauscher
+   institute: TGAC
+   github: bene200
+   img: https://pbs.twimg.com/profile_images/597379014228111360/35gRCZik.png
  - name: Your name
    institute: your institute
    img: https://sigil.cupcake.io/yourimg
