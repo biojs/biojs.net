@@ -1,5 +1,5 @@
 ---
-title: "BioJS 3: Web components"
+title: "BioJS and Web components"
 layout: post
 date: 2015-07-05 21:00:44
 ---
