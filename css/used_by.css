@@ -32,6 +32,11 @@
     font-family: 'Chelsea Market', cursive;
 }
 
+#sites-using-biojs5 {
+    font-size: 34px;
+    font-family: 'Comic Sans MS', cursive;
+}
+
 
 .sites-using-biojs a:hover{ 
     text-decoration: none;
