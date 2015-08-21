@@ -86,9 +86,15 @@ extra_css:
 				</a>
 			</div>
 
-			<div class="col-xs-6 col-md-3">
+			<div class="col-xs-6 col-md-4">
 				<a href="http://www.molgen.mpg.de/" target="_blank">
 					<div id="contributors-mpimg" class="contributors-img" > </div>
+				</a>
+			</div>
+			
+			<div class="col-xs-6 col-md-4">
+				<a href="http://www.isb-sib.ch" target="_blank">
+					<div id="contributors-sib" class="contributors-img" > </div>
 				</a>
 			</div>
 
