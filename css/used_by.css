@@ -131,6 +131,10 @@
     background-image: url(../img/usedby_thumb/ucl_logo_standalone.jpg);
 }
 
+#contributors-sib {
+    background-image: url(../img/usedby_thumb/sib.jpg);
+}
+
 #contributors-carousel .item {
     text-align: center;
 }
