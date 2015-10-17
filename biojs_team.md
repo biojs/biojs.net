@@ -12,9 +12,9 @@ team:
    img: https://avatars2.githubusercontent.com/u/682153?v=2&s=460
    github: saketkc
  - name: David Dao
-   institute: HITS, TUM
+   institute: Broad Institute of MIT and Harvard
    img: http://daviddao.de/img/me.png
-   instituteLink: http://www.exelixis-lab.org/
+   instituteLink: https://www.broadinstitute.org/
    github: daviddao
  - name: Alex Garcia
    institute: Uni Bonn
