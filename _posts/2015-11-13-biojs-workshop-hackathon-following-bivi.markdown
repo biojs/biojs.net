@@ -8,7 +8,7 @@ Come and join us for a BioJS Workshop and Hackathon following the 2015 BiVi conf
 
 <img width="70%" alt="BiVi Hackathon Flyer" src="http://i.imgur.com/tSbAdhF.png" />
 
-**[http://goo.gl/7pHSqt](http://goo.gl/7pHSqt)** 
+-> #### [http://goo.gl/7pHSqt](http://goo.gl/7pHSqt) <- 
 
 
 We'd love to see you there! 

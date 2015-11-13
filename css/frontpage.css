@@ -54,11 +54,6 @@
     Css for the BiVi banner
 */
 
-#topnavbar {
-    margin: 0;
-}
-#topnavbar.affix {
-    position: fixed;
-    top: 0;
-    width: 100%;
+#banner {
+    background-color: #C3F2BD;
 }
