@@ -3,8 +3,13 @@
 */
 
 #banner {
-    background-color: #C3F2BD;
+
+    background: #C3F2BD;
     border-bottom: 1px solid #eee;
+}
+
+#banner h4 {
+    text-align: center;
 }
 
 /*
