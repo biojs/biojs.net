@@ -1,3 +1,17 @@
+/*
+    Css for the BiVi banner
+*/
+
+#banner {
+    background-color: #C3F2BD;
+    border-bottom: 1px solid #eee;
+}
+
+/*
+    End banner css
+*/
+
+
 h1, h2, h3, h4, h5 {
   font-weight: 200;
 }
