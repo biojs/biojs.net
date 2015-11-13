@@ -2,6 +2,10 @@
     Css for the BiVi banner
 */
 
+#banner {
+    padding: 0;
+}
+
 .banner {
     background-color: #C3F2BD;
     border-bottom: 1px solid #d5d5d5;
