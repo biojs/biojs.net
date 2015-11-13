@@ -2,12 +2,12 @@
     Css for the BiVi banner
 */
 
-.banner {
-    background-color: #C3F2BD;
+#banner {
+    background-color: #C5C5C5;
     border-bottom: 1px solid #d5d5d5;
 }
 
-.banner h4 {
+#banner h4 {
     text-align: center;
 }
 
