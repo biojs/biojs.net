@@ -33,6 +33,25 @@
     display:none;
 }
 
+.main-logo,
+.main-logo-title {
+  display: inline-block;
+}
+
+.main-logo {
+  position: relative;
+  top: 15px;
+}
+
+.main-logo-title {
+  margin: 0 15px;
+}
+
+.brand-logo {
+  position: absolute;
+  left: 30px;
+}
+
 @media (max-width: 650px) {
     .what-is-biojs-el {
         width: 100%;

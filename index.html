@@ -2,6 +2,7 @@
 layout: default
 title: BioJS - An open source library of JavaScript components to represent biological data
 extra_css:
+- css/layout.css
 - css/showcase.css
 - css/used_by.css
 - css/frontpage.css
@@ -16,53 +17,63 @@ extra_js:
 - js/latest-packages.js
 - //cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js
 ---
+  <header class="green darken-2 green-text text-lighten-5">
+    <div class="container pt-2 pb-2">
+      <div class="row">
+        <div class="col s12 m8">
+            <h1>BioJS</h1>
+            <h2>Ambitious data visualization</h2>
+            <p>BioJS is an open source Javascript library of components for creating 
+            ambitious visualizations of biological data. Modify and present your 
+            results in fast, easy and shiny new manner. Data visualisation has never been more beautiful.</p>
+            <p><a class="waves-effect waves-light uppercase btn red accent-4 white-text">Get Started</a></p>
+        </div>
+        <div class="col s12 m4 mt-2">
+            <iframe width="100%" height="200px"
+                    src="http://www.youtube.com/embed/SkMKuj-Q0YI?autoplay=0">
+            </iframe>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="blue-grey lighten-4">
+    <div class="row">
+      <!-- example banderole -->
+    </div>
+  </section>
 
 
-<div class="container">
-	<h1 id="main-heading">Represent biological data on the web.</h1>
-	<!--	<h2>We are building the tools to make that happen.</h2> -->
 	
-	<iframe width="100%" height="600px"
-		src="http://www.youtube.com/embed/SkMKuj-Q0YI?autoplay=0">
-	</iframe>
-	
-	<div class="row" id="qkeywords">
-		<div class="col-md-3">
-			<h3> <span class="glyphicon glyphicon-heart"></span> beautiful</h3>
-			You have already done a great job - now we do our best to create the visibility your efforts deserve and give you an unique way to share your achievements.
-		</div>
-		<div class="col-md-1"></div>
-		<div class="col-md-3">
-			<h3> <span class="glyphicon glyphicon-fire"></span> interactive	</h3>
-			Using state-of-the-art web technologies BioJS enables a full-featured biological workbench directly in your browser. With our event-based approach it's easy for developers to integrate BioJS in their application.
-		</div>
-		<div class="col-md-1"></div>
-		<div class="col-md-3">
-			<h3> <span class="glyphicon glyphicon-repeat"></span> reusable</h3>
-			Unlike writing your own JS components, and unnecessarily reinventing the wheel, BioJS gives you access to fully-documented code, complete with examples and a common structure.
-		</div>
-	</div>
-	<div class="row speedbuttons">
-		<!--
-	  <div class="col-md-3 col-xs-6">
-	  <a href="https://github.com/biojs/biojs/releases" class="btn btn-default btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-download-alt"></span> Download BioJS 0.1</a>
-	  </div>
-		-->
 
-		<div class="col-md-3 col-xs-6">
-			<a href="get_involved.html" class="btn btn-default btn-success btn-lg btn-block" id="btn-get-involved"><span class="glyphicon glyphicon-user"></span> Get involved</a>
-		</div>
-		<div class="col-md-3 col-xs-6">
-			<a href="http://edu.biojs.net" class="btn btn-default btn-warning btn-lg btn-block"><span class="glyphicon glyphicon-plane"></span> Tutorials</a>
-		</div>
-		<div class="col-md-3 col-xs-6">
-			<a href="http://biojs.io" class="btn btn-default btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-download-alt"></span> Registry </a>
-		</div>
-		<div class="col-md-3 col-xs-6">
-			<a href="https://github.com/biojs/biojs/issues/new" class="btn btn-info btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-tag"></span> Submit an idea </a>
-		</div>
-
-	</div>
+        <section class="container mt-1">
+          <div class="row" id="qkeywords">
+            <div class="col s12 m4 center-align">
+              <i class="material-icons medium center-align blue-grey-text">favorite_border</i>
+              <h3> beautiful</h3>
+              <p>You have already done a great job - now we create the visibility your efforts deserve in a modern light</p>
+            </div>
+            <div class="col s12 m4 center-align">
+              <i class="material-icons medium center-align blue-grey-text">check_box</i>
+              <h3> interactive</h3>
+              <p>State-of-the-art web technologies make BioJS easy to integrate into your web application</p>
+            </div>
+            <div class="col s12 m4 center-align">
+              <i class="material-icons medium center-align blue-grey-text">brush</i>
+              <h3> application-specific</h3>
+              <p>Use any of our 151 components to create the unique &amp; visual experience that meets your needs</p>
+            </div>
+          </div>
+	</section>
+	<section class="blue-grey lighten-4 pt-2 pb-2">
+          <div class="container">
+              <div class="row">
+                <div class="col s12">
+                  <h2>Lorem lorem lorem lorem lorem</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare feugiat elit, ut vestibulum libero cursus imperdiet. Etiam commodo velit lectus, nec gravida lectus dignissim vitae. Ut ex massa, pellentesque a elit vitae, placerat gravida erat. Proin consequat urna magna. Morbi eu tempus ante. Curabitur nulla arcu, consequat quis posuere sit amet, sodales sed est. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer egestas vitae felis non aliquam. Vestibulum ligula lacus, tempus quis bibendum eget, sodales sit amet ex.</p>
+                </div>
+              </div>
+          </div>
+	</section>
 
 
 	<!--
@@ -188,7 +199,7 @@ extra_js:
 		</div>
 
 	</div>
-</div>
+
 
 
 <div class="container" id="showcase-container">
