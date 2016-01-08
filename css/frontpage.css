@@ -52,6 +52,49 @@
   left: 30px;
 }
 
+.example-wrapper {
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+.example-banderole {
+  width: 120%;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  -webkit-transition: transform 0.1s linear;
+  -moz-transition: transform 0.1s linear;
+  -o-transition: transform 0.1s linear;
+  -ms-transition: transform 0.1s linear;
+  transition: transform 0.1s linear;
+}
+.example-wrapper:before {
+  box-shadow: 0 4px 8px 4px #333;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  top: -2px;
+  position: absolute;
+  z-index: 2;
+}
+.example-wrapper a {
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0.5% 2%;
+  width: 6%;
+  height: 90px;
+  overflow: hidden;
+  z-index: 1;
+}
+.example-wrapper a:nth-child(11n+0) {
+  margin-right: 30px;
+}
+.example-wrapper a:nth-child(11n+1) {
+  margin-left: 75px;
+}
+
 @media (max-width: 650px) {
     .what-is-biojs-el {
         width: 100%;
