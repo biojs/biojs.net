@@ -70,3 +70,6 @@ h3 {
 .insetshadow {
   box-shadow: inset 0px 2px 10px 2px #333;
 }
+.blunt-end {
+  margin-bottom: 0;
+}

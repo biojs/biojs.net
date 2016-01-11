@@ -18,7 +18,7 @@
       /* displayX.textContent = mouseX;
       displayY.textContent = mouseY; */
       
-      translateX =  - mouseX / 8;
+      translateX =  - mouseX / 12;
       translateY =  - mouseY / 8;
 
       scene.style.transform = "translate("+ translateX +"px, "+ translateY +"px)";

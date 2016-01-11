@@ -51,18 +51,22 @@
   position: absolute;
   left: 30px;
 }
+.header-section {
+  position: relative;
+}
+
 
 .example-wrapper {
-  height: 150px;
+  width: 100%;
+  height: 200px;
   overflow: hidden;
   position: relative;
-  z-index: 2;
 }
 .example-banderole {
   width: 120%;
   position: absolute;
   top: -15px;
-  left: -15px;
+  left: -15px; 
   -webkit-transition: transform 0.1s linear;
   -moz-transition: transform 0.1s linear;
   -o-transition: transform 0.1s linear;
@@ -83,16 +87,19 @@
   display: inline-block;
   border-radius: 50%;
   margin: 0.5% 2%;
-  width: 6%;
+  width: 90px;
   height: 90px;
   overflow: hidden;
   z-index: 1;
 }
-.example-wrapper a:nth-child(11n+0) {
-  margin-right: 30px;
-}
-.example-wrapper a:nth-child(11n+1) {
-  margin-left: 75px;
+
+.example-banderole:before {
+  content: '';
+  float: left;
+  width: 45px;
+  height: 9999px;
+  -webkit-shape-outside: polygon(0px 90px, 45px 90px, 45px 300px, 0 300px, 0px 450px, 45px 450px, 45px 600px, 0px 600px);
+  shape-outside: polygon(0px 90px, 45px 90px, 45px 300px, 0 300px, 0px 450px, 45px 450px, 45px 600px, 0px 600px);
 }
 
 @media (max-width: 650px) {
