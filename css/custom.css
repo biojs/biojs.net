@@ -53,6 +53,24 @@ h1, h2, h3, h4, h5 {
   height: auto;
   padding: 0;
 }
+.main-logo,
+.main-logo-title {
+  display: inline-block;
+}
+
+.main-logo {
+  position: relative;
+  top: 15px;
+}
+
+.main-logo-title {
+  margin: 0 15px;
+}
+
+.brand-logo {
+  position: absolute;
+  left: 30px;
+}
 
 @media (min-width: 900px) {
   .navbar-nav, .navbar-brand {

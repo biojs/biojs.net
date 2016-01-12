@@ -13,7 +13,7 @@
 
 	<!-- Bootstrap core CSS -->
 	<!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"> -->
-        <link href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.css" rel="stylesheet">
+        <link href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 	<!-- Custom BioJS CSS -->
@@ -44,133 +44,19 @@
 <body>
 
 
-<!--  This is the banner for the BiVi Hackathon. This will soon be turned in the banner for VizBi.
-<div class="container-fluid" id="banner">
-	<div class="banner">
-		<div class="row">
-			<h4> Join us for our BioJS Workshop and Hackathon following the 2015 BiVi conference!
-				<a href="http://biojs.net/2015/11/13/biojs-workshop-hackathon-following-bivi.html" target="_blank">Click here for more information.</a>
-			</h4>
-		</div>
-	</div>
-</div>
- end of banner  -->
-
-<!-- Static navbar -->
-<div class="navbar navbar-default navbar-static-top" role="navigation">
-
-
-
-	<div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<div class="navbar-brand">
-				<a class="navbar-brand" href="/">
-					<img alt="BioJS logo - a registry of biological visualizations" src=/img/logo.png width=64 height=64>
-					<h2>BioJS</h2>
-				</a>
-			</div>
-		</div>
-		<div class="navbar-collapse collapse">
-			<ul class="nav navbar-nav">
-
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
-					<ul class="dropdown-menu">
-						<li><a href="/our_mission.html">Mission and Vision</a></li>
-						<li class="divider"></li>
-
-						<li><a href="/biojs_team.html">Team</a></li>
-						<li class="divider"></li>
-
-						<li><a href="/publications.html">Publications</a></li>
-						<li class="divider"></li>
-
-						<li><a href="/attribution.html">Attributions</a></li>
-
-					</ul>
-
-				</li>
-
-				<li class="dropdown">
-					<a href="http://edu.biojs.net">Education</a>
-					<!--	<div class="hidden-xs hidden-sm hidden-md awesome-new">new</div> -->
-				</li>
-
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Support<b class="caret"></b></a>
-					<ul class="dropdown-menu">
-
-						<li><a href="http://groups.google.com/forum/#!forum/biojs">Mail us</a></li>
-						<li class="divider"></li>
-
-						<li><a href="https://docs.google.com/forms/d/1Xy4S-i5YgrmceCYPyXB-IS5iMCTU6rD8w3OV7z_cXUM/viewform">Miss a component?</a></li>
-						<li class="divider"></li>
-
-						<li><a href="http://gitter.im/biojs/biojs">Chat with us</a></li>
-
-						<!--					<li><a href="https://github.com/biojs/biojs/wiki/Documentation">Wiki</a></li> -->
-
-						<li class="divider"></li>
-						<li><a href="https://github.com/biojs/biojs/issues/new">Ask us on github</a></li>
-
-						<li class="divider"></li>
-						<li><a href="https://github.com/biojs/biojs/issues/new">Report an issue</a></li>
-					</ul>
-				</li>
-
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Get involved<b class="caret"></b></a>
-					<ul class="dropdown-menu">
-
-						<li>
-							<a href="./get_involved.html">Get involved</a></li>
-						<li class="divider"></li>
-
-						<li>
-							<a href="./contributors.html">Contributors</a></li>
-					</ul>
-				</li>
-
-				<li><a href="http://biojs.io">Registry</a></li>
-
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentation<b class="caret"></b></a>
-					<ul class="dropdown-menu">
-						<li><a href="http://github.com/biojs/biojs">Github</a></li>
-						<!-- <li class="divider"></li>
-                        <li><a href="https://drive.google.com/a/elifesciences.org/?tab=mo#folders/0BwVhnCYdaHnGWm1idWxBdi1mTEE">Google Drive</a></li> -->
-						<li class="divider"></li>
-						<li><a href="https://github.com/biojs/talks">Talks</a></li>
-					</ul>
-				</li>
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">GSoC<b class="caret"></b></a>
-					<ul class="dropdown-menu">
-						<li><a href="{{ site.baseurl }}gsoc/2015/">2015</a></li>
-						<li class="divider"></li>
-						<li><a href="{{ site.baseurl }}gsoc/2014.html ">2014</a></li>
-					</ul>
-				</li>
-				<!-- not working at the moment
-				<li style="display: none">
-				<a href='http://bio-js.ci.cloudbees.com/job/biojs%20github%20stable/'><img src='https://bio-js.ci.cloudbees.com/job/biojs%20github%20stable/badge/icon'></a>
-				</li>
-				-->
-		</div><!--/.nav-collapse -->
-	</div>
-
-	<!-- Github ribbon -->
-	<a href="https://github.com/biojs/biojs">
-		<div id="github-ribbon" alt="Fork me on GitHub">
-		</div>
-	</a>
-</div>
+  <nav>
+    <div class="nav-wrapper green darken-2">
+      <a class="brand-logo" href="/">
+        <img class="col s6 main-logo" alt="BioJS logo - a registry of biological visualizations" src=/img/logo.png width=50 height=50>
+        <p class="col s6 main-logo-title">BioJS</p>
+      </a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+      </ul>
+    </div>
+  </nav>
 
 
 {{ content }}
@@ -178,23 +64,43 @@
 <div class="container">
 
 	<div class="improve-this-page">
-		<a class="btn btn-info" href="https://github.com/biojs/biojs.net/blob/gh-pages/{{ page.path }}">
-			<span class="glyphicon glyphicon-pencil"></span>  Improve this page
-		</a>
+
 	</div>
 
-	<div id="privacy-notice-less" class="privacy-policy">
-		<a href="/privacy_policy.html">Privacy Policy.</a>
-	</div>
 </div> <!-- /container -->
+
+<footer class="page-footer green darken-2">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Footer Content</h5>
+        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://github.com/biojs/biojs.net/blob/gh-pages/{{ page.path }}">Improve this page</a></li>
+          <li><a class="grey-text text-lighten-3" href="/privacy_policy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    © 2014 Copyright Text
+    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+    </div>
+  </div>
+</footer>
 
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
-<!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> -->
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js" />
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
 
 {% for js_name in page.extra_js %}
 <script src="{{ js_name }}"></script>
