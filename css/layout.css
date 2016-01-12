@@ -82,3 +82,22 @@ h3 {
 .signal {
   font-size: 1.6em;
 }
+.bg-section {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-color: transparent;
+  height: 500px;
+  position: relative;
+}
+.bg-right {
+  background-position: right 0;
+}
+.bg-left {
+  background-position: left 0;
+}
+.bg-center {
+  background-position: center center;
+}
+.bg-cover {
+  background-size: cover;
+}
