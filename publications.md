@@ -7,6 +7,10 @@ title: Publications
 How to cite us
 --------------
 
+Guy Yachdav, Tatyana Goldberg, Sebastian Wilzbach, David Dao, Iris Shih, Saket Choudhary, Steve Crouch, Max Franz, Alexander García, Leyla J García, Björn A Grüning, Devasena Inupakutika, Ian Sillitoe, Anil S Thanki, Bruno Vieira, José M Villaveces, Maria V Schneider, Suzanna Lewis, Steve Pettifer, Burkhard Rost, and Manuel Corpas  
+__[Anatomy of BioJS, an open source community for the life sciences][BioJS-elife]__  
+eLife 2015;4:e07009
+
 John Gómez, Leyla J. García, Gustavo A. Salazar, Jose Villaveces, Swanand Gore, Alexander García, Maria J. Martín, Guillaume Launay, Rafael Alcántara, Noemi del-Toro, Marine Dumousseau, Sandra Orchard, Sameer Velankar, Henning Hermjakob, Chenggong Zong, Peipei Ping, Manuel Corpas, and Rafael C. Jiménez  
 __[BioJS: an open source JavaScript framework for biological data visualization][BioJS-Bioinformatics]__  
 Bioinformatics (2013) 29 (8): 1103-1104 first published online February 23, 2013 [doi:10.1093/bioinformatics/btt100][BioJS-Bioinformatics]
@@ -19,6 +23,7 @@ Publications on BioJS components
 
 [f1000-collection]: http://f1000research.com/article-collections/BioJS
 [BioJS-Bioinformatics]: http://bioinformatics.oxfordjournals.org/content/29/8/1103
+[BioJS-elife]: http://elifesciences.org/content/4/e07009
 
 ### F1000 -Collection
 
