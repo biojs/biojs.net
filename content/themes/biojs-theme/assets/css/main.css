@@ -52,6 +52,8 @@ a[href] {
   color: #EF2D56; }
   a[href].btn, a[href].btn-large {
     color: #FFFFFC; }
+  a[href].biojs-light-green-text {
+    color: #04E824; }
 
 .nav-wrapper a {
   color: #FFFFFC; }
