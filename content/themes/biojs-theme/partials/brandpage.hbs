@@ -1,0 +1,166 @@
+<header class="biojs-green biojs-white-text">
+  <div class="container">
+    {{#get "posts" slug="devs-header"}}
+    {{#foreach posts}}
+        <div class="row">
+          <div class="col s12">
+            <h1 class="brand-title light">{{ title }}</h1>
+          </div>
+        </div>
+        <div class="row pb-2 mb-0">
+          <div class="col s12 m7">
+                {{ content }} <br/> 
+          </div>        
+          <div class="col s12 m5">
+            <p><a class="waves-effect waves-blue btn-large action uppercase" href="#"><i class="material-icons left">play_arrow</i>Get Started</a></p>
+          </div>
+        </div>
+      </div>
+    {{/foreach}}
+  {{/get}}
+</header>
+<main>
+  {{#has tag="brandpage-starters"}}
+    <section class="container">
+      {{> bene }}
+    </section>
+    <section>
+      {{> example}}
+    </section>
+  {{else}}
+    {{> component-examples}}
+    <section class="biojs-black biojs-white-text">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h2 class="light">BioJS interoperability and scalability</h2>
+            <p>njaldjnaldadljasdnladadjn </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  {{/has}}
+    <section class="container">
+      <div class="row">
+        <div class="col s12">
+          {{ content }}
+
+        </div>
+      </div>
+      <hr />
+    </section>
+    <section class="parallax-container valign-wrapper">
+      {{> tip-section}}
+    </section>
+    {{#has tag="brandpage-developers"}}
+    <section class="container">
+      {{> bene}}
+    </section>
+    {{/has}}
+    <section class="biojs-black biojs-white-text center">
+      {{> showcase}}
+    </section>
+    {{#has tag="brandpage-starters"}}
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h2>Lorem ipsum lore CTA section title</h2>
+            {{#get "posts" slug="starters-bottom"}}
+              {{#foreach posts}}
+                {{ content }}
+              {{/foreach}}
+            {{/get}}
+            <p class="center mt-4 mb-2"><a href="http://edu.biojs.net/101/intro/" class="waves-effect waves-yellow action btn-large">GET STARTED</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    {{else}}
+      {{#has tag="brandpage-developers"}}
+    <section>
+      <div class="container">
+        <div class="row">
+          <hr />
+          <div class="col s12">
+            <h2 class="light">How do I start developing BioJS components?</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m4">
+            <img class="responsive-img" src="{{asset "img/landscapes/coderlaptop.jpg"}} alt="Download the BioJS Code" />
+          </div>
+          <div class="col s12 m8">
+            <ul class="collapsible popout biojs-black-text" data-collapsible="accordion">
+              <li>
+                <div class="collapsible-header"><i class="material-icons biojs-pink-text">computer</i>Get Your Development Environment Ready</div>
+                <div class="collapsible-body"><p>Read about the system requirements needed to develop BioJS components as
+                well as the basic concepts of building your own node package on our <a href="http://edu.biojs.net/101/intro/" target="_blank">education page</a></p></div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons biojs-pink-text">code</i>Get started coding BioJS components</div>
+                <div class="collapsible-body"><p>A great first step to begin is our <a href="http://edu.biojs.net/101/bootstrapping/" target="_blank">beginners' tutorial</a> and our 
+                <a href="http://edu.biojs.net/details/events/" target="_blank">educational pages for visualization</a>.</p></div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons biojs-pink-text">file_upload</i>Share your component with the BioJS community</div>
+                <div class="collapsible-body"><p>Upload your ready-to-use component to the Biojs registry summarizing all
+                node modules in the BioJS ecosystem. Learn how to <a href="http://edu.biojs.net/101/publish_it/" target="_blank">publish your component</a> with npm easily.</p></div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons biojs-pink-text">sms</i>Get into contact with the core team</div>
+                <div class="collapsible-body"><p>Upload your ready-to-use component to the Biojs registry summarizing all
+                node modules in the BioJS ecosystem. Learn how to <a href="http://edu.biojs.net/101/publish_it/" target="_blank">publish your component</a> with npm easily.</p></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="biojs-green">
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6">
+            <h2 class="light biojs-white-text">Meet our growing community on Github</h2>
+            <p class="biojs-white-text">Supercool text about the community</p>
+            <p><iframe src="https://ghbtns.com/github-btn.html?user=biojs&repo=biojs&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+            <iframe src="https://ghbtns.com/github-btn.html?user=biojs&repo=biojs&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe></p>
+          </div>
+          <div class="col s12 m6">
+            <div id="feed" class="mt-2 mb-1 height-fix-3x biojs-black-text"></div>
+          </div>
+        </div>
+       </div>
+     </section>
+     <section class="container">
+      <div class="row mb-0">
+        <div class="col s12">
+           <p class="center"><i class="material-icons large biojs-light-green-text">whatshot</i></p>
+        </div>
+      </div>
+      <div class="row center">
+        <div class="col s12">
+          <h2 class="light">Stay up-to-date with current BioJS developments</h2>
+        </div>
+        <div class="col s12 m6">
+           <p><a href="https://twitter.com/biojslibrary" class="weak-action waves-effect waves-blue btn-large">Follow us on Twitter</a></p>
+          {{! <a href="https://twitter.com/biojslibrary" class="twitter-follow-button" data-show-count="true" data-size="large">Follow @biojslibrary</a>
+            <script src="https://platform.twitter.com/widgets.js"></script> }}
+        </div>
+        <div class="col s12 m6">
+          <p><a href="#" class="action waves-effect waves-blue btn-large">Join our slack chat</a></p>
+        </div>
+      </div>
+     </section>
+      {{/has}}
+    {{/has}}
+    {{#has tag="brandpage-developers"}}
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
+      <script type="text/javascript" src="{{asset "js/github-activity-0.1.4.min.js"}}"></script>
+      <script type="text/javascript" src="{{asset "js/github-activity-init.js"}}"></script>
+      <script  type="text/javascript" src="{{asset "js/fabric.min.js"}}"></script>
+      <script defer src="{{asset "js/triangle-gallery.js"}}" type="text/javascript"></script>
+    {{/has}}
+</main>
+

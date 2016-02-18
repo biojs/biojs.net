@@ -1,0 +1,175 @@
+body {
+  background-color: color('white');
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+footer {
+  &.page-footer {
+    background-color: color('green');
+  }
+}
+
+/* IE10+ fix to circumvent poorly supported flexbox features */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    body, main {
+            display: block;
+            min-height: auto;
+    }
+}
+
+main {
+  flex: 1 0 auto;
+}
+    
+p {
+  &.signal{
+    font-size: 1.2em;
+  }
+}
+a[href]{
+  color: color('pink');
+  &.btn, &.btn-large {
+    color: color('white');
+  }
+}
+.nav-wrapper {
+  a {
+    color: color('white');
+  }
+}
+.github-icon {
+  &.large {
+    width: 50%;
+    height: 50%;
+    fill: color('white');
+  }
+}
+.ratings {
+
+  .rating-item {
+    position: relative;
+    width: 25px;
+    display: inline-block;
+
+    .full-item {
+      overflow: hidden;
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      width: 0%;
+      height: 100%;
+    }
+  }
+}
+.brand-logo {
+  position: absolute;
+  display: inline-block;
+  left: 15px;
+  top: 8px;
+}
+.main-logo-title {
+  color: color('white');
+  display: inline-block;
+  position: absolute;
+  left: 60px;
+  line-height: 1.6;
+}
+
+.tag-brandpage h1 {
+  font-size: 3.2em;
+}
+.link-icon {
+  position: relative;
+  top: 2px;
+}
+.post-title {
+  a {
+    @include vendor('transition', color 0.2 ease-in);
+    &:hover {
+      color: color('pink');
+    }
+  }
+}
+.post-meta {
+  a {
+    color: color('pink');
+  }
+}
+@media (min-width: 768px) {
+.carousel-item.large {
+  width: 450px;
+ }
+}
+.gallery-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 120%;
+  .gallery-content {
+    padding: 0;
+    height: 100%;
+    width: 120%;
+    
+  }
+}
+/* Buttons */
+.btn, .btn-large {
+  &.action {
+    text-transform: uppercase;
+    color: color('white');
+    background-color: color('pink');
+  }
+  &.weak-action {
+    text-transform: uppercase;
+    color: color('white');
+    background-color: color('black');
+  }
+}
+/* Parallax */
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+
+  p, a{
+    line-height: 1.5;
+    &.btn, &.btn-large {
+      line-height: 2.4;
+    }
+  }
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+.main-header {
+  &.news {
+    background-repeat: no-repeat;
+    background-position: right -60px;
+    background-attachment: scroll;
+    background-image: url('/assets/img/biojslogo.png');
+    @include vendor('filter', contrast(80%));
+    .container {
+      @include vendor('filter', none);
+    }
+  }
+}
+

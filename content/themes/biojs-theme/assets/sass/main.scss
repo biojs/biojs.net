@@ -1,0 +1,42 @@
+$first-color: #116611;
+$second-color: #04E824;
+$third-color: #FFFFFC;
+$fourth-color: #072212;
+$fifth-color: #EF2D56;
+
+$colors: (
+  'green': $first-color,
+  'light-green': $second-color,
+  'white': $third-color,
+  'black': $fourth-color,
+  'pink': $fifth-color
+);
+
+@mixin vendor ($prop, $val){
+  -webkit-#{$prop}: $val;
+  -moz-#{$prop}: $val;
+  -ms-#{$prop}: $val;
+  -o-#{$prop}: $val;
+  #{$prop}: $val;
+}
+
+@function color($color){
+  @return map-get($colors, $color);
+}
+
+@each $color, $val in $colors {
+  .biojs-#{$color} {
+    background-color: $val;
+  }
+  .biojs-#{$color}-text {
+    color: $val;
+  }
+}
+
+
+@import 'layout';
+@import 'frontpage';
+@import 'github-activity';
+@import 'helpers';
+
+
