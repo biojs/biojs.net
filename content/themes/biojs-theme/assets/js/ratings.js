@@ -7,15 +7,15 @@
     var ratingsFeed = [
       {
         id: 1,
-        hearts: 3
+        hearts: 4.8
       },
       {
         id: 2,
-        hearts: 4.1
+        hearts: 4.6
       },
       {
         id: 3,
-        hearts: 2.7
+        hearts: 5
       }
     ];
     $.each(ratingsFeed, function( index, value ) {
