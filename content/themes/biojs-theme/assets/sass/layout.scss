@@ -176,3 +176,18 @@ a[href]{
   }
 }
 
+.card-title {
+  &.activator {
+    .right {
+      float: none;
+      position: absolute;
+      right: 15px;
+    }
+  }
+}
+.gsoc {
+  .card-content {
+    min-height: 140px;
+  }
+}
+

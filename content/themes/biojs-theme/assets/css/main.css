@@ -172,6 +172,14 @@ a[href] {
     -o-filter: none;
     filter: none; }
 
+.card-title.activator .right {
+  float: none;
+  position: absolute;
+  right: 15px; }
+
+.gsoc .card-content {
+  min-height: 140px; }
+
 .header-section {
   background-image: url("/assets/img/landscapes/typing.jpg");
   position: relative;
