@@ -190,4 +190,10 @@ a[href]{
     min-height: 140px;
   }
 }
+.parallax {
+  video {
+    position: relative;
+    bottom: 200px;
+  }
+}
 

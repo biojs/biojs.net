@@ -180,6 +180,10 @@ a[href] {
 .gsoc .card-content {
   min-height: 140px; }
 
+.parallax video {
+  position: relative;
+  bottom: 200px; }
+
 .header-section {
   background-image: url("/assets/img/landscapes/typing.jpg");
   position: relative;
