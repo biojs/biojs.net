@@ -17,7 +17,12 @@
   </div>
 </div>
 <div class="col s12 m8">
-  dakdlakdsald
+  {{#get "posts" filter="tags:tip-explain"}}
+    {{#foreach posts}}
+     <h3 class="light">{{title}}</h3>
+     <p>{{content}}</p>
+    {{/foreach}}
+  {{/get}}
 </div>
 </div>
 </div>
