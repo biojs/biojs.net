@@ -40,6 +40,11 @@ a[href]{
   a {
     color: color('white');
   }
+  .side-nav {
+    a {
+      color: color('black');
+    }
+  }
 }
 .github-icon {
   &.large {

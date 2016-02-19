@@ -57,6 +57,8 @@ a[href] {
 
 .nav-wrapper a {
   color: #FFFFFC; }
+.nav-wrapper .side-nav a {
+  color: #072212; }
 
 .github-icon.large {
   width: 50%;
