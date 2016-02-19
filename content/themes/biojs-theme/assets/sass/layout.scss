@@ -35,6 +35,15 @@ a[href]{
   &.biojs-light-green-text {
     color: color('light-green');
   }
+  &.biojs-black-text {
+    color: color('black');
+  }
+  &.biojs-white-text {
+    color: color('white');
+  }
+  &.biojs-green-text {
+    color: color('green');
+  }
 }
 .nav-wrapper {
   a {
@@ -215,5 +224,9 @@ a[href]{
     position: relative;
     bottom: 200px;
   }
+}
+.news-banderole {
+  position: absolute;
+  z-index: 3;
 }
 

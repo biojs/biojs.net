@@ -54,6 +54,12 @@ a[href] {
     color: #FFFFFC; }
   a[href].biojs-light-green-text {
     color: #04E824; }
+  a[href].biojs-black-text {
+    color: #072212; }
+  a[href].biojs-white-text {
+    color: #FFFFFC; }
+  a[href].biojs-green-text {
+    color: #116611; }
 
 .nav-wrapper a {
   color: #FFFFFC; }
@@ -194,6 +200,10 @@ a[href] {
 .parallax video {
   position: relative;
   bottom: 200px; }
+
+.news-banderole {
+  position: absolute;
+  z-index: 3; }
 
 .header-section {
   background-image: url("/assets/img/landscapes/typing.jpg");
