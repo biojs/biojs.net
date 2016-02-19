@@ -179,6 +179,13 @@ a[href] {
 
 .gsoc .card-content {
   min-height: 140px; }
+.gsoc .collapsible-body ul {
+  margin-left: 3em;
+  margin-bottom: 1.5em; }
+  .gsoc .collapsible-body ul li {
+    list-style-type: square; }
+.gsoc .collapsible-body h1, .gsoc .collapsible-body h2, .gsoc .collapsible-body h3, .gsoc .collapsible-body h4, .gsoc .collapsible-body h5 {
+  margin-left: 0.5em; }
 
 .parallax video {
   position: relative;
