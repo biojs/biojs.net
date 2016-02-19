@@ -1,23 +1,7 @@
 <header class="biojs-green biojs-white-text">
   <div class="container">
-    {{#get "posts" slug="devs-header"}}
-    {{#foreach posts}}
-        <div class="row">
-          <div class="col s12">
-            <h1 class="brand-title light">{{ title }}</h1>
-          </div>
-        </div>
-        <div class="row pb-2 mb-0">
-          <div class="col s12 m7">
-                {{ content }} <br/> 
-          </div>        
-          <div class="col s12 m5">
-            <p><a class="waves-effect waves-blue btn-large action uppercase" href="#"><i class="material-icons left">play_arrow</i>Get Started</a></p>
-          </div>
-        </div>
-      </div>
-    {{/foreach}}
-  {{/get}}
+    {{> brandpage-header}}
+  </div>
 </header>
 <main>
   {{#has tag="brandpage-starters"}}
@@ -64,14 +48,14 @@
     <section>
       <div class="container">
         <div class="row">
-          <div class="col s12">
-            <h2>Lorem ipsum lore CTA section title</h2>
+          <div class="col s12 center">
+            <h2 class="light">Learn how to visualize your biological data with BioJS today</h2>
             {{#get "posts" slug="starters-bottom"}}
               {{#foreach posts}}
                 {{ content }}
               {{/foreach}}
             {{/get}}
-            <p class="center mt-4 mb-2"><a href="http://edu.biojs.net/101/intro/" class="waves-effect waves-yellow action btn-large">GET STARTED</a></p>
+            <p class="center mt-4 mb-2"><a href="http://edu.biojs.net/101/intro/" class="waves-effect waves-yellow action btn-large">Start Tutorial</a></p>
           </div>
         </div>
       </div>

@@ -1,0 +1,39 @@
+{{#has tag="brandpage-developers"}}
+    {{#get "posts" slug="devs-header"}}
+    {{#foreach posts}}
+        <div class="row">
+          <div class="col s12">
+            <h1 class="brand-title light">{{ title }}</h1>
+          </div>
+        </div>
+        <div class="row pb-2 mb-0">
+          <div class="col s12 m7">
+                {{ content }} <br/> 
+          </div>        
+          <div class="col s12 m5">
+            <p><a class="waves-effect waves-blue btn-large action uppercase" href="http://edu.biojs.net/101/intro/"><i class="material-icons left">play_arrow</i>Get Started to Code Away</a></p>
+          </div>
+        </div>
+    {{/foreach}}
+  {{/get}}
+{{else}}
+  {{#has tag="brandpage-starters"}}
+        <div class="row">
+          <div class="col s12">
+            <h1 class="brand-title light">Beautiful data representation made easy</h1>
+          </div>
+        </div>
+        <div class="row pb-2 mb-0">
+          <div class="col s12 m7">
+             <p>Our library of already existing and ready-to-use
+             BioJS components will make your data shine. Learn in our 
+             step-by-step tutorial how to integrate BioJS 
+             components into your own website, web app or web-based
+             presentation.</p>
+          </div>        
+          <div class="col s12 m5">
+            <p><a class="waves-effect waves-blue btn-large action uppercase" href="http://edu.biojs.net/101/intro/"><i class="material-icons left">play_arrow</i>Start Tutorial</a></p>
+          </div>
+        </div>
+  {{/has}}
+{{/has}}

@@ -3,3 +3,4 @@ npm-debug.log*
 content/data/ghost-dev.db
 .sass-cache/
 content/themes/casper/
+.gitignore~
