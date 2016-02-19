@@ -1,0 +1,112 @@
+{{!< default}}
+<header class="">
+  <div class="container">
+  <div class="row">
+     <div class="col s12 mt-1">
+       <img src="{{asset "/img/landscapes/GSoC2016Logo.jpg"}}" alt="GSoC Logo BioJS application 2016" />
+     </div>
+  </div>
+  <div class="row">
+    <div class="col s12">
+      <h1 class="brand-title light biojs-pink-text">BioJS in GSoC 2016</h1>
+    </div>
+  </div>
+  <div class="row pb-2 mb-0">
+    <div class="col s12 m7">
+      BioJS is aiming to mentor ambitious students from all around the world again for this year's Google
+       Summer of Code. We are looking forward to your applications for our many projects involving
+       modern web technologies relevant for academic work and our vivid open-source community.
+    </div>        
+    <div class="col s12 m5">
+      <p><a class="waves-effect waves-blue btn-large disabled uppercase" href="http://edu.biojs.net/101/intro/">Applications opening soon</a></p>
+    </div>
+  </div>
+  </div>
+</header>
+<main>
+    <section>
+      <div class="container">
+      <hr />
+        <div class="row">
+          <div class="col s12">
+            <h2 class="light">Our project ideas for 2016</h2>
+            <ul class="collapsible popout biojs-black-text" data-collapsible="accordion">
+              {{#get "posts" filter="tags:gsoc-project"}}
+                {{#foreach posts}}
+                  <li>
+                    <div class="collapsible-header biojs-pink-text"><i class="material-icons biojs-pink-text">school</i>{{title}}</div>
+                    <div class="collapsible-body">
+                      {{content}}
+                    </div>
+                  </li>
+                {{/foreach}}
+               {{/get}}
+            </ul>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 pb-1">
+            <h2 class="light">Who are the people behind BioJS?</h2>
+            <p>We are an international team developing beautiful, interactive and easy-to-share JavaScript applications to visualize biological data on the web. 
+            We are looking for ambitious and motivated students who wish to spend their summer collaborating with us on the projects described below.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="biojs-green">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h2 class="light biojs-white-text">Our mentors</h2>
+          </div>
+        </div>
+       </div>
+     </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6">
+            <h2 class="light">How to apply</h2>
+          </div>
+          <div class="col s12 m6">
+            <div id="feed" class="mt-2 mb-1 height-fix-3x biojs-black-text"></div>
+          </div>
+        </div>
+       </div>
+     </section>
+    <section class="biojs-green">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6">
+            <h2 class="light biojs-white-text">Our admins</h2>
+          </div>
+          <div class="col s12 m6">
+            <div id="feed" class="mt-2 mb-1 height-fix-3x biojs-black-text"></div>
+          </div>
+        </div>
+       </div>
+     </section>
+     <section class="container">
+      <div class="row mb-0">
+        <div class="col s12">
+           <p class="center"><i class="material-icons large biojs-light-green-text">whatshot</i></p>
+        </div>
+      </div>
+      <div class="row center">
+        <div class="col s12">
+          <h2 class="light">Stay up-to-date with GSoC in BioJS</h2>
+        </div>
+        <div class="col s12 m6">
+           <p><a href="https://twitter.com/biojslibrary" class="weak-action waves-effect waves-blue btn-large">Follow us on Twitter</a></p>
+        </div>
+        <div class="col s12 m6">
+          <p><a href="#" class="action waves-effect waves-blue btn-large">Ask us on slack chat</a></p>
+        </div>
+      </div>
+     </section>
+</main>
