@@ -17,13 +17,14 @@
       <div class="container">
         <div class="row">
           <div class="col s12">
-            <h2 class="light">BioJS interoperability and scalability</h2>
+            <h2 class="light">Let your BioJS components interact to create rich web experiences</h2>
             <p>Basically BioJS components behave like Lego blocks. You don’t start from scratch - can build on top of other blocks.
 <br />
-Each BioJS component represents a tiny building block that can be reused by anyone. It could be anything from a FASTA parser, a tree algorithm or a simple visualization module.
+A BioJS component represents a tiny building block that can be reused by anyone and it can be anything from a FASTA parser, a tree algorithm or a simple visualization module.
 To ensure great interoperability and facilitate reuse with many other BioJS components, 
 we use the <a href="https://www.npmjs.com/" target="npm">node package manager (npm)</a>. This makes
-setting up your own component dependencies fast, easy and reliable.
+setting up your own component dependencies fast, easy and reliable. Connect your BioJS components
+to create powerful and rich user interfaces.
 </p>
           </div>
         </div>
@@ -37,7 +38,9 @@ setting up your own component dependencies fast, easy and reliable.
 
         </div>
       </div>
+      {{#has tag="brandpage-starters"}}
       <hr />
+      {{/has}}
     </section>
     <section class="parallax-container valign-wrapper">
       {{> tip-section}}
@@ -71,7 +74,6 @@ setting up your own component dependencies fast, easy and reliable.
     <section>
       <div class="container">
         <div class="row">
-          <hr />
           <div class="col s12">
             <h2 class="light">How do I start developing BioJS components?</h2>
           </div>
@@ -112,8 +114,12 @@ setting up your own component dependencies fast, easy and reliable.
       <div class="container">
         <div class="row">
           <div class="col s12 m6">
-            <h2 class="light biojs-white-text">Meet our growing community on Github</h2>
-            <p class="biojs-white-text">Supercool text about the community</p>
+            <h2 class="light biojs-white-text mt-1">Meet our growing community on Github</h2>
+            <p class="biojs-white-text">
+              BioJS relies heavily on the use of the open-source code distribution service <a href="https://github.com/biojs" target="github">github</a> to create and
+              share our resources, as well as to provide a fast way for developers to 
+              communicate about technical developments, bugs, updates, requests and fixes. 
+            </p>
             <p><iframe src="https://ghbtns.com/github-btn.html?user=biojs&repo=biojs&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
             <iframe src="https://ghbtns.com/github-btn.html?user=biojs&repo=biojs&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe></p>
           </div>
@@ -131,12 +137,10 @@ setting up your own component dependencies fast, easy and reliable.
       </div>
       <div class="row center">
         <div class="col s12">
-          <h2 class="light">Stay up-to-date with current BioJS developments</h2>
+          <h2 class="light">Don't want to miss a thing? Stay up-to-date with current BioJS developments</h2>
         </div>
         <div class="col s12 m6">
            <p><a href="https://twitter.com/biojslibrary" class="weak-action waves-effect waves-blue btn-large">Follow us on Twitter</a></p>
-          {{! <a href="https://twitter.com/biojslibrary" class="twitter-follow-button" data-show-count="true" data-size="large">Follow @biojslibrary</a>
-            <script src="https://platform.twitter.com/widgets.js"></script> }}
         </div>
         <div class="col s12 m6">
           <p><a href="#" class="action waves-effect waves-blue btn-large">Join our slack chat</a></p>
@@ -149,8 +153,6 @@ setting up your own component dependencies fast, easy and reliable.
       <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
       <script type="text/javascript" src="{{asset "js/github-activity-0.1.4.min.js"}}"></script>
       <script type="text/javascript" src="{{asset "js/github-activity-init.js"}}"></script>
-      {{! <script  type="text/javascript" src="{{asset "js/fabric.min.js"}}"></script>
-      <script defer src="{{asset "js/triangle-gallery.js"}}" type="text/javascript"></script> }}
     {{/has}}
 </main>
 
