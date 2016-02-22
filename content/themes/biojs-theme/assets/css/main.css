@@ -1,14 +1,14 @@
 .biojs-green {
-  background-color: #116611; }
+  background-color: #161616; }
 
 .biojs-green-text {
-  color: #116611; }
+  color: #161616; }
 
 .biojs-light-green {
-  background-color: #04E824; }
+  background-color: #00A650; }
 
 .biojs-light-green-text {
-  color: #04E824; }
+  color: #00A650; }
 
 .biojs-white {
   background-color: #FFFFFC; }
@@ -23,10 +23,16 @@
   color: #072212; }
 
 .biojs-pink {
-  background-color: #EF2D56; }
+  background-color: #EB155B; }
 
 .biojs-pink-text {
-  color: #EF2D56; }
+  color: #EB155B; }
+
+.biojs-dark-grey {
+  background-color: #666666; }
+
+.biojs-dark-grey-text {
+  color: #666666; }
 
 body {
   background-color: #FFFFFC;
@@ -35,7 +41,7 @@ body {
   flex-direction: column; }
 
 footer.page-footer {
-  background-color: #116611; }
+  background-color: #161616; }
 
 /* IE10+ fix to circumvent poorly supported flexbox features */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
@@ -49,17 +55,17 @@ p.signal {
   font-size: 1.2em; }
 
 a[href] {
-  color: #EF2D56; }
+  color: #EB155B; }
   a[href].btn, a[href].btn-large {
     color: #FFFFFC; }
   a[href].biojs-light-green-text {
-    color: #04E824; }
+    color: #00A650; }
   a[href].biojs-black-text {
     color: #072212; }
   a[href].biojs-white-text {
     color: #FFFFFC; }
   a[href].biojs-green-text {
-    color: #116611; }
+    color: #161616; }
 
 .nav-wrapper a {
   color: #FFFFFC; }
@@ -97,6 +103,9 @@ a[href] {
   left: 60px;
   line-height: 1.6; }
 
+.mega-title {
+  font-size: 6em; }
+
 .tag-brandpage h1 {
   font-size: 3.2em; }
 
@@ -111,10 +120,10 @@ a[href] {
   -o-transition: color 0.2 ease-in;
   transition: color 0.2 ease-in; }
   .post-title a:hover {
-    color: #EF2D56; }
+    color: #EB155B; }
 
 .post-meta a {
-  color: #EF2D56; }
+  color: #EB155B; }
 
 @media (min-width: 768px) {
   .carousel-item.large {
@@ -133,11 +142,11 @@ a[href] {
 .btn.action, .btn-large.action {
   text-transform: uppercase;
   color: #FFFFFC;
-  background-color: #EF2D56; }
+  background-color: #EB155B; }
 .btn.weak-action, .btn-large.weak-action {
   text-transform: uppercase;
   color: #FFFFFC;
-  background-color: #072212; }
+  background-color: #00A650; }
 
 /* Parallax */
 .parallax-container {
@@ -188,7 +197,7 @@ a[href] {
 .gsoc .card-content {
   min-height: 140px; }
   .gsoc .card-content.biojs-pink-text {
-    color: #EF2D56; }
+    color: #EB155B; }
 .gsoc .collapsible-body ul {
   margin-left: 3em;
   margin-bottom: 1.5em; }
@@ -204,6 +213,11 @@ a[href] {
 .news-banderole {
   position: absolute;
   z-index: 3; }
+
+.mega-title-logo {
+  max-width: 180px;
+  position: relative;
+  top: -0.75em; }
 
 .header-section {
   background-image: url("/assets/img/landscapes/typing.jpg");
@@ -351,7 +365,7 @@ span.gha-time {
   padding: 5px 10px 10px;
   height: 67px;
   border-bottom: 1px solid #666;
-  background: #04E824;
+  background: #00A650;
   overflow: hidden; }
 
 .gha-footer {

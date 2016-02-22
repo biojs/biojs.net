@@ -93,7 +93,9 @@ a[href]{
   left: 60px;
   line-height: 1.6;
 }
-
+.mega-title {
+  font-size: 6em;
+}
 .tag-brandpage h1 {
   font-size: 3.2em;
 }
@@ -141,7 +143,7 @@ a[href]{
   &.weak-action {
     text-transform: uppercase;
     color: color('white');
-    background-color: color('black');
+    background-color: color('light-green');
   }
 }
 /* Parallax */
@@ -228,5 +230,13 @@ a[href]{
 .news-banderole {
   position: absolute;
   z-index: 3;
+}
+.mega-title-logo, .mega-title {
+  //display: inline-block;
+}
+.mega-title-logo {
+  max-width: 180px;
+  position: relative;
+  top: -0.75em;
 }
 

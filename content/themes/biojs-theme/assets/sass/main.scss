@@ -1,15 +1,16 @@
-$first-color: #116611;
-$second-color: #04E824;
+$first-color: #161616;
+$second-color: #00A650;
 $third-color: #FFFFFC;
 $fourth-color: #072212;
-$fifth-color: #EF2D56;
-
+$fifth-color: #EB155B;
+$sixth-color: #666666;
 $colors: (
   'green': $first-color,
   'light-green': $second-color,
   'white': $third-color,
   'black': $fourth-color,
-  'pink': $fifth-color
+  'pink': $fifth-color,
+  'dark-grey': $sixth-color
 );
 
 @mixin vendor ($prop, $val){
