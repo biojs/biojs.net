@@ -1,16 +1,16 @@
-$first-color: #161616;
-$second-color: #00A650;
-$third-color: #FFFFFC;
-$fourth-color: #072212;
-$fifth-color: #EB155B;
-$sixth-color: #666666;
+$black: #072212; // black
+$grey-1: #161616;  // dark-grey
+$grey-2: #666666; // grey
+$green-1: #00A650; // light-green
+$white: #FFFFFC; // white
+$pink: #EB155B; // pink
 $colors: (
-  'green': $first-color,
-  'light-green': $second-color,
-  'white': $third-color,
-  'black': $fourth-color,
-  'pink': $fifth-color,
-  'dark-grey': $sixth-color
+  'dark-grey': $grey-1,
+  'light-green': $green-1,
+  'white': $white,
+  'black': $black,
+  'pink': $pink,
+  'grey': $grey-2
 );
 
 @mixin vendor ($prop, $val){
@@ -39,5 +39,6 @@ $colors: (
 @import 'frontpage';
 @import 'github-activity';
 @import 'helpers';
+@import 'mediaqueries';
 
 

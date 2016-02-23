@@ -6,7 +6,7 @@ body {
 }
 footer {
   &.page-footer {
-    background-color: color('green');
+    background-color: color('dark-grey');
   }
 }
 
@@ -41,7 +41,7 @@ a[href]{
   &.biojs-white-text {
     color: color('white');
   }
-  &.biojs-green-text {
+  &.biojs-dark-grey-text {
     color: color('green');
   }
 }
@@ -80,21 +80,18 @@ a[href]{
     }
   }
 }
-.brand-logo {
+nav .brand-logo {
   position: absolute;
   display: inline-block;
-  left: 15px;
-  top: 8px;
+  top: 6px;
+  margin-left: 8px;
 }
 .main-logo-title {
   color: color('white');
   display: inline-block;
   position: absolute;
   left: 60px;
-  line-height: 1.6;
-}
-.mega-title {
-  font-size: 6em;
+  line-height: 1.7;
 }
 .tag-brandpage h1 {
   font-size: 3.2em;
@@ -229,14 +226,59 @@ a[href]{
 }
 .news-banderole {
   position: absolute;
+  top: 0;
   z-index: 3;
+}
+.mega-title {
+  font-size: 8em;
 }
 .mega-title-logo, .mega-title {
   //display: inline-block;
 }
 .mega-title-logo {
   max-width: 180px;
-  position: relative;
-  top: -0.75em;
+  position: absolute;
+  right: 0;
+  top: 0.7em;
+  @include vendor(animation, rotating 3s infinite);
 }
+@-webkit-keyframes rotating {
+  0% {
+    -webkit-transform: rotate(0turn);
+    transform: rotate(0turn);
+  }
+  100% {
+    -webkit-transform: rotate(0.5turn);
+    transform: rotate(0.5turn);
+  }
+}
+@-moz-keyframes rotating {
+  0% {
+    -moz-transform: rotate(0turn);
+    transform: rotate(0turn);
+  }
+  100% {
+    -moz-transform: rotate(0.5turn);
+    transform: rotate(0.5turn);
+  }
+}
+@-o-keyframes rotating {
+  0% {
+    -o-transform: rotate(0turn);
+    transform: rotate(0turn);
+  }
+  100% {
+    -o-transform: rotate(0.5turn);
+    transform: rotate(0.5turn);
+  }
+}
+@keyframes rotating {
+  0% {
+    transform: rotate(0turn);
+  }
+  100% {
+    transform: rotate(0.5turn);
+  }
+}
+
 

@@ -26,7 +26,7 @@
 
 </main> -->
 
-<header class="bg-section bg-center bg-cover header-section biojs-green pb-2  valign-wrapper relative" style="{{#if  @blog.cover}}background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
+<header class="bg-section bg-center bg-cover header-section biojs-dark-grey pb-2  valign-wrapper relative" style="{{#if  @blog.cover}}background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
   <div class="fill news-banderole biojs-light-green biojs-white-text">
     <div class="center">
       <p class="biojs-black-text">Join us for our <a href="/gsoc" class="biojs-white-text">Google Summer of Code 2016!</a> Applications opening soon!</p>
@@ -37,11 +37,9 @@
     <div class="row blunt-end relative">
       <div class="col s12">
         <div class="row mt-2">
-          <div class="col s12 m4 l3 offset-m2 offset-l3 center">
-            <h1 class="mb-0 thin biojs-dark-grey-text mega-title">BioJS</h1>
-          </div>
-          <div class="col s12 m4 l3 center hide-on-small-only">
-            <img class="mega-title-logo" src="{{asset "img/biojs_circle_mint_trans.png"}}" alt="BioJS Logo" />
+          <div class="col s12 m10 offset-m1 l8 offset-l2 relative">
+            <h1 class="mb-0 thin biojs-grey-text mega-title">BioJS</h1>
+            <img class="mega-title-logo hide-on-small-only" src="{{asset "img/biojs_circle_mint_trans.png"}}" alt="BioJS Logo" />
           </div>
         </div>
           <h2 class="light mega-subtitle center">Make your biological data shine</h2>
@@ -84,7 +82,7 @@
       <div class="row">
         <div class="col s12 center">
           <h2 class="light">BioJS enables you to create modern data visualizations for the web</h2>
-          <p class="signal"> BioJS is a library of over hundred Javascript components enabling you to visualize and process data 
+          <p class="signal"> BioJS is a library of over hundred JavaScript components enabling you to visualize and process data 
           using current web technologies. Therefore BioJS makes it easy for you to integrate your
           visualizations into your own website or web application. The library offers a wide range of
           components for your use cases. And if you're not finding what you are looking for, 
@@ -104,10 +102,7 @@
       </div>
   </div>
   <div class="parallax">
-  <video class="center fill" loop autoplay>
-  <source src="/assets/img/landscapes/circleopti-compressor.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+    <img class="responsive-img" src="{{asset "img/landscapes/circle-half.gif"}}" alt="Spinning Vector BioJS Component" />
   </div>
 </section>
 <article class="large-benefits">
@@ -115,7 +110,7 @@
     <div class="container">
       <div class="row mt-1">
         <div class="col s12">
-          <h2 class="light">Easy setup and generation of components with Javascript</h2>
+          <h2 class="light">Easy setup and generation of components with JavaScript</h2>
         </div>
       </div>
       <div class="row">
@@ -131,7 +126,7 @@
       </div>
     </div>
   </section>
-  <section class="biojs-green biojs-white-text pt-2 pb-3">
+  <section class="biojs-dark-grey biojs-white-text pt-2 pb-3">
     <div class="container">
       <div class="row">
         <div class="col s12">
@@ -145,7 +140,7 @@
           and discussion current developments in the project, as well as to contribute and share their code with others.
           <br/>
           We are happy for you to get into contact with us either via <a class="biojs-light-green-text" href="https://biojs-slackin.herokuapp.com/" target="slackin">Slack Chat</a>, our
-          <a class="biojs-light-green-text" href="https://groups.google.com/forum/#!forum/biojavascript" target="forum">forum</a> or via good old-fashioned <a class="biojs-light-green-text" href="mailto:community@biojs.net">E-Mail to community@biojs.net</a>.
+          <a class="biojs-light-green-text" href="https://groups.google.com/forum/#!forum/bioJavaScript" target="forum">forum</a> or via good old-fashioned <a class="biojs-light-green-text" href="mailto:community@biojs.net">E-Mail to community@biojs.net</a>.
           <br />
           And we are excited to see your ideas come to life. Becoming a BioJS developer is easy and straightforward. Just contribute
           your code to our component registry in a few steps.
@@ -230,7 +225,7 @@
           </div>
         </div>
         <p>
-          This library is so easy to use if you know your way around Javascript a bit. I just created an
+          This library is so easy to use if you know your way around JavaScript a bit. I just created an
           interactive sequence viewer for my working group last week - my colleagues love it!
         </p>
         <p><strong>C. Ronley - Bioinformatician</strong></p>
