@@ -1,34 +1,56 @@
-Second commit
+# BioJS.net Ghost Blog
+
+BioJS.net is the new CMS-based website for BioJS resources based on Ghost. You find the running app on https://biojsnet.herokuapp.com/
+If you have issues setting up the development environment or if would like to add content on the live site, pop us a message on [Slack](http://biojs-slackin.herokuapp.com/).
+
+
 # [Ghost](https://github.com/TryGhost/Ghost) on [Heroku](http://heroku.com)
 
 Ghost is a free, open, simple blogging platform. Visit the project's website at <http://ghost.org>, or read the docs on <http://support.ghost.org>.
 
-## Deploying on Heroku
+# Ghost Setup of Biojs.net
 
-To get your own Ghost blog running on Heroku, click the button below:
+This Ghost Blog uses the ghost on heroku deploy workflow by [cobyism](https://github.com/cobyism/ghost-on-heroku). To enable collaboration on the biojs.net page we enabled automatic deploy of the website through this git repository. A new deploy of the website will be triggered on heroku everytime a pull request has been merged into the master branch of this git repository. The code will then be built on heroku and deployed instantly if the build is successful. 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/cobyism/ghost-on-heroku)
+# How to Contribute
 
-Fill out the form, and you should be cooking with gas in a few seconds.
+## Setup Your Dev Environment
 
-### Things you should know
+* Clone this git repo into your favorite local folder
+~~~~bash
+$ git clone https://github.com/biojs/biojs.net2.git
+~~~~
 
-- After deployment, visit the admin area at `YOURAPPNAME.herokuapp.com/ghost` to set up your blog.
+* In the root of the project folder, install all the npm dependencies
+~~~~bash
+$ npm install
+~~~~
+* After all your dependencies have been installed successfully, you can spin up the Ghost server like so
+~~~~bash
+$ npm start
+~~~~
+Your Own Ghost instance is now running on http://localhost:2368
+CMS users login on http://localhost:2368/ghost/
 
-- Your blog will be publicly accessible at `YOURAPPNAME.herokuapp.com`.
+## Get Started With Sass
+This project uses (Sass)[http://sass-lang.com/] to build the blog's css dependencies. There is a grunt watch task configured which will - once started -  rebuild all css dependencies of the BioJS theme once any of the .scss files in the directory /content/themes/biojs-theme/assets/sass changes. To start the grunt task while developing, just open another terminal tab, go to the root of the project folder and do the magic:
+~~~~bash
+$ grunt
+~~~~
 
-- To make changes to your Ghost blog (like adding a theme to the `/content` directory, for instance), clone your blog locally using the [Heroku Toolbelt](https://toolbelt.heroku.com/):
+## Add your changes to the repository
+Once you are happy with your local changes, add the changed files to your upcoming commit and push them to a feature-branch of your choice
+~~~~bash
+$ git checkout -b <my-new-feature-branch-name>
+# do all your local changes
+$ git add -p # add your changes to the upcoming commit
+$ git commit -m'A descriptive commit message or something fun'
+$ git push -u origin <my-new-feature-branch-name> # create a new remote feature branch and push your local changes to it 
+~~~~
+Create a pull request for your feature branch on the repo website on github and ask any of the collaborators to review it. That's it, many thanks for your cool work!
 
-  ```sh
-  heroku git:clone --app YOURAPPNAME
-  ```
 
-### What do I put in the deployment and environment variable fields?
-
-- **App name (required)**. Pick a name for your application. Heroku says this field is optional, but it’s easier if you choose a name here, because you need to specify the URL of your blog in the first config field anyway. You can add a custom domain later if you want, but this is the name of the application you’ll see in your Heroku dashboard.
-
-- **Heroku URL (required)**. Take the name of your Heroku application, and put it into URL form. For example, if you choose `my-ghost-blog` as the app name, the Heroku URL config value needs to be `http://my-ghost-blog.herokuapp.com` (no trailing slash). If you subsequently set up a [custom domain](https://devcenter.heroku.com/articles/custom-domains) for your blog, you’ll need to update your Ghost blog’s `HEROKU_URL` environment variable accordingly.
-
+# Heroku Configuration for File Uploads (not enabled yet - please use the assets folder for images for now)
 #### Using with file uploads disabled
 
 Heroku app filesystems [aren’t meant for permanent storage](https://devcenter.heroku.com/articles/dynos#ephemeral-filesystem), so file uploads are disabled by default when using this repository to deploy a Ghost blog to Heroku. If you’re using Ghost on Heroku with S3 file uploads disabled, you should leave all environment variables beginning with `S3_…` blank.
@@ -47,28 +69,12 @@ To configure S3 file storage, create an S3 bucket on Amazon AWS, and then specif
 
 Once your app is up and running with these variables in place, you should be able to upload images via the Ghost interface and they’ll be stored in Amazon S3. :sparkles:
 
-### How this works
-
-This repository is essentially a minimal web application that specifies [Ghost as a dependency](https://github.com/TryGhost/Ghost/wiki/Using-Ghost-as-an-NPM-module), and makes a deploy button available.
 
 
-## Updating
 
-After deploying your own Ghost blog, you can update it by running the following commands:
-```
-heroku git:clone --app YOURAPPNAME && cd YOURAPPNAME
-git remote add origin https://github.com/cobyism/ghost-on-heroku
-git pull origin master # may trigger a few merge conflicts, depending on how long since last update
-git push heroku master
-```
+## Further Reading
+* [official documentation](http://support.ghost.org/)
+* [Ghost Theme Development](https://themes.ghost.org/)
+* [Ghost API](http://api.ghost.org/)
+* [Talk to the repo collaborators](http://biojs-slackin.herokuapp.com/)
 
-This will pull down the code that was deployed to Heroku so you have it locally, attach this repository as a new remote, attempt to pull down the latest version and merge it in, and then push that change back to your Heroku app instance.  
-
-
-## Problems?
-
-If you have problems using your instance of Ghost, you should check the [official documentation](http://support.ghost.org/) or open an issue on [the official issue tracker](https://github.com/TryGhost/Ghost/issues). If you discover an issue with the deployment process provided by *this repository*, then [open an issue here](https://github.com/cobyism/ghost-on-heroku).
-
-## License
-
-Released under the [MIT license](./LICENSE), just like the Ghost project itself.

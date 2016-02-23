@@ -1,6 +1,7 @@
 node_modules/
 npm-debug.log*
-content/data/ghost-dev.db
 .sass-cache/
 content/themes/casper/
 .gitignore~
+*~
+content/themes/biojs-theme/assets/css/*.map
