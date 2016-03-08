@@ -12,16 +12,21 @@
     {{#has tag="gsoc"}}
       {{> gsoc}}
     {{else}}
+      <header class="biojs-green">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 mt-1 mb-2">
+              <h1>{{title}}</h1>
+            </div>
+          </div>
+        </div>
+      </header>
       <main class="content" role="main">
           <article class="{{post_class}}">
 
-              <header class="post-header">
-                  <h1 class="post-title">There is nothing to see here</h1>
-              </header>
-
               <section class="post-content">
-                  404 magic!
-                  <p><a href="/" class="btn-large action">Go back Home</a></p>
+                  {{content}}
+                  <p class="mt-2"><a href="/" class="btn-large action">Go back Home</a></p>
               </section>
 
           </article>

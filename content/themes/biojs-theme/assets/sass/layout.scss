@@ -242,6 +242,10 @@ nav .brand-logo {
   top: 0.7em;
   @include vendor(animation, rotating 3s infinite);
 }
+.go-back {
+  position: relative;
+  top: 6px;
+}
 @-webkit-keyframes rotating {
   0% {
     -webkit-transform: rotate(0turn);

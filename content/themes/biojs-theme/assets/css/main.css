@@ -10,6 +10,12 @@
 .biojs-light-green-text {
   color: #00A650; }
 
+.biojs-green {
+  background-color: #0A5C1C; }
+
+.biojs-green-text {
+  color: #0A5C1C; }
+
 .biojs-white {
   background-color: #FFFFFC; }
 
@@ -64,6 +70,8 @@ a[href] {
     color: #072212; }
   a[href].biojs-white-text {
     color: #FFFFFC; }
+  a[href].biojs-dark-grey-text {
+    color: #0A5C1C; }
 
 .nav-wrapper a {
   color: #FFFFFC; }
@@ -223,6 +231,10 @@ nav .brand-logo {
   -ms-animation: rotating 3s infinite;
   -o-animation: rotating 3s infinite;
   animation: rotating 3s infinite; }
+
+.go-back {
+  position: relative;
+  top: 6px; }
 
 @-webkit-keyframes rotating {
   0% {

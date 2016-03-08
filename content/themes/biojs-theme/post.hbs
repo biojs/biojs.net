@@ -88,22 +88,11 @@
   <div class="container">
     <div class="row">
       <div class="col s12">
-        {{#next_post}}
-        <a class="read-next-story {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}" href="{{url}}">
-            <section class="post">
-                <h2>{{title}}</h2>
-                <p>{{excerpt words="19"}}&hellip;</p>
-            </section>
-        </a>
-        {{/next_post}}
-        {{#prev_post}}
-        <a class="read-next-story prev {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}" href="{{url}}">
-            <section class="post">
-                <h2>{{title}}</h2>
-                <p>{{excerpt words="19"}}&hellip;</p>
-            </section>
-        </a>
-        {{/prev_post}}
+        {{#has tag="News"}}
+        <p><a href="/tag/news"><i class="material-icons go-back  pt-1">keyboard_arrow_left</i><span>Back to News Page</span></a></p>
+        {{else}}
+        <p><a href="/"><i class="material-icons go-back  pt-1">keyboard_arrow_left</i><span>Back to Home Page</span></a></p>
+        {{/has}}
       </div>
     </div>
   </div>
