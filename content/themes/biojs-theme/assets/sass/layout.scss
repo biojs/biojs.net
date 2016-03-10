@@ -6,7 +6,11 @@ body {
 }
 footer {
   &.page-footer {
-    background-color: color('dark-grey');
+    background-color: color('black');
+
+    .footer-copyright {
+      background-color: lighten(color('black'), 5%);
+    }
   }
 }
 
@@ -32,7 +36,7 @@ a[href]{
   &.btn, &.btn-large {
     color: color('white');
   }
-  &.biojs-light-green-text {
+  &.biojs-green-text {
     color: color('light-green');
   }
   &.biojs-black-text {
@@ -41,8 +45,8 @@ a[href]{
   &.biojs-white-text {
     color: color('white');
   }
-  &.biojs-dark-grey-text {
-    color: color('green');
+  &.biojs-black-text {
+    color: color('black');
   }
 }
 .nav-wrapper {

@@ -1,18 +1,16 @@
-$black: #072212; // black
-$grey-1: #161616;  // dark-grey
-$grey-2: #666666; // grey
+$black: #2b2b2b; // black
+$grey-1: #666666; // grey
 $green-1: #00A650; // light-green
 $green-2: #0A5C1C; // dark-mint
 $white: #FFFFFC; // white
 $pink: #EB155B; // pink
 $colors: (
-  'dark-grey': $grey-1,
   'light-green': $green-1,
   'green': $green-2,
   'white': $white,
   'black': $black,
   'pink': $pink,
-  'grey': $grey-2
+  'grey': $grey-1
 );
 
 @mixin vendor ($prop, $val){
