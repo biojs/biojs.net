@@ -237,6 +237,12 @@ nav .brand-logo {
   position: relative;
   top: 6px; }
 
+.comment {
+  font-size: 0.8em;
+  line-height: 1.1em;
+  font-style: italic;
+  color: #666666; }
+
 @-webkit-keyframes rotating {
   0% {
     -webkit-transform: rotate(0turn);
