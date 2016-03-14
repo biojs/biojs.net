@@ -202,7 +202,7 @@ nav .brand-logo {
     }
   }
 }
-.gsoc {
+.gsoc, .about {
   .card-content {
     min-height: 140px;
     &.biojs-pink-text {
@@ -220,6 +220,17 @@ nav .brand-logo {
       h1, h2,h3,h4,h5 {
         margin-left: 0.5em;
       }
+  }
+}
+.about {
+  .material-icons {
+    position: relative;
+    top: 0.4em;
+  }
+  .manny, .seb {
+    .card-image {
+    height: 205px;
+    }
   }
 }
 .parallax {

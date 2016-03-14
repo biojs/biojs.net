@@ -193,17 +193,23 @@ nav .brand-logo {
   position: absolute;
   right: 15px; }
 
-.gsoc .card-content {
+.gsoc .card-content, .about .card-content {
   min-height: 140px; }
-  .gsoc .card-content.biojs-pink-text {
+  .gsoc .card-content.biojs-pink-text, .about .card-content.biojs-pink-text {
     color: #EB155B; }
-.gsoc .collapsible-body ul {
+.gsoc .collapsible-body ul, .about .collapsible-body ul {
   margin-left: 3em;
   margin-bottom: 1.5em; }
-  .gsoc .collapsible-body ul li {
+  .gsoc .collapsible-body ul li, .about .collapsible-body ul li {
     list-style-type: square; }
-.gsoc .collapsible-body h1, .gsoc .collapsible-body h2, .gsoc .collapsible-body h3, .gsoc .collapsible-body h4, .gsoc .collapsible-body h5 {
+.gsoc .collapsible-body h1, .gsoc .collapsible-body h2, .gsoc .collapsible-body h3, .gsoc .collapsible-body h4, .gsoc .collapsible-body h5, .about .collapsible-body h1, .about .collapsible-body h2, .about .collapsible-body h3, .about .collapsible-body h4, .about .collapsible-body h5 {
   margin-left: 0.5em; }
+
+.about .material-icons {
+  position: relative;
+  top: 0.4em; }
+.about .manny .card-image, .about .seb .card-image {
+  height: 205px; }
 
 .parallax video {
   position: relative;

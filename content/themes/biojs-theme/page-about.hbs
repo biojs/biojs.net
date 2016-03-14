@@ -11,57 +11,47 @@
      </div>
   </div>
 </header>
-<main class="gsoc">
+<main class="about">
     <section>
       <div class="container">
         {{#get "posts" filter="tags:about"}}
           {{#foreach posts}}
         <div class="row">
           <div class="col s12">
-            <h2 class="light">{{title}}<i class="material-icons biojs-pink-text right">{{meta_description}}</i></h2>
+            <h2 class="light">{{title}}<i class="material-icons biojs-pink-text left">{{meta_description}}</i></h2>
             {{content}}
-            <hr />
+            <hr class="mt-2" />
           </div>
         </div>
           {{/foreach}}
           {{/get}}
       </div>
     </section>
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col s12 pb-1">
-            <h2 class="light">Who are the people behind BioJS?</h2>
-            <p>We are an international team developing beautiful, interactive and easy-to-share JavaScript applications to visualize biological data on the web. 
-            We are looking for ambitious and motivated students who wish to spend their summer collaborating with us on the projects described below.</p>
-          </div>
-        </div>
-      </div>
-    </section>
     <section class="biojs-black">
       <div class="container">
         <div class="row">
           <div class="col s12">
-            <h2 class="light biojs-white-text">Our mentors</h2>
+            <h2 class="light biojs-white-text">BioJS contributors</h2>
+            <p class="biojs-white-text">Developers from all around the world have been participating in the further development
+            of BioJS and its resources since the very beginning of the project.</p>
           </div>
         </div>
         <div class="row">
+       <!-- <div class="contributors" id="contribute"><!-- x --><!-- </div> -->
           <!-- team member card -->
           <div class="col s12 m3">
-            <div class="card">
+            <div class="card manny">
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="{{asset "img/mentors/leyla.jpg"}}">
+                <img class="activator" src="{{asset "img/mentors/manuel.jpg"}}">
               </div>
               <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Leyla Garcia<i class="material-icons right">favorite</i></span>
+                <span class="card-title activator grey-text text-darken-4">Manuel Corpas<i class="material-icons right">favorite</i></span>
               </div>
               <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Leyla Garcia<i class="material-icons right">close</i></span>
-                <p>Leyla is a software engineer at EMBL-EBI and organizes events around the BioJS project. She 
-            has been mentoring a multitude of students in programming
-            throughout her academic career.<br />
-            Project to mentor: Web Components Integration in BioJS<br />
-            Contact: <span class="biojs-pink-text">ljgarcia@ebi.ac.uk</span></p>
+                <span class="card-title grey-text text-darken-4">Manuel Corpas<i class="material-icons right">close</i></span>
+                <p>Manuel is the Plant and Animal Genomes Project Leader at the bioinformatics driven 
+                Genome Analysis Centre in Norwich, UK and one of the main driving forces for the 
+                BioJS project since several years.</p>
               </div>
             </div>
           </div>
@@ -79,10 +69,62 @@
                 <span class="card-title grey-text text-darken-4">Miguel Pignatelli<i class="material-icons right">close</i></span>
                 <p>Miguel Pignatelli is a Javascript developer at the Centre for Therapeutic
 Target Validation (CTTV) and has contributed to BioJS with several
-projects.<br />
-                   Projects to mentor: Web Components Integration in BioJS,
-                   Visualisation of target-disease relationships in drug discovery<br />
-                   Contact: <span class="biojs-pink-text">mp@ebi.ac.uk</span></p>
+projects.</p>
+              </div>
+            </div>
+          </div>
+          <!-- team member card -->
+          <!-- team member card -->
+        <div class="col s12 m3">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="{{asset "img/mentors/jessicajordan.jpeg"}}">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Jessica Jordan<i class="material-icons right">favorite</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Jessica Jordan<i class="material-icons right">close</i></span>
+                <p>Jessica is a web developer in the BioJS project, working at The Genome Analysis Centre (TGAC), Norwich
+                UK. She is responsible for the UI optimization of both BioJS components and the project's
+                resources, as well as the organization of workshops and tutorials teaching about the library.</p>
+              </div>
+            </div>
+          </div>
+          <!-- team member card -->
+          <!-- team member card -->
+          <div class="col s12 m3">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="{{asset "/img/mentors/benedikt.jpg"}}"">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Benedikt Rauscher<i class="material-icons right">favorite</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Benedikt Rauscher<i class="material-icons right">close</i></span>
+                <p>Benedikt is a web developer at the Cancer Research group in Heidelberg, Germany and has been 
+                contributing to the project with several visualizing components.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- team member card -->
+          <div class="col s12 m3">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="{{asset "img/mentors/leyla.jpg"}}">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Leyla Garcia<i class="material-icons right">favorite</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Leyla Garcia<i class="material-icons right">close</i></span>
+                <p>Leyla is a software engineer at EMBL-EBI and organizes events around the BioJS project. She 
+            has been mentoring a multitude of students in programming
+            throughout her academic career.<br />
+            Contact: <span class="biojs-pink-text">ljgarcia@ebi.ac.uk</span></p>
               </div>
             </div>
           </div>
@@ -99,10 +141,25 @@ projects.<br />
               <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">Simon Jupp<i class="material-icons right">close</i></span>
                 <p>Simon has degrees in both Biochemistry and Computer Science and now work somewhere between both disciplines. His research interests are generally related to information management, but more specifically, using computers to improve the way we capture, manage and share knowledge about biology. Most of his work is now focused
-                on the use of ontologies to capture knowledge in some computationally useful form.
-                <br />
-                   Project to mentor: RDF Schema and Path Finder <br />
-                   Contact: <span class="biojs-pink-text">jupp@ebi.ac.uk</span></p>
+                on the use of ontologies to capture knowledge in some computationally useful form.</p>
+              </div>
+            </div>
+          </div>
+          <!-- team member card -->
+          <!-- team member card -->
+          <div class="col s12 m3">
+            <div class="card seb">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="{{asset "/img/mentors/seb.jpg"}}">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Sebastian Wilzbach<i class="material-icons right">favorite</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Sebastian Wilzbach<i class="material-icons right">close</i></span>
+                <p>Sebastian has been one of the most active contributors to the BioJS 
+                project and was highly involved in the release of BioJS 2.0. He still participates in main technical
+                decisions about BioJS roadmap and maintains many of its resources.</p>
               </div>
             </div>
           </div>
@@ -119,9 +176,7 @@ projects.<br />
               <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">Luca Fumis<i class="material-icons right">close</i></span>
                 <p>Luca Fumis is a web developer at the Centre for Therapeutic Target
-Validation (CTTV) and a contributor to several BioJS projects.<br/>
-                Project to mentor: Visualisation of target-disease relationships in drug discovery<br />
-                Contact: <span class="biojs-pink-text">lucaf@ebi.ac.uk</span></p>
+Validation (CTTV) and a contributor to several BioJS projects.</p>
               </div>
             </div>
           </div>
@@ -138,9 +193,7 @@ Validation (CTTV) and a contributor to several BioJS projects.<br/>
               </div>
               <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">Tim Ruffles<i class="material-icons right">close</i></span>
-                <p>Tim is founder of SidekickJS. JavaScript trainer and instructor for Angular, D3, Node and Backbone. Maintainer of the beautiful JavaScript Garden<br />
-                Project to mentor: iPython <br />
-                Contact: <span class="biojs-pink-text">oi@truffles.me.uk</span></p>
+                <p>Tim is founder of SidekickJS. JavaScript trainer and instructor for Angular, D3, Node and Backbone. Maintainer of the beautiful JavaScript Garden</p>
               </div>
             </div>
           </div>
@@ -158,9 +211,7 @@ Validation (CTTV) and a contributor to several BioJS projects.<br/>
                 <span class="card-title grey-text text-darken-4">Doug Blank<i class="material-icons right">close</i></span>
                 <p>Doug Blank is an Associate professor of Computer Science at Bryn Mawr College, PA, USA.
                 He has used IPython in his unversity courses 
-                for quite a few years and is an active contributor to IPython / Jupyter<br />
-                Project to mentor: iPython<br/>
-                Contact: <span class="biojs-pink-text">dblank@brynmawr.edu</span></p>
+                for quite a few years and is an active contributor to IPython / Jupyter</p>
               </div>
             </div>
           </div>
@@ -176,10 +227,7 @@ Validation (CTTV) and a contributor to several BioJS projects.<br/>
               </div>
               <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">Pierre-Andre Michel<i class="material-icons right">close</i></span>
-                <p>Pierre-Andre is a bioinformatician and team leader of the neXtProt working group at the Swiss Insitute of Bioinformatics
-                <br />
-                Project to mentor: Generic protein expression view for Human Body<br />
-                Contact: <span class="biojs-pink-text">Pierre-Andre.Michel@isb-sib.ch</span></p>
+                <p>Pierre-Andre is a bioinformatician and team leader of the neXtProt working group at the Swiss Insitute of Bioinformatics</p>
               </div>
             </div>
           </div>
@@ -195,99 +243,24 @@ Validation (CTTV) and a contributor to several BioJS projects.<br/>
               </div>
               <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">Daniel Teixeira<i class="material-icons right">close</i></span>
-                <p>Daniel is a bioinformatician and developer at the Swiss Insitute of Bioinformatics
-                <br />
-                Project to mentor: Generic protein expression view for Human Body<br />
-                Contact: <span class="biojs-pink-text">Daniel.Teixeira@isb-sib.ch</span></p>
+                <p>Daniel is a bioinformatician and developer at the Swiss Insitute of Bioinformatics</p>
               </div>
             </div>
           </div>
         </div>
-       </div>
-     </section>
-    <section>
-      <div class="container">
         <div class="row">
-          <div class="col s12 m6">
-            <h2 class="light">How to apply</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col s12">
-            <h3><i class="material-icons biojs-pink-text">star_border</i>Start early</h3>
-            <p>Experience from other organisations has shown that the students often make a mistake converting the official 
-            19:00 UTC deadline to their own timezone or have technical problems submitting during the final few seconds. 
-            We very much want to receive your application and don’t want you to be disappointed or miss your chance of a great summer! 
-            So please remember to submit early and then edit as often as you want before the deadline (27.03, 19:00 UTC).</p>
-            <h3><i class="material-icons biojs-pink-text">star_border</i>Tell us about yourself</h3>
-            <p>As we don’t know you, we would like to know more about your personality and what your passion is.
-              Please let us know about the following:</p>
-              <ul>
-               <li>How can we contact you?</li>
-               <li>How are your programming skills?</li>
-               <li>Which projects have you worked on so far?</li>
-               <li>Do you have any code samples? We are happy to check out code samples sent via mail or
-               any github or other open source repository which you have contributed to</li>
-               <li>Are you familiar with JavaScript/jQuery?</li>
-               <li>Is there anybody who can vouch for your experience?</li>
-              </ul>
-              <p>We would also like to know about your academic experience so far:</p>
-              <ul>
-               <li>At wich university/college are you currently enrolled?</li>
-               <li>At what year/semester are you? What is your major/degree/focus?</li>
-               <li>Are you part of a research group?</li>
-               <li>Have you had any lectures about Bioinformatics or Biochemistry?</li>
-               <li>Are you familiar with JavaScript/jQuery?</li>
-               <li>Have you contributed to any Open Source project before</li>
-              </ul>
-            <h3><i class="material-icons biojs-pink-text">star_border</i>Explain Your Goals</h3>
-              <ul>
-               <li>What exactly do you intend to do? Please be as specific as possible</li>
-               <li>How do you plan to achieve it? What do you think might be tricky and which technologies would you like to use?</li>
-               <li>What are your milestones for your project? We recommend to setup a timeline with weakly milestones you think are suitable</li>
-              </ul>
-            <h3><i class="material-icons biojs-pink-text">star_border</i>Communication</h3>
-              <ul>
-               <li>What is your ideal approach to keeping everybody informed of your progress, problems, and questions over the course of the project?</li>
-               <li>What should be our strategy if you vanish during the project? How do you plan to plan to keep yourself on track?</li>
-              </ul>
-            <h3><i class="material-icons biojs-pink-text">star_border</i>Why BioJS?</h3>
-              <ul>
-               <li>Tell us what makes you excited to work on one of our BioJS projects!</li>
-               <li>How do you envision your involvement with BioJS after the GSoC?</li>
-              </ul>
-            <h3><i class="material-icons biojs-pink-text">star_border</i>Some tips</h3>
-              <ul>
-               <li>Is there any special reason why we should pick you? Name it.</li>
-               <li>Get in touch with us as soon as possible and post your ideas on our <a href="http://biojs-slackin.herokuapp.com/" target="slackin">slack chat</a>, <a href="https://groups.google.com/forum/#!forum/biojavascript">mailing list</a>, 
-               <a href="https://gitter.im/biojs/biojs" target="gitter">gitter</a> or IRC channel #biojs on freenode.</li>
-              </ul>
-          </div>
-        </div>
-       </div>
-     </section>
-    <section class="biojs-black">
-      <div class="container">
-        <div class="row">
-          <div class="col s12">
-            <h2 class="light biojs-white-text">Our organisation admins</h2>
-          </div>
-        </div>
-        <div class="row">
- <div class="col s12 m3">
+          <!-- team member card -->
+          <div class="col s12 m3">
             <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="{{asset "img/mentors/jessicajordan.jpeg"}}">
+                <img class="activator" src="{{asset "/img/mentors/placeholder.png"}}">
               </div>
               <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Jessica Jordan<i class="material-icons right">favorite</i></span>
+                <span class="card-title activator grey-text text-darken-4">Rowland Mosbergen<i class="material-icons right">favorite</i></span>
               </div>
               <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Jessica Jordan<i class="material-icons right">close</i></span>
-                <p>Jessica is a web developer in the BioJS project, working at The Genome Analysis Centre (TGAC), Norwich
-                UK<br />
-            Project to mentor: Visualisation of target-disease relationships in drug discovery <br />
-            Contact: <span class="biojs-pink-text">jessica.jordan@tgac.ac.uk</span></p>
+                <span class="card-title grey-text text-darken-4">Rowland Mosbergen<i class="material-icons right">close</i></span>
+                <p>Rowland is a web developer at Stemformatics and involved in the technical planning of BioJS' roadmap<br /></p>
               </div>
             </div>
           </div>
@@ -296,18 +269,16 @@ Validation (CTTV) and a contributor to several BioJS projects.<br/>
           <div class="col s12 m3">
             <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="{{asset "img/mentors/leyla.jpg"}}">
+                <img class="activator" src="{{asset "/img/mentors/dennis2.png"}}">
               </div>
               <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Leyla Garcia<i class="material-icons right">favorite</i></span>
+                <span class="card-title activator grey-text text-darken-4">Dennis Schwartz<i class="material-icons right">favorite</i></span>
               </div>
               <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Leyla Garcia<i class="material-icons right">close</i></span>
-                <p>Leyla is a software engineer at EMBL-EBI and organizes events around the BioJS project. She 
-            has been mentoring a multitude of students in programming
-            throughout her academic career.<br />
-            Project to mentor: Web Components Integration in BioJS <br />
-            Contact: <span class="biojs-pink-text">ljgarcia@ebi.ac.uk</span></p>
+                <span class="card-title grey-text text-darken-4">Dennis Schwartz<i class="material-icons right">close</i></span>
+                <p>Dennis is a master student at the Technical University of Munich and has not only
+                been contributing his own components to the BioJS library, but also maintains the project's
+                resources, organizes workshops and tutorials and creates images and illustrations around the project.</p>
               </div>
             </div>
           </div>
@@ -316,26 +287,91 @@ Validation (CTTV) and a contributor to several BioJS projects.<br/>
           <div class="col s12 m3">
             <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="{{asset "/img/mentors/tatyana.jpg"}}">
+                <img class="activator" src="{{asset "/img/mentors/jose.jpg"}}">
               </div>
               <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Tatyana Goldberg<i class="material-icons right">favorite</i></span>
+                <span class="card-title activator grey-text text-darken-4">Jose Villaveces<i class="material-icons right">favorite</i></span>
               </div>
               <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Tatyana Goldberg<i class="material-icons right">close</i></span>
-                <p>Tatyana is a PhD student in Bioinformatics at TU Munich. She is both a developer and organizer of workshops and former Google Summer of Code projects in BioJS.
-                <br />
-                   Contact: <span class="biojs-pink-text">goldberg@rostlab.org</span></p>
+                <span class="card-title grey-text text-darken-4">Jose Villaveces<i class="material-icons right">close</i></span>
+                <p>Jose is a PhD student in Bioinformatics and an active contributor to the BioJS library. He organizes and mentors
+                workshops around BioJS as well.</p>
               </div>
             </div>
           </div>
           <!-- team member card -->
+          <!-- team member card -->
           <div class="col s12 m3">
-            <p class="biojs-white-text">
-              Our three organisation admins are looking forward to support both mentors
-              as well as students in getting the most out of their Google Summer of Code. Contact
-              us via e-mail or ask us on <a href="http://biojs-slackin.herokuapp.com/" target="slackin">slack!</a>
-            </p>
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="{{asset "/img/mentors/daviddao.jpg"}}"">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">David Dao<i class="material-icons right">favorite</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">David Dao<i class="material-icons right">close</i></span>
+                <p>David is a developer and active BioJS contributor at the Broad Institute of MIT &amp; Harvard in Cambridge, MA and involved
+                in the technical roadmap of BioJS.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- team member card -->
+          <div class="col s12 m3">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="{{asset "img/mentors/martin.png"}}">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Martin Page<i class="material-icons right">favorite</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Martin Page<i class="material-icons right">close</i></span>
+                <p>Martin is an active BioJS contributor working at the Sainsbury Laboratory in Norwich, UK. He 
+                is involved in the technical roadmap of the project and helps with the maintenance of its resources.</p>
+              </div>
+            </div>
+          </div>
+          <!-- team member card -->
+          <!-- team member card -->
+          <div class="col s12 m3">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="{{asset "/img/mentors/gustavo.jpg"}}">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Gustavo Salazar<i class="material-icons right">favorite</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Gustavo Salazar<i class="material-icons right">close</i></span>
+                <p>Gustavo is a developer and workshop organizer mentor at the BioJS project, as well as 
+                a PhD student at the University of Cape Town.</p>
+              </div>
+            </div>
+          </div>
+          <!-- team member card -->
+          <!-- team member card -->
+       <div class="col s12 m3">
+          <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="{{asset "/img/mentors/placeholder.png"}}">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Carlos Horro<i class="material-icons right">favorite</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Carlos Horro<i class="material-icons right">close</i></span>
+                <p>Carlos is a bioinformatician at the Genome Analysis Centre, Norwich, UK and an active 
+                participant in the technical decisions regarding the BioJS project.</p>
+              </div>
+            </div>
+          </div>
+          <!-- team member card -->
+          <!-- team member card -->
+          <div class="col s12 m3 center">
+            <a target="contrib" class="mt-5 btn waves-effect waves-light weak-action" href="https://github.com/biojs/biojs/graphs/contributors">more</a>
           </div>
         </div>
        </div>
@@ -348,7 +384,7 @@ Validation (CTTV) and a contributor to several BioJS projects.<br/>
       </div>
       <div class="row center">
         <div class="col s12">
-          <h2 class="light">Stay up-to-date with GSoC in BioJS</h2>
+          <h2 class="light">Stay up-to-date with developments in BioJS</h2>
         </div>
         <div class="col s12 m6">
            <p><a href="https://twitter.com/biojslibrary" class="weak-action waves-effect waves-blue btn-large">Follow us on Twitter</a></p>
