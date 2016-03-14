@@ -205,6 +205,7 @@ nav .brand-logo {
 .gsoc, .about {
   .card-content {
     min-height: 140px;
+    position: relative;
     &.biojs-pink-text {
       color: color('pink');
     }
@@ -227,11 +228,7 @@ nav .brand-logo {
     position: relative;
     top: 0.4em;
   }
-  .manny, .seb {
-    .card-image {
-    height: 205px;
-    }
-  }
+
 }
 .parallax {
   video {
