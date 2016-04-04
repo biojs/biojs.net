@@ -25,7 +25,11 @@ footer {
 main {
   flex: 1 0 auto;
 }
-    
+
+header {
+  margin-top: 64px;
+}
+
 p {
   &.signal{
     font-size: 1.2em;
@@ -84,11 +88,16 @@ a[href]{
     }
   }
 }
-nav .brand-logo {
-  position: absolute;
-  display: inline-block;
-  top: 6px;
-  margin-left: 8px;
+nav {
+  position: fixed;
+  z-index: 9999;
+  
+  .brand-logo {
+    position: absolute;
+    display: inline-block;
+    top: 6px;
+    margin-left: 8px;
+  }
 }
 .main-logo-title {
   color: color('white');
@@ -131,7 +140,7 @@ nav .brand-logo {
     padding: 0;
     height: 100%;
     width: 120%;
-    
+
   }
 }
 /* Buttons */
@@ -302,5 +311,3 @@ nav .brand-logo {
     transform: rotate(0.5turn);
   }
 }
-
-
