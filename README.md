@@ -33,7 +33,7 @@ Your Own Ghost instance is now running on http://localhost:2368
 CMS users login on http://localhost:2368/ghost/
 
 ## Get Started With Sass
-This project uses (Sass)[http://sass-lang.com/] to build the blog's css dependencies. There is a grunt watch task configured which will - once started -  rebuild all css dependencies of the BioJS theme once any of the .scss files in the directory /content/themes/biojs-theme/assets/sass changes. To start the grunt task while developing, just open another terminal tab, go to the root of the project folder and do the magic:
+This project uses [Sass](http://sass-lang.com/) to build the blog's css dependencies. There is a grunt watch task configured which will - once started -  rebuild all css dependencies of the BioJS theme once any of the .scss files in the directory /content/themes/biojs-theme/assets/sass changes. To start the grunt task while developing, just open another terminal tab, go to the root of the project folder and do the magic:
 ~~~~bash
 $ grunt
 ~~~~
