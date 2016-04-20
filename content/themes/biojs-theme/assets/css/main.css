@@ -53,9 +53,6 @@ footer.page-footer {
 main {
   flex: 1 0 auto; }
 
-header {
-  margin-top: 64px; }
-
 p.signal {
   font-size: 1.2em; }
 
@@ -95,14 +92,11 @@ a[href] {
     width: 0%;
     height: 100%; }
 
-nav {
-  position: fixed;
-  z-index: 9999; }
-  nav .brand-logo {
-    position: absolute;
-    display: inline-block;
-    top: 6px;
-    margin-left: 8px; }
+nav .brand-logo {
+  position: absolute;
+  display: inline-block;
+  top: 6px;
+  margin-left: 8px; }
 
 .main-logo-title {
   color: #FFFFFC;
