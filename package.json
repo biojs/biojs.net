@@ -29,7 +29,7 @@
     "node": "~0.12.7"
   },
   "scripts": {
-    "postinstall": "ncp node_modules/Casper content/themes/casper",
+    "postinstall": "echo postinstall time; ncp node_modules/Casper content/themes/casper; gem install sass; ./node_modules/grunt-cli/bin/grunt sassify",
     "start": "node server.js"
   }
 }
