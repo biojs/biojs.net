@@ -5,6 +5,9 @@ module.exports = function(grunt) {
       dist: {
         files: {
           'content/themes/biojs-theme/assets/css/main.css':'content/themes/biojs-theme/assets/sass/main.scss'
+        },
+        options: {
+          bundleExec: true
         }
       }
     },
