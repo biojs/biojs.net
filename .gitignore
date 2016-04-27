@@ -5,3 +5,5 @@ content/themes/casper/
 .gitignore~
 *~
 content/themes/biojs-theme/assets/css/*.map
+.bundle/config
+vendor/bundle
