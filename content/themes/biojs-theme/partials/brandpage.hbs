@@ -116,9 +116,10 @@ to create powerful and rich user interfaces.
           <div class="col s12 m6">
             <h2 class="light biojs-white-text mt-1">Meet our growing community on Github</h2>
             <p class="biojs-white-text">
-              BioJS relies heavily on the use of the open-source code distribution service <a href="https://github.com/biojs" target="github">github</a> to create and
+              BioJS relies heavily on the use of the open-source code distribution service <a href="https://github.com/biojs" target="github">GitHub</a> to create and
               share our resources, as well as to provide a fast way for developers to 
-              communicate about technical developments, bugs, updates, requests and fixes. 
+              communicate about technical developments, bugs, updates, requests and fixes
+              (via <a href="https://gitter.im/biojs/biojs">Gitter</a> and <a href="https://biojs-slackin.herokuapp.com">Slack Chat</a>).
             </p>
             <p><iframe src="https://ghbtns.com/github-btn.html?user=biojs&repo=biojs&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
             <iframe src="https://ghbtns.com/github-btn.html?user=biojs&repo=biojs&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe></p>
@@ -139,20 +140,23 @@ to create powerful and rich user interfaces.
         <div class="col s12">
           <h2 class="light">Don't want to miss a thing? Stay up-to-date with current BioJS developments</h2>
         </div>
-        <div class="col s12 m6">
+        <div class="col s12 m4">
            <p><a href="https://twitter.com/biojslibrary" class="weak-action waves-effect waves-blue btn-large">Follow us on Twitter</a></p>
         </div>
-        <div class="col s12 m6">
-          <p><a href="https://biojs-slackin.herokuapp.com" class="action waves-effect waves-blue btn-large">Join our slack chat</a></p>
+        <div class="col s12 m4">
+          <p><a href="https://gitter.im/biojs/biojs" class="waves-effect waves-blue btn-large">Join the Gitter Page</a></p>
+        </div>
+        <div class="col s12 m4">
+          <p><a href="https://biojs-slackin.herokuapp.com" class="action waves-effect waves-blue btn-large">Join our Slack Chat</a></p>
         </div>
       </div>
      </section>
       {{/has}}
     {{/has}}
     {{#has tag="brandpage-developers"}}
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
-      <script type="text/JavaScript" src="{{asset "js/github-activity-0.1.4.min.js"}}"></script>
-      <script type="text/JavaScript" src="{{asset "js/github-activity-init.js"}}"></script>
+      <script data-cfasync="false" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
+      <script data-cfasync="false" type="text/JavaScript" src="{{asset "js/github-activity-0.1.4.min.js"}}"></script>
+      <script data-cfasync="false" type="text/JavaScript" src="{{asset "js/github-activity-init.js"}}"></script>
     {{/has}}
 </main>
 
