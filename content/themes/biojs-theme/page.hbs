@@ -12,21 +12,21 @@
     {{#has tag="gsoc"}}
       {{> gsoc}}
     {{else}}
-      <header class="biojs-green">
+      <header class="biojs-grey biojs-white-text">
         <div class="container">
           <div class="row">
             <div class="col s12 mt-1 mb-2">
-              <h1>{{title}}</h1>
+              <h1 class="light">{{title}}</h1>
             </div>
           </div>
         </div>
       </header>
       <main class="content" role="main">
-          <article class="{{post_class}}">
+          <article class="{{post_class}} container"> 
 
               <section class="post-content">
                   {{content}}
-                  <p class="mt-2"><a href="/" class="btn-large action">Go back Home</a></p>
+                  <p class="mt-2"><a href="/" class="btn action go-home"><i class="material-icons small">home</i><span>Go back Home</span></a></p>
               </section>
 
           </article>
