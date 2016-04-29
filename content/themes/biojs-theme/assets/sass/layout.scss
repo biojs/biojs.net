@@ -91,7 +91,7 @@ a[href]{
 nav {
   position: fixed;
   z-index: 9999;
-  
+
   .brand-logo {
     position: absolute;
     display: inline-block;
@@ -175,10 +175,10 @@ nav {
   }
 
 @media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
+  // .parallax-container .section {
+  //   position: absolute;
+  //   top: 40%;
+  // }
   #index-banner .section {
     top: 10%;
   }
