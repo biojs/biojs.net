@@ -26,8 +26,8 @@ main {
   flex: 1 0 auto;
 }
 
-header {
-  margin-top: 64px;
+h1, h2, h3 {
+  word-wrap: break-word;
 }
 
 p {
@@ -89,8 +89,6 @@ a[href]{
   }
 }
 nav {
-  position: fixed;
-  z-index: 9999;
 
   .brand-logo {
     position: absolute;
