@@ -1,0 +1,58 @@
+{{#has tag="brandpage-starters"}}
+<div class="container">
+<div class="row">
+<div class="col s12 m4">
+  <div class="card">
+    <div class="card-content biojs-black-text">
+      <span class="card-title">What is JavaScript?</span>
+      <p>JavaScript is by now one of the most ubiquitious programming languages on the web.
+      Any website containing dynamic user interactions, search functions, image sliders and similar features is based on
+      the usage of JavaScript or JavaScript-based frameworks. Therefore building
+      websites and web applications becomes even more exciting when you're getting started
+      with JavaScript!</p>
+    </div>
+    <div class="card-action">
+      <a target="JavaScript_resources" href="https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics">Learn more about JavaScript</a>
+    </div>
+  </div>
+</div>
+<div class="col s12 m8 biojs-black-text">
+  {{#get "posts" filter="tags:tip-explain"}}
+    {{#foreach posts}}
+     <h3 class="light biojs-black-text">{{title}}</h3>
+     <p class="biojs-black-text">{{content}}</p>
+    {{/foreach}}
+  {{/get}}
+</div>
+</div>
+</div>
+{{else}}
+  {{#has tag="brandpage-developers"}}
+<div class="veil biojs-black"><!-- x --></div>
+<div class="section  valign">
+  <div class="container relative">
+  <div class="row">
+    <div class="col s12 m8">
+      <h2 class="light text-shadow">BioJS is built on cutting-edge web technologies and gives you the freedom
+      to use your favorite JavaScript libraries independently</h2>
+    </div>
+    <div class="col s12 m4">
+      <div class="card biojs-pink biojs-white-text">
+        <div class="card-content white-text">
+          <span class="card-title">What's the technology behind BioJS components?</span>
+          <p>Every component acts like a  tiny building block that can be reused by anyone and is aimed to be interoperable
+          with other BioJS components. BioJS components are delivered in JavaScript and are based on npm. Many
+          of the components are also based on high-performing visualization libraries like D3.js, WebGL, Raphael and
+          many more.</p>
+        </div>
+        <div class="card-action">
+          <a target="biojs_resources" href="http://edu.biojs.net/snipspector_adv/tools/">Learn more about BioJS technologies</a>
+        </div>
+      </div>
+    </div>
+    </div>
+   </div>
+</div>
+    <div class="parallax"><img src="/assets/img/landscapes/msa_menu_long.jpg" alt="BioJS_spinning_vector_biojs_vis_circularfv"></div>
+  {{/has}}
+{{/has}}

@@ -1,0 +1,44 @@
+$black: #2b2b2b; // black
+$grey-1: #666666; // grey
+$green-1: #00A650; // light-green
+$green-2: #0A5C1C; // dark-mint
+$white: #FFFFFC; // white
+$pink: #EB155B; // pink
+$colors: (
+  'light-green': $green-1,
+  'green': $green-2,
+  'white': $white,
+  'black': $black,
+  'pink': $pink,
+  'grey': $grey-1
+);
+
+@mixin vendor ($prop, $val){
+  -webkit-#{$prop}: $val;
+  -moz-#{$prop}: $val;
+  -ms-#{$prop}: $val;
+  -o-#{$prop}: $val;
+  #{$prop}: $val;
+}
+
+@function color($color){
+  @return map-get($colors, $color);
+}
+
+@each $color, $val in $colors {
+  .biojs-#{$color} {
+    background-color: $val;
+  }
+  .biojs-#{$color}-text {
+    color: $val;
+  }
+}
+
+
+@import 'layout';
+@import 'frontpage';
+@import 'github-activity';
+@import 'helpers';
+@import 'mediaqueries';
+
+

@@ -1,0 +1,320 @@
+body {
+  background-color: color('white');
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+footer {
+  &.page-footer {
+    background-color: color('black');
+
+    .footer-copyright {
+      background-color: lighten(color('black'), 5%);
+    }
+  }
+}
+
+/* IE10+ fix to circumvent poorly supported flexbox features */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    body, main {
+            display: block;
+            min-height: auto;
+    }
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+h1, h2, h3 {
+  word-wrap: break-word;
+}
+
+p {
+  &.signal{
+    font-size: 1.2em;
+  }
+}
+a[href]{
+  color: color('pink');
+  &.btn, &.btn-large {
+    color: color('white');
+  }
+  &.biojs-green-text {
+    color: color('light-green');
+  }
+  &.biojs-black-text {
+    color: color('black');
+  }
+  &.biojs-white-text {
+    color: color('white');
+  }
+  &.biojs-black-text {
+    color: color('black');
+  }
+}
+.nav-wrapper {
+  a {
+    color: color('white');
+  }
+  .side-nav {
+    a {
+      color: color('black');
+    }
+  }
+}
+.github-icon {
+  &.large {
+    width: 50%;
+    height: 50%;
+    fill: color('white');
+  }
+}
+.ratings {
+
+  .rating-item {
+    position: relative;
+    width: 25px;
+    display: inline-block;
+
+    .full-item {
+      overflow: hidden;
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      width: 0%;
+      height: 100%;
+    }
+  }
+}
+nav {
+
+  .brand-logo {
+    position: absolute;
+    display: inline-block;
+    top: 6px;
+    margin-left: 8px;
+  }
+}
+.main-logo-title {
+  color: color('white');
+  display: inline-block;
+  position: absolute;
+  left: 60px;
+  line-height: 1.7;
+}
+.tag-brandpage h1 {
+  font-size: 3.2em;
+}
+.link-icon {
+  position: relative;
+  top: 2px;
+}
+.post-title {
+  a {
+    @include vendor('transition', color 0.2 ease-in);
+    &:hover {
+      color: color('pink');
+    }
+  }
+}
+.post-meta {
+  a {
+    color: color('pink');
+  }
+}
+@media (min-width: 768px) {
+.carousel-item.large {
+  width: 450px;
+ }
+}
+.gallery-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 120%;
+  .gallery-content {
+    padding: 0;
+    height: 100%;
+    width: 120%;
+
+  }
+}
+/* Buttons */
+.btn, .btn-large {
+  &.action {
+    text-transform: uppercase;
+    color: color('white');
+    background-color: color('pink');
+  }
+  &.weak-action {
+    text-transform: uppercase;
+    color: color('white');
+    background-color: color('light-green');
+  }
+}
+/* Parallax */
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+
+  p, a{
+    line-height: 1.5;
+    &.btn, &.btn-large {
+      line-height: 2.4;
+    }
+  }
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  // .parallax-container .section {
+  //   position: absolute;
+  //   top: 40%;
+  // }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+.main-header {
+  &.news {
+    background-repeat: no-repeat;
+    background-position: right -60px;
+    background-attachment: scroll;
+    background-image: url('/assets/img/biojslogo.png');
+    @include vendor('filter', contrast(80%));
+    .container {
+      @include vendor('filter', none);
+    }
+  }
+}
+
+.card-title {
+  &.activator {
+    .right {
+      float: none;
+      position: absolute;
+      right: 15px;
+    }
+  }
+}
+.gsoc, .about {
+  .card-content {
+    min-height: 140px;
+    position: relative;
+    &.biojs-pink-text {
+      color: color('pink');
+    }
+  }
+  .collapsible-body {
+      ul {
+        margin-left: 3em;
+        margin-bottom: 1.5em;
+        li {
+          list-style-type: square;
+        }
+      }
+      h1, h2,h3,h4,h5 {
+        margin-left: 0.5em;
+      }
+  }
+}
+.about {
+  .material-icons {
+    position: relative;
+    top: 0.4em;
+  }
+
+}
+.parallax {
+  video {
+    position: relative;
+    bottom: 200px;
+  }
+}
+.news-banderole {
+  position: absolute;
+  top: 0;
+  z-index: 3;
+}
+.mega-title {
+  font-size: 8em;
+}
+.mega-title-logo, .mega-title {
+  //display: inline-block;
+}
+.mega-title-logo {
+  max-width: 180px;
+  position: absolute;
+  right: 0;
+  top: 0.7em;
+  @include vendor(animation, rotating 3s infinite);
+}
+.go-back {
+  position: relative;
+  top: 6px;
+}
+.go-home {
+
+  i {
+    line-height: 1;
+    position: relative;
+    top: 0.2em;
+    left: -0.2em;
+  }
+}
+.comment {
+  font-size: 0.8em;
+  line-height: 1.1em;
+  font-style: italic;
+  color: color('grey');
+}
+@-webkit-keyframes rotating {
+  0% {
+    -webkit-transform: rotate(0turn);
+    transform: rotate(0turn);
+  }
+  100% {
+    -webkit-transform: rotate(0.5turn);
+    transform: rotate(0.5turn);
+  }
+}
+@-moz-keyframes rotating {
+  0% {
+    -moz-transform: rotate(0turn);
+    transform: rotate(0turn);
+  }
+  100% {
+    -moz-transform: rotate(0.5turn);
+    transform: rotate(0.5turn);
+  }
+}
+@-o-keyframes rotating {
+  0% {
+    -o-transform: rotate(0turn);
+    transform: rotate(0turn);
+  }
+  100% {
+    -o-transform: rotate(0.5turn);
+    transform: rotate(0.5turn);
+  }
+}
+@keyframes rotating {
+  0% {
+    transform: rotate(0turn);
+  }
+  100% {
+    transform: rotate(0.5turn);
+  }
+}
