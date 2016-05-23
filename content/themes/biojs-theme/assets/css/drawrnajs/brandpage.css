@@ -1,0 +1,41 @@
+@import 'style/bootstrap.css';
+@import 'style/spectrum.css';
+@import 'style/style.css';
+#seqinput {
+  display: none;
+}
+body, #opts, .cy {
+  background-color: #072212;
+}
+#opts, body {
+  border-left: 1px solid #f9f9f9;
+}
+#opts {
+  padding-top: 45px;
+  height: 100%;
+}
+#opts p {
+  color: #f9f9f9;
+}
+.control {
+  cursor: pointer;
+  text-align: center;
+  color: #f9f9f9;
+  width: 110px;
+  padding: 5px 15px;
+  margin: 0 5px;
+  background-color: transparent;
+  border: 2px solid #f9f9f9;
+  -webkit-transition: all 0.3 ease-in;
+  -moz-transition: all 0.3 ease-in;
+  -o-transition: all 0.3 ease-in;
+  transition: all 0.3s ease-in;
+}
+.cntrl .control {
+  width: 150px;
+}
+.control:focus, .cntrl .button:hover {
+  background-color: #f9f9f9;
+  color: #263238;
+  box-shadow: none;
+}

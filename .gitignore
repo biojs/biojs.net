@@ -1,0 +1,10 @@
+node_modules/
+npm-debug.log*
+.sass-cache/
+content/themes/casper/
+.gitignore~
+*~
+content/themes/biojs-theme/assets/css/*.map
+content/themes/biojs-theme/assets/css/main.css
+.bundle/config
+vendor/bundle

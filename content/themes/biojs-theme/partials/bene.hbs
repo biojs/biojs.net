@@ -1,0 +1,36 @@
+<div class="row">
+  <div class="col s12 center">
+    {{#has tag="brandpage-starters"}}
+      {{#get "posts" slug="starters-benefits"}}
+        {{#foreach posts}}
+          <h2 class="light biojs-black-text">{{title}}</h2>
+          <p>{{ content }} </p> 
+        {{/foreach}}
+      {{/get}}
+      <div class="row">
+        {{#get "posts" filter="tags:starters-bene"}}
+          {{#foreach posts}}
+            <div class="col s12 m4">
+              <p><i class="material-icons biojs-pink-text center medium">{{meta_description}}</i></p>
+              <h3 class="biojs-pink-text">{{title}}</h3>
+              <p>{{content}}</p>
+            </div>
+          {{/foreach}}
+        {{/get}}
+      </div>
+    {{else}}
+      {{#has tag="brandpage-developers"}}
+        {{#get "posts" filter="tags:developers-bene"}}
+          {{#foreach posts}}
+            <div class="col s12 m4">
+              <p><i class="material-icons biojs-pink-text center medium">{{meta_description}}</i></p>
+              <h3 class="biojs-pink-text">{{title}}</h3>
+              <p>{{content}}</p>
+              {{! <github-badge user="biojs" badge="octo"></github-badge> }}
+            </div>
+          {{/foreach}}
+        {{/get}}        
+      {{/has}}
+    {{/has}}
+  </div>
+</div>
