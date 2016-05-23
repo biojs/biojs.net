@@ -18,7 +18,7 @@ This Ghost Blog uses the ghost on heroku deploy workflow by [cobyism](https://gi
 
 * Clone this git repo into your favorite local folder
 ~~~~bash
-$ git clone https://github.com/biojs/biojs.net2.git
+$ git clone https://github.com/biojs/biojs.net.git
 ~~~~
 
 * In the root of the project folder, install all the npm dependencies
