@@ -1,0 +1,21 @@
+{{! Previous/next page links - only displayed on page 2+ }}
+
+{{! This is the post loop - each post will be output using this markup }}
+{{#get "posts" filter="tags:[news]" limit="3" order="published_at desc"}}
+{{#foreach posts}}
+  <div class="col s12 m4">
+    <article class="card-panel biojs-green-text">
+      <header>
+        <h3><a href="{{url}}">{{{title}}}</a></h3>
+      </header>
+      <section>
+        <p>{{excerpt words="30"}}<a class="biojs-pink-text read-more" href="{{url}}">&raquo;</a></p>
+      </section>
+      <footer class="post-meta row">
+          <time class="post-date right" datetime="{{date format='YYYY-MM-DD'}}"><i class="biojs-grey-text">published on {{date format="DD MMMM YYYY"}}</i></time>
+      </footer>
+     </article>
+   </div>
+{{/foreach}}
+{{/get}}
+

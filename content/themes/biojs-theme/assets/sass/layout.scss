@@ -209,6 +209,11 @@ nav {
     }
   }
 }
+.card-panel {
+  a {
+    cursor: pointer;
+  }
+}
 .gsoc, .about {
   .card-content {
     min-height: 140px;
